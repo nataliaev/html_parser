@@ -33,7 +33,7 @@ function usergroups(color, style) {
   }
 }
 
-fs.readFile("crackedto_Forum-Combolists?page=452_090819.html", (err, data) => {
+fs.readFile("crackedto_Forum-Accounts--122?page=14_070819.html", (err, data) => {
   if (err) throw err;
   file = data.toString();
   const $ = cheerio.load(file);
@@ -134,7 +134,7 @@ fs.readFile("crackedto_Forum-Combolists?page=452_090819.html", (err, data) => {
       console.log("Avatar:", avatar);
 
       //Likes
-      const likes = postBlock(".stats-likes").html().replace(/\,/g, "");
+      const likes = parseInt(postBlock(".stats-likes").html().replace(/\,/g, ""));
       console.log("Likes:", likes);
 
       //Last comment time
@@ -163,11 +163,12 @@ fs.readFile("crackedto_Forum-Combolists?page=452_090819.html", (err, data) => {
       console.log("Tag:", tag);
 
       //replies and views
-      const replies = postBlock("#stats-count").html().replace(/\,/g, "");
+      let replies = postBlock("#stats-count").html().replace(/\,/g, "");
       const repliesAndViews = postBlock("#stats-count").text();
       let views = 0;
       if (repliesAndViews.length > 0) {
-        views = repliesAndViews.slice(replies.length).replace(/\,/g, "");
+        views = parseInt(repliesAndViews.slice(replies.length).replace(/\,/g, ""));
+        replies = parseInt(replies)
       }
       console.log("Replies:", replies);
       console.log("Views:", views);
