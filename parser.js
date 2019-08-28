@@ -36,9 +36,10 @@ function usergroups(color, style) {
     case "8ed7d4":
       return 13;
     default:
-      return style.replace(/,/, "");
+      return style.replace(/\,/g, "");
   }
 }
+
 
 glob("../../testing/*.html", function(er, files) {
   let num = files.length;
@@ -82,18 +83,40 @@ glob("../../testing/*.html", function(er, files) {
         const postStatusBlock = postBlock(".thread_status").attr("title");
         if (postStatusBlock) {
           console.log("Post status:", postStatusBlock);
+
+const convertTime12to24 = (time12h) => {
+  const [time, modifier] = time12h.split(' ');
+
+  let [hours, minutes] = time.split(':');
+
+  if (hours === '12') {
+    hours = '00';
+  }
+
+  if (modifier === 'PM') {
+    hours = parseInt(hours, 10) + 12;
+  }
+
+  return `${hours}:${minutes}`;
+}
+
+
+
+ 
+
         }
 
-        //each author and post date, post time, new post, poster satatus
+        //each author and post date, post time, new post, poster status
         const authorAndDate = postBlock(".author").text();
         if (authorAndDate.length > 15) {
           const authorAndDateSplited = authorAndDate.split(" - ");
           const author = authorAndDateSplited[0];
           const dateAndTime = authorAndDateSplited[1];
-          const time = dateAndTime.slice(
-            dateAndTime.length - 8,
-            dateAndTime.length
-          );
+          const timeAMPM = dateAndTime.slice(
+       dateAndTime.length - 8,
+       dateAndTime.length
+     ).replace(/\,/g, "");
+     const time = convertTime12to24(timeAMPM)
           let date = dateAndTime
             .slice(0, dateAndTime.length - 10)
             .replace(/,/, "");
