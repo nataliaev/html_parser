@@ -89,13 +89,15 @@ glob("../../testing/*.html", function(er, files) {
         let title = "";
         if (titleBlock) {
           postId += 1;
-          title = titleBlock.children[0].data;
+          title = titleBlock.children[0].data.replace(/\,/g, "");
           console.log("Post title:", title);
         }
 
         //post status
         const postStatusBlock = postBlock(".thread_status").attr("title");
+        let postStatus
         if (postStatusBlock) {
+          postStatus = postStatusBlock.replace(/\,/g, "")
           console.log("Post status:", postStatusBlock);
         }
 
@@ -103,7 +105,7 @@ glob("../../testing/*.html", function(er, files) {
         const authorAndDate = postBlock(".author").text();
         if (authorAndDate.length > 15) {
           const authorAndDateSplited = authorAndDate.split(" - ");
-          const author = authorAndDateSplited[0];
+          const author = authorAndDateSplited[0].replace(/\,/g, "");
           const dateAndTime = authorAndDateSplited[1];
           const timeAMPM = dateAndTime
             .slice(dateAndTime.length - 8, dateAndTime.length)
@@ -168,7 +170,7 @@ glob("../../testing/*.html", function(er, files) {
           console.log("Avatar:", avatar);
 
           //Likes
-          const likes = postBlock(".stats-likes").html();
+          const likes = parseInt(postBlock(".stats-likes").html());
           console.log("Likes:", likes);
 
           //Last comment time
@@ -201,11 +203,12 @@ glob("../../testing/*.html", function(er, files) {
           console.log("Tag:", tag);
 
           //replies and views
-          const replies = postBlock("#stats-count").html();
+          let replies = postBlock("#stats-count").html();
           const repliesAndViews = postBlock("#stats-count").text();
           let views = 0;
           if (repliesAndViews.length > 0) {
-            views = repliesAndViews.slice(replies.length);
+            views = parseInt(repliesAndViews.slice(replies.length));
+            replies = parseInt(replies)
           }
           console.log("Replies:", replies);
           console.log("Stats:", views);
@@ -218,7 +221,7 @@ glob("../../testing/*.html", function(er, files) {
             const commentAuthorBlock = comment.match(/Last Post: \S+/);
             if (commentAuthorBlock) {
               const commentAuthorSplited = commentAuthorBlock[0].split(": ");
-              commentAuthor = commentAuthorSplited[1];
+              commentAuthor = commentAuthorSplited[1].replace(/\,/g, "");
               console.log("CommentAuthor:", commentAuthor);
             }
 
@@ -262,7 +265,7 @@ glob("../../testing/*.html", function(er, files) {
             console.log("Comment poster status:", commentPosterStatus);
           }
           writeStream.write(
-            `${postId},${scrapeDate},${subsections},${section_pages},${title},${date},${time},${author},${newPost},${tag},${postStatusBlock},${posterStatus},${avatar},${replies},${views},${likes},${pagination_current},${commentAuthor},${commentPosterStatus},${lastCommentTime} \n`
+            `${postId},${scrapeDate},${subsections},${section_pages},${title},${date},${time},${author},${newPost},${tag},${postStatus},${posterStatus},${avatar},${replies},${views},${likes},${pagination_current},${commentAuthor},${commentPosterStatus},${lastCommentTime} \n`
           );
         }
       });
