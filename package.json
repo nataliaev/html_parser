@@ -1,0 +1,25 @@
+{
+  "name": "html_parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "parser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nataliaev/html_parser.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nataliaev/html_parser/issues"
+  },
+  "homepage": "https://github.com/nataliaev/html_parser#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "glob": "^7.1.4",
+    "htmlparser2": "^4.0.0"
+  }
+}
