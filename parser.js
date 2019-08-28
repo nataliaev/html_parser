@@ -56,7 +56,7 @@ const convertTime12to24 = time12h => {
   return `${hours}:${minutes}`;
 };
 
-glob("../../testing/*.html", function(er, files) {
+glob("../../forum scrapes/crackedto//*.html", function(er, files) {
   let postId = 0;
 
   for (let x = 0; x < files.length; x++) {
