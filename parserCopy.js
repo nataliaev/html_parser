@@ -78,6 +78,10 @@ glob("../../testing/*.html", function(er, files) {
       let scrapeDate = fileName.split("_");
       scrapeDate = scrapeDate[2].split(".");
       scrapeDate = scrapeDate[0];
+      const day = scrapeDate.slice(0, 2);
+      const month = scrapeDate.slice(2, 4);
+      const year = "20" + scrapeDate.slice(4, 6);
+      scrapeDate = `${day}-${month}-${year}`;
 
       //unique for the post
       $("tbody tr").each((i, el) => {
@@ -94,9 +98,9 @@ glob("../../testing/*.html", function(er, files) {
 
         //post status
         const postStatusBlock = postBlock(".thread_status").attr("title");
-        let postStatus
+        let postStatus;
         if (postStatusBlock) {
-          postStatus = postStatusBlock.replace(/\,/g, "")
+          postStatus = postStatusBlock.replace(/\,/g, "");
         }
 
         //each author and post date, post time, new post, poster status
@@ -183,7 +187,7 @@ glob("../../testing/*.html", function(er, files) {
           } else if (tagBlock2 && tagBlock2.length < 15) {
             tag = tagBlock2;
           } else if (postBlock("div span b span").html()) {
-            tag = "VPN"
+            tag = "VPN";
           } else {
             tag = 0;
           }
@@ -194,7 +198,7 @@ glob("../../testing/*.html", function(er, files) {
           let views = 0;
           if (repliesAndViews.length > 0) {
             views = parseInt(repliesAndViews.slice(replies.length));
-            replies = parseInt(replies)
+            replies = parseInt(replies);
           }
 
           //comments author
