@@ -94,8 +94,8 @@ fs.readFile("crackedto_Forum-Combolists?page=452_090819.html", (err, data) => {
       console.log("Subsection:", subsections);
 
       const authorStatus = postBlock(".author a span");
+      let posterStatus;
       if (authorStatus) {
-        let posterStatus;
         if (authorStatus.attr("style")) {
           const posterStatusSplited = authorStatus
             .attr("style")
@@ -108,13 +108,17 @@ fs.readFile("crackedto_Forum-Combolists?page=452_090819.html", (err, data) => {
           } else {
             posterStatus = 14;
           }
+        } else if (authorStatus.attr("class") === "rainbow_name") {
+          posterStatus = 17;
         } else if (authorStatus.attr("class")) {
           posterStatus = 7;
-        } else {
+        } else if (postBlock(".author a s").text()) {
           posterStatus = 16;
+        } else {
+          posterStatus = 15;
         }
-        console.log("Poster status:", posterStatus);
       }
+      console.log("Poster status:", posterStatus);
 
       const avatarBlock = postBlock(".last-post-avatar").attr("src");
       let avatar = 1;
@@ -196,11 +200,23 @@ fs.readFile("crackedto_Forum-Combolists?page=452_090819.html", (err, data) => {
         } else if (
           $(el)
             .find(".hide-mobile.row a span")
+            .attr("class") === "rainbow_name"
+        ) {
+          commentPosterStatus = 17;
+        } else if (
+          $(el)
+            .find(".hide-mobile.row a span")
             .attr("class")
         ) {
           commentPosterStatus = 7;
-        } else {
+        } else if (
+          $(el)
+            .find(".hide-mobile.row a s")
+            .html()
+        ) {
           commentPosterStatus = 16;
+        } else {
+          commentPosterStatus = 15;
         }
         console.log("Comment poster status:", commentPosterStatus);
       }
