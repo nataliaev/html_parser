@@ -57,8 +57,6 @@ const convertTime12to24 = time12h => {
 };
 
 glob("../../testing/*.html", function(er, files) {
-  let num = files.length;
-
   let postId = 0;
 
   for (let x = 0; x < files.length; x++) {
@@ -85,11 +83,12 @@ glob("../../testing/*.html", function(er, files) {
       $("tbody tr").each((i, el) => {
         const item = $(el).html();
         const postBlock = cheerio.load(item);
-        postId += 1;
+
         //post title
         const titleBlock = postBlock(".subject_new a").children()[0];
         let title = "";
         if (titleBlock) {
+          postId += 1;
           title = titleBlock.children[0].data;
           console.log("Post title:", title);
         }
