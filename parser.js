@@ -33,6 +33,22 @@ function usergroups(color, style) {
   }
 }
 
+const convertTime12to24 = (time12h) => {
+  const [time, modifier] = time12h.split(' ');
+
+  let [hours, minutes] = time.split(':');
+
+  if (hours === '12') {
+    hours = '00';
+  }
+
+  if (modifier === 'PM') {
+    hours = parseInt(hours, 10) + 12;
+  }
+
+  return `${hours}:${minutes}`;
+}
+
 fs.readFile("crackedto_Forum-Accounts--122?page=14_070819.html", (err, data) => {
   if (err) throw err;
   file = data.toString();
@@ -73,10 +89,11 @@ fs.readFile("crackedto_Forum-Accounts--122?page=14_070819.html", (err, data) => 
       const authorAndDateSplited = authorAndDate.split(" - ");
       const author = authorAndDateSplited[0].replace(/\,/g, "");
       const dateAndTime = authorAndDateSplited[1];
-      const time = dateAndTime.slice(
+      const timeAMPM = dateAndTime.slice(
         dateAndTime.length - 8,
         dateAndTime.length
       ).replace(/\,/g, "");
+      const time = convertTime12to24(timeAMPM)
       let date = dateAndTime.slice(0, dateAndTime.length - 10).replace(/\,/g, "");
       let newPost = 2;
 
