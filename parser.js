@@ -29,7 +29,7 @@ function usergroups(color, style) {
     case "8ed7d4":
       return 13;
     default:
-      return style.replace(/,/, "");
+      return style.replace(/\,/g, "");
   }
 }
 
@@ -56,27 +56,28 @@ fs.readFile("crackedto_Forum-Combolists?page=452_090819.html", (err, data) => {
     //post title
     const titleBlock = postBlock(".subject_new a").children()[0];
     if (titleBlock) {
-      const title = titleBlock.children[0].data;
+      const title = titleBlock.children[0].data.replace(/\,/g, "");
       console.log("Post title:", title);
     }
 
     //post status
     const postStatusBlock = postBlock(".thread_status").attr("title");
     if (postStatusBlock) {
-      console.log("Post status:", postStatusBlock);
+      const postStatus = postStatusBlock.replace(/\,/g, "")
+      console.log("Post status:", postStatus);
     }
 
     //each author and post date, post time, new post, poster satatus
     const authorAndDate = postBlock(".author").text();
     if (authorAndDate.length > 15) {
       const authorAndDateSplited = authorAndDate.split(" - ");
-      const author = authorAndDateSplited[0];
+      const author = authorAndDateSplited[0].replace(/\,/g, "");
       const dateAndTime = authorAndDateSplited[1];
       const time = dateAndTime.slice(
         dateAndTime.length - 8,
         dateAndTime.length
-      );
-      let date = dateAndTime.slice(0, dateAndTime.length - 10).replace(/,/, "");
+      ).replace(/\,/g, "");
+      let date = dateAndTime.slice(0, dateAndTime.length - 10).replace(/\,/g, "");
       let newPost = 2;
 
       if (date === "Today") {
@@ -133,7 +134,7 @@ fs.readFile("crackedto_Forum-Combolists?page=452_090819.html", (err, data) => {
       console.log("Avatar:", avatar);
 
       //Likes
-      const likes = postBlock(".stats-likes").html();
+      const likes = postBlock(".stats-likes").html().replace(/\,/g, "");
       console.log("Likes:", likes);
 
       //Last comment time
@@ -145,7 +146,7 @@ fs.readFile("crackedto_Forum-Combolists?page=452_090819.html", (err, data) => {
       if (!lastCommentTimeBlock) {
         lastCommentTime = postBlock(".lastpost.smalltext.thread-date").text();
       }
-      lastCommentTime = lastCommentTime.replace(/,/, "");
+      lastCommentTime = lastCommentTime.replace(/\,/g, "");
       console.log("Last comments time:", lastCommentTime);
 
       //post tag
@@ -153,23 +154,23 @@ fs.readFile("crackedto_Forum-Combolists?page=452_090819.html", (err, data) => {
       const tagBlock2 = postBlock("div span b").html();
       let tag;
       if (tagBlock && tagBlock.length < 15) {
-        tag = tagBlock;
+        tag = tagBlock.replace(/\,/g, "");
       } else if (tagBlock2 && tagBlock2.length < 15) {
-        tag = tagBlock2;
+        tag = tagBlock2.replace(/\,/g, "");
       } else {
         tag = 0;
       }
       console.log("Tag:", tag);
 
       //replies and views
-      const replies = postBlock("#stats-count").html();
+      const replies = postBlock("#stats-count").html().replace(/\,/g, "");
       const repliesAndViews = postBlock("#stats-count").text();
       let views = 0;
       if (repliesAndViews.length > 0) {
-        views = repliesAndViews.slice(replies.length);
+        views = repliesAndViews.slice(replies.length).replace(/\,/g, "");
       }
       console.log("Replies:", replies);
-      console.log("Stats:", views);
+      console.log("Views:", views);
 
       //comments author
       if ($(el).children()[4]) {
@@ -177,7 +178,7 @@ fs.readFile("crackedto_Forum-Combolists?page=452_090819.html", (err, data) => {
         const commentAuthorBlock = comment.match(/Last Post: \S+/);
         if (commentAuthorBlock) {
           const commentAuthorSplited = commentAuthorBlock[0].split(": ");
-          const commentAuthor = commentAuthorSplited[1];
+          const commentAuthor = commentAuthorSplited[1].replace(/\,/g, "");
           console.log("CommentAuthor:", commentAuthor);
         }
 
