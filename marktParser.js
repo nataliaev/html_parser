@@ -10,21 +10,37 @@ writeStream.write(
 glob("../../testing/*", function(er, files) {
   let postId = 0;
   const scrapeDate = "Aug 05 2019";
+  let allNames = [];
 
   for (let x = 0; x < files.length; x++) {
     const fileName = files[x].toString();
 
-    //console.log(fileName);
+    let newFileName = fileName.split("/");
+    newFileName = newFileName[newFileName.length - 1];
+    //let checkName
+
+    if (newFileName.slice(-8) === "&ss_usr=") {
+      newFileName = newFileName.slice(0, -8);
+    }
+    newFileName = newFileName.substring(newFileName.indexOf("cid"));
+
+    let duplicate = allNames.find(element => {
+      return element === newFileName;
+    });
+    let trueDuplicate = false;
+    if (duplicate === newFileName) {
+      //console.log("DUPLICATE FILE :", duplicate, newFileName);
+      trueDuplicate = true;
+    }
 
     let fileType = fileName.slice(-4);
-    console.log("TESTING END ", fileType);
-    if (fileType === ".txt" || fileType === ".php") {
-      console.log(
-        "******************THIS FILE WILL NOT BE PROCESSED: ",
-        fileName
-      );
+    // console.log("TESTING END ", fileType, newFileName);
+    if (fileType === ".txt" || fileType === ".php" || trueDuplicate === true) {
+      console.log("THIS FILE WILL NOT BE PROCESSED: ", fileName);
     } else {
-      //console.log("ENTERED FILE NAME: ", fileName);
+      allNames.push(newFileName);
+      //console.log("ENTERED FILE NAME: ", allNames);
+
       fs.readFile(fileName, (err, data) => {
         if (err) throw err;
         file = data.toString();
@@ -40,8 +56,8 @@ glob("../../testing/*", function(er, files) {
           let btcPrice = "";
           let price = postBlock(".col-sm-3 small span").text();
           price = price.split(" ");
-          usdPrice = price[3] + " USD";
-          btcPrice = price[6] + " BTC";
+          usdPrice = price[3];
+          btcPrice = price[6];
 
           //Autodispatch and Quantity left
           let autodispatch = "";
