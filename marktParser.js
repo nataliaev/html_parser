@@ -28,7 +28,7 @@ glob("../../testing/*", function(er, files) {
         const titleBlock = postBlock(".col-sm-8 small a").html();
         let title = "";
         if (titleBlock) {
-          title = titleBlock.replace(/\,/g, "");
+          title = titleBlock.replace(/[,;]/g, "");
         }
 
         //item #, main section and subsection
@@ -43,21 +43,22 @@ glob("../../testing/*", function(er, files) {
         let levelTrust = 0
 
         if (itemBlock) {
+          //post id
           postId += 1;
 
           itemNumber = itemBlock.children[0].data
             .split(" ")[1]
-            .replace(/\,/g, "");
+            .replace(/[,;]/g, "")
 
           mainSection = itemBlock.children[3].children[0].data
-          .replace(/\,/g, "");
+          .replace(/[,;]/g, "")
 
           subSection = itemBlock.children[5].children[0].data
-          .replace(/\,/g, "");
+          .replace(/[,;]/g, "")
 
           const vendorAndFeedback = itemBlock.children[7].children[0].children[0].data.split(" ");
-          vendor = vendorAndFeedback[0].replace(/\,/g, "");
-          feedback = vendorAndFeedback[1].slice(1,(vendorAndFeedback[1].length - 1))
+          vendor = vendorAndFeedback[0].replace(/[,;]/g, "")
+          feedback = vendorAndFeedback[1].slice(1,(vendorAndFeedback[1].length - 1)).replace(/[,;]/g, "")
 
           levelSellerAndSalesVendor = itemBlock.children[9].children[0].children[0].data.split(" ")
           levelSeller = levelSellerAndSalesVendor[2]
@@ -80,35 +81,29 @@ glob("../../testing/*", function(er, files) {
           }
         }
 
-        console.log('Verified:', verified)
+        //trusted
+        const trustedBlock = postBlock(".col-sm-8 small")[5].children[0].children[0].next.attribs["src"]
+        let trusted = "";
+        if (trustedBlock) {
+          if (trustedBlock === "uploads/icons/yes_trusted.png") {
+            trusted = 1
+          } else if (trustedBlock === "uploads/icons/not_trusted.png") {
+            trusted = 2
+          } else {
+            trusted = "no information"
+          }
+        }
 
         //post date
         const postDateBlock = postBlock(".col-sm-8 small i").text();
         let postDate = "";
         if (postDateBlock) {
-          postDate = postDateBlock;
+          postDate = postDateBlock.replace(/[,;]/g, "")
         }
-
-        //post id
-        postId += 1;
-
-        //console.logs
-
-        //console.log("Title:", title);
-        //console.log("Item number:", itemNumber);
-        //console.log("Main section:", mainSection);
-        //console.log("Sub section:", subSection);
-        //console.log("Post date:", postDate);
-        //console.log("Vendor:", vendor);
-        //console.log('Feedback', feedback)
-        //console.log('Level seller:', levelSeller)
-        //console.log('Sales vendor:', salesVendor)
-        //console.log('Level trust:', levelTrust)
-        //console.log('Verified:', verified)
 
         //saving to csv file
         writeStream.write(
-          `${postId},${scrapeDate},${itemNumber},${mainSection},${subSection},${title},${postDate},${vendor},"new_post",${feedback},${levelSeller},${levelTrust},${salesVendor},${verified} \n`
+          `${postId},${scrapeDate},${itemNumber},${mainSection},${subSection},${title},${postDate},${vendor},"new_post",${feedback},${levelSeller},${levelTrust},${salesVendor},${verified},${trusted} \n`
         );
       });
     });
