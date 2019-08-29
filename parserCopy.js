@@ -76,7 +76,6 @@ glob("../../forum scrapes/crackedto2//*.html", function(er, files) {
       const subsections = $(".active").text();
 
       let scrapeDate = fileName.split("_");
-<<<<<<< HEAD
       if (!scrapeDate[2]) {
         scrapeDate = "no date";
       } else {
@@ -88,19 +87,6 @@ glob("../../forum scrapes/crackedto2//*.html", function(er, files) {
         scrapeDate = `${day}-${month}-${year}`;
       }
 
-=======
-      if(!scrapeDate[2]) {
-        scrapeDate = "no date"
-      } else {
-      scrapeDate = scrapeDate[2].split(".");
-      scrapeDate = scrapeDate[0];
-      const day = scrapeDate.slice(0, 2);
-      const month = scrapeDate.slice(2, 4);
-      const year = "20" + scrapeDate.slice(4, 6);
-      scrapeDate = `${day}-${month}-${year}`;
-      }
-      
->>>>>>> 738c715da102910b11a852682b67f12f4861a29e
       //unique for the post
       $("tbody tr").each((i, el) => {
         const item = $(el).html();
