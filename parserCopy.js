@@ -1,7 +1,7 @@
 const fs = require("fs");
 const cheerio = require("cheerio");
 var glob = require("glob");
-const writeStream = fs.createWriteStream("test1.csv");
+const writeStream = fs.createWriteStream("test2.csv");
 
 writeStream.write(
   `Post Id,Scrape Date,Subsections,Section pages,Post title,Post date,Post time,Poster,New Post,Post tag,Post status,Status poster,Avatar changed,Replies,Views,Likes,Page number,Last poster,Status last poster,Last post time \n`
@@ -56,8 +56,8 @@ const convertTime12to24 = time12h => {
   return `${hours}:${minutes}`;
 };
 
-glob("../../testing/*.html", function(er, files) {
-  let postId = 0;
+glob("../../forum scrapes/crackedto2//*.html", function(er, files) {
+  let postId = 1109235;
 
   for (let x = 0; x < files.length; x++) {
     const fileName = files[x].toString();
@@ -76,17 +76,17 @@ glob("../../testing/*.html", function(er, files) {
       const subsections = $(".active").text();
 
       let scrapeDate = fileName.split("_");
-      if(!scrapeDate[2]) {
-        scrapeDate = "no date"
+      if (!scrapeDate[2]) {
+        scrapeDate = "no date";
       } else {
-      scrapeDate = scrapeDate[2].split(".");
-      scrapeDate = scrapeDate[0];
-      const day = scrapeDate.slice(0, 2);
-      const month = scrapeDate.slice(2, 4);
-      const year = "20" + scrapeDate.slice(4, 6);
-      scrapeDate = `${day}-${month}-${year}`;
+        scrapeDate = scrapeDate[2].split(".");
+        scrapeDate = scrapeDate[0];
+        const day = scrapeDate.slice(0, 2);
+        const month = scrapeDate.slice(2, 4);
+        const year = "20" + scrapeDate.slice(4, 6);
+        scrapeDate = `${day}-${month}-${year}`;
       }
-      
+
       //unique for the post
       $("tbody tr").each((i, el) => {
         const item = $(el).html();
