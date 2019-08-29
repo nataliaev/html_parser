@@ -9,7 +9,7 @@ writeStream.write(
 
 glob("../../testing/*", function(er, files) {
   let postId = 0;
-  const scrapeDate = "01-08-2019";
+  const scrapeDate = "Aug 01 2019";
 
   for (let x = 0; x < files.length; x++) {
     const fileName = files[x].toString();
@@ -101,9 +101,14 @@ glob("../../testing/*", function(er, files) {
           postDate = postDateBlock.replace(/[,;]/g, "")
         }
 
+        let newPost = 2
+        if (scrapeDate === postDate) {
+          newPost = 1
+        }
+
         //saving to csv file
         writeStream.write(
-          `${postId},${scrapeDate},${itemNumber},${mainSection},${subSection},${title},${postDate},${vendor},"new_post",${feedback},${levelSeller},${levelTrust},${salesVendor},${verified},${trusted} \n`
+          `${postId},${scrapeDate},${itemNumber},${mainSection},${subSection},${title},${postDate},${vendor},${newPost},${feedback},${levelSeller},${levelTrust},${salesVendor},${verified},${trusted} \n`
         );
       });
     });
