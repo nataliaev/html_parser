@@ -9,13 +9,21 @@ writeStream.write(
 
 glob("../../testing/*", function(er, files) {
   let postId = 0;
-  const scrapeDate = "Aug 01 2019";
+  const scrapeDate = "Aug 05 2019";
 
   for (let x = 0; x < files.length; x++) {
     const fileName = files[x].toString();
 
     //console.log(fileName);
-    if (fileName.slice(-4) !== ".txt" || fileName.slice(-4) !== ".php") {
+
+    let fileType = fileName.slice(-4);
+    console.log("TESTING END ", fileType);
+    if (fileType === ".txt" || fileType === ".php") {
+      console.log(
+        "******************THIS FILE WILL NOT BE PROCESSED: ",
+        fileName
+      );
+    } else {
       //console.log("ENTERED FILE NAME: ", fileName);
       fs.readFile(fileName, (err, data) => {
         if (err) throw err;
@@ -90,6 +98,8 @@ glob("../../testing/*", function(er, files) {
           let salesVendor = 0;
           let levelTrust = 0;
           let postDate = "";
+          let trusted = "";
+          let verified = "";
 
           if (itemBlock) {
             //post id
@@ -103,7 +113,6 @@ glob("../../testing/*", function(er, files) {
               /[,;]/g,
               ""
             );
-            //console.log(postDate);
 
             mainSection = itemBlock.children[3].children[0].data.replace(
               /[,;]/g,
@@ -123,57 +132,72 @@ glob("../../testing/*", function(er, files) {
               .slice(1, vendorAndFeedback[1].length - 1)
               .replace(/[,;]/g, "");
 
-            levelSellerAndSalesVendor = itemBlock.children[9].children[0].children[0].data.split(
-              " "
-            );
-            levelSeller = levelSellerAndSalesVendor[2];
-            salesVendor = levelSellerAndSalesVendor[3].slice(
-              1,
-              levelSellerAndSalesVendor[3].length - 1
-            );
+            if (
+              itemBlock.children[9].children[0].children[0].data !== "Moderator"
+            ) {
+              levelSellerAndSalesVendor = itemBlock.children[9].children[0].children[0].data.split(
+                " "
+              );
+              levelSeller = levelSellerAndSalesVendor[2];
 
-            const levelTrustSplited = itemBlock.children[11].children[0].children[0].data.split(
-              " "
-            );
-            levelTrust = levelTrustSplited[levelTrustSplited.length - 1];
-          }
+              if (levelSellerAndSalesVendor[3]) {
+                salesVendor = levelSellerAndSalesVendor[3].slice(
+                  1,
+                  levelSellerAndSalesVendor[3].length - 1
+                );
+              } else {
+                console.log("Error in sales vendor", fileName, title);
+              }
 
-          //verified
-          const verifiedBlock = postBlock(".col-sm-8 small span img").attr(
-            "src"
-          );
-          let verified = "";
-          if (verifiedBlock) {
-            if (verifiedBlock === "uploads/icons/yes_verified.png") {
-              verified = 1;
-            } else if (verifiedBlock === "uploads/icons/not_verified.png") {
-              verified = 2;
+              const levelTrustSplited = itemBlock.children[11].children[0].children[0].data.split(
+                " "
+              );
+              levelTrust = levelTrustSplited[levelTrustSplited.length - 1];
+
+              //trusted
+              let trustedBlock;
+
+              if (postBlock(".col-sm-8 small")[5]) {
+                trustedBlock = postBlock(".col-sm-8 small")[5].children[0]
+                  .children[0].next.attribs["src"];
+
+                if (trustedBlock) {
+                  if (trustedBlock === "uploads/icons/yes_trusted.png") {
+                    trusted = 1;
+                  } else if (trustedBlock === "uploads/icons/not_trusted.png") {
+                    trusted = 2;
+                  } else {
+                    trusted = "no information";
+                  }
+                }
+              } else {
+                trusted = null;
+                console.log("Error in trusted block", fileName);
+              }
+
+              //verified
+              const verifiedBlock = postBlock(".col-sm-8 small span img").attr(
+                "src"
+              );
+
+              if (verifiedBlock) {
+                if (verifiedBlock === "uploads/icons/yes_verified.png") {
+                  verified = 1;
+                } else if (verifiedBlock === "uploads/icons/not_verified.png") {
+                  verified = 2;
+                } else {
+                  verified = "no information";
+                }
+              }
             } else {
-              verified = "no information";
+              trusted = "Moderator";
+              levelSeller = "Moderator";
+              levelTrust = "Moderator";
+              verified = "Moderator";
             }
           }
 
-          //trusted
-          const trustedBlock = postBlock(".col-sm-8 small")[5].children[0]
-            .children[0].next.attribs["src"];
-          let trusted = "";
-          if (trustedBlock) {
-            if (trustedBlock === "uploads/icons/yes_trusted.png") {
-              trusted = 1;
-            } else if (trustedBlock === "uploads/icons/not_trusted.png") {
-              trusted = 2;
-            } else {
-              trusted = "no information";
-            }
-          }
-
-          // //post date
-          // const postDateBlock = postBlock(".col-sm-8 small i").text();
-          // let postDate = "";
-          // if (postDateBlock) {
-          //   postDate = postDateBlock.replace(/[,;]/g, "");
-          // }
-
+          //new post
           let newPost = 2;
           if (scrapeDate === postDate) {
             newPost = 1;
