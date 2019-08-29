@@ -14,10 +14,9 @@ glob("../../testing/*", function(er, files) {
   for (let x = 0; x < files.length; x++) {
     const fileName = files[x].toString();
 
-    console.log(fileName);
-
-    if (fileName.slice(-4) !== ".txt") {
-      console.log("ENTERED FILE NAME: ", fileName);
+    //console.log(fileName);
+    if (fileName.slice(-4) !== ".txt" || fileName.slice(-4) !== ".php") {
+      //console.log("ENTERED FILE NAME: ", fileName);
       fs.readFile(fileName, (err, data) => {
         if (err) throw err;
         file = data.toString();
@@ -100,8 +99,11 @@ glob("../../testing/*", function(er, files) {
               .split(" ")[1]
               .replace(/[,;]/g, "");
 
-            postDate = itemBlock.children[1].children[0].data.replace(/[,;]/g, "");
-            console.log(postDate)
+            postDate = itemBlock.children[1].children[0].data.replace(
+              /[,;]/g,
+              ""
+            );
+            //console.log(postDate);
 
             mainSection = itemBlock.children[3].children[0].data.replace(
               /[,;]/g,
