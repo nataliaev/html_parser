@@ -76,13 +76,17 @@ glob("../../testing/*.html", function(er, files) {
       const subsections = $(".active").text();
 
       let scrapeDate = fileName.split("_");
+      if(!scrapeDate[2]) {
+        scrapeDate = "no date"
+      } else {
       scrapeDate = scrapeDate[2].split(".");
       scrapeDate = scrapeDate[0];
       const day = scrapeDate.slice(0, 2);
       const month = scrapeDate.slice(2, 4);
       const year = "20" + scrapeDate.slice(4, 6);
       scrapeDate = `${day}-${month}-${year}`;
-
+      }
+      
       //unique for the post
       $("tbody tr").each((i, el) => {
         const item = $(el).html();
