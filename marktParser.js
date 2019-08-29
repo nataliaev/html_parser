@@ -90,6 +90,7 @@ glob("../../testing/*", function(er, files) {
           let levelSeller = 0;
           let salesVendor = 0;
           let levelTrust = 0;
+          let postDate = "";
 
           if (itemBlock) {
             //post id
@@ -98,6 +99,9 @@ glob("../../testing/*", function(er, files) {
             itemNumber = itemBlock.children[0].data
               .split(" ")[1]
               .replace(/[,;]/g, "");
+
+            postDate = itemBlock.children[1].children[0].data.replace(/[,;]/g, "");
+            console.log(postDate)
 
             mainSection = itemBlock.children[3].children[0].data.replace(
               /[,;]/g,
@@ -161,12 +165,12 @@ glob("../../testing/*", function(er, files) {
             }
           }
 
-          //post date
-          const postDateBlock = postBlock(".col-sm-8 small i").text();
-          let postDate = "";
-          if (postDateBlock) {
-            postDate = postDateBlock.replace(/[,;]/g, "");
-          }
+          // //post date
+          // const postDateBlock = postBlock(".col-sm-8 small i").text();
+          // let postDate = "";
+          // if (postDateBlock) {
+          //   postDate = postDateBlock.replace(/[,;]/g, "");
+          // }
 
           let newPost = 2;
           if (scrapeDate === postDate) {
