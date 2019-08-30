@@ -99,17 +99,17 @@ glob("../../testing/*", function(er, files) {
           if (child.name === "img") {
             if (
               child.attribs.src ===
-              "http://46qkrbfcaa4gsc3m.onion/public/image/btc_small.png"
+              "http://46qkrbfcaa4gsc3m.onion/public/image/btc_small.png" || child.attribs.src === "http://t5ocmsgrmxm2rehb.onion/public/image/btc_small.png"
             ) {
               return "btc ";
             } else if (
               child.attribs.src ===
-              "http://46qkrbfcaa4gsc3m.onion/public/image/ltc_small.png"
+              "http://46qkrbfcaa4gsc3m.onion/public/image/ltc_small.png" || child.attribs.src === "http://t5ocmsgrmxm2rehb.onion/public/image/ltc_small.png"
             ) {
               return "ltc ";
             } else if (
               child.attribs.src ===
-              "http://46qkrbfcaa4gsc3m.onion/public/image/xmr_small.png"
+              "http://46qkrbfcaa4gsc3m.onion/public/image/xmr_small.png" || child.attribs.src === "http://t5ocmsgrmxm2rehb.onion/public/image/xmr_small.png"
             ) {
               return "xmr ";
             }
@@ -117,7 +117,8 @@ glob("../../testing/*", function(er, files) {
             return ""
           }
         });
-        const payMethods = payMethodsIcon.reduce((str, el) => (str + el)).replace(/[,;]/g, "");
+        const payMethods = payMethodsIcon.reduce((str, el) => (str + el));
+        console.log(payMethods)
 
         writeStream.write(
           `${postId},${scrapeDate},${itemNumber},${mainSection},${subsection},${title},Post date,${vendor},New Post,${postStatus},${titleBold},${vendorNumber},${views},${sales},${quantityLeft},${autodispatch},${priceUSD},${priceBTC},${payMethods} \n`
