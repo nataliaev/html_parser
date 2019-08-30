@@ -93,14 +93,6 @@ glob("../../testing/*", function(er, files) {
           .slice(1);
 
         //pay methods
-        // let payMethods = ""
-        // const payMethodsIcon = postBlock("p img").attr("src")
-        // if (payMethodsIcon === "http://46qkrbfcaa4gsc3m.onion/public/image/btc_small.png") {
-        //   payMethods = payMethods + 'btc '
-        // }
-        // console.log(payMethods)
-
-        //pay methods
         const payMethodsBlock = postBlock(".padp")[3];
         const payMethodsIcon = payMethodsBlock.children.map(child => {
           if (child.name === "img") {
