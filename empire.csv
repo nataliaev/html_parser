@@ -1,16 +1,644 @@
 Post Id,Scrape Date,Item nr,Main category,Subcategory,Post title,Post date,Vendor,New Post,Post status,Title bold,Vendor nr,Views,Sales,Quantity left,Autodispatch,Price USD,Price BTC,Pay methods 
-1,Aug 05 2019,53687,Fraud,Accounts & Bank Drops,100% Update Master Fraud Pack 2019 (Carding Tutorials Cashout Method CVV TO BTC Exploit Payment S,Post date,EmpireShop,New Post,1,2,495,5656,165,Unlimited,1,14.00,0.001332,btc ltc xmr  
-2,Aug 05 2019,77539,Fraud,CVV & Cards,**[HIGHLY SOLD]** Credit Card CVV HIGH BALANCED 1.5k-10k$ FOR WORLDWIDE USAGE (Buy2Get1Free!),Post date,cclean,New Post,1,1,248,5001,114,Unlimited,2,9.90,0.000942,btc ltc xmr  
-3,Aug 05 2019,68551,Fraud,Accounts & Bank Drops,*AGED* VHQ USA Bank Drop + Opening Deposit $$ + ZELLE + HQ FULLZ,Post date,ValidBins,New Post,1,1,41,2852,19,18,2,225.00,0.021404,btc ltc xmr  
-4,Aug 05 2019,70509,Fraud,CVV & Cards,**[HIGHLY SOLD]** ULTIMATIVE PACKAGE: 1 FREE HIGH BALANCED CREDIT CARD/CVV +15K $ + CARDING COACHING,Post date,cclean,New Post,1,1,248,6720,156,Unlimited,1,17.00,0.001617,btc ltc  
-5,Aug 05 2019,60788,Fraud,CVV & Cards,BUY 2 GET 1 FREE CREDIT CARD CVV | Balance 1500$ - 10000$ + CARDING GUIDE 100% WORKING 2019,Post date,miomentor,New Post,1,1,589,13459,443,Unlimited,2,10.00,0.000951,btc ltc xmr  
-6,Aug 05 2019,84119,Fraud,Personal Information & Scans,Australia Drivers License + Medicare Card Scan,Post date,Applebackson1,New Post,1,2,3,99,4,Unlimited,2,60.47,0.005752,btc ltc xmr  
-7,Aug 05 2019,77543,Fraud,CVV & Cards,5 CVV Credit Card Cashout METHODS (4000$/DAY) 100% working 2019,Post date,miomentor,New Post,1,1,589,3654,89,Unlimited,1,19.00,0.001807,btc ltc xmr  
-8,Aug 05 2019,76080,Fraud,CVV & Cards,Online Auto-Shop Credit Cards Dumps + PIN AU &amp UK Full CVVs AU &amp UK Bank Logins! Tap &amp Pay Method,Post date,wiper,New Post,1,1,202,4242,127,Unlimited,1,5.00,0.000476,btc  
-9,Aug 05 2019,60791,Fraud,Accounts & Bank Drops,&#x2605 Paypal Accounts with Balance &#x2605 $250 BALANCE &#x2605 CC/BANK Attached &#x2605 High Quality &#x2605,Post date,DigitalEmpire,New Post,1,1,565,13027,339,Unlimited,2,22.00,0.002093,btc ltc xmr  
-10,Aug 05 2019,8874,Fraud,CVV & Cards,LIVE USA CVV KNOWN BALANCE 1k$ TO 5K$ 5K$ TO 20K$ 20K$ TO 50K$ BUY2GET1FREE,Post date,friskmint,New Post,1,2,5893,105843,5622,Unlimited,2,10.00,0.000951,btc ltc  
-11,Aug 05 2019,86516,Fraud,CVV & Cards,CC to BTC VIDEO TUTORIAL (easy 4k$/day Cashout Method) + Socks5 provider list,Post date,money007,New Post,1,1,5,330,7,Unlimited,1,9.00,0.000856,btc ltc xmr  
-12,Aug 05 2019,36328,Fraud,CVV & Cards,Worldwide CC &amp CVV from UK/US/DE/FR/CA/JP/AU/NL/IT/CH/DK/EU/Asia...,Post date,bluer,New Post,2,2,2742,19320,2624,Unlimited,1,10.99,0.001045,btc  
-13,Aug 05 2019,13530,Fraud,CVV & Cards,5 CARDING VIDEOS + 5 TUTORIALS CC TO BTC $5k/Day + TOOLS NEEDED !,Post date,PassiveDays,New Post,2,2,5775,7525,1514,Unlimited,1,7.00,0.000666,btc ltc xmr  
-14,Aug 05 2019,4202,Fraud,CVV & Cards,CVV USA BEST QUALITY HERE 100%LIVE&#x2605&#x2605KNOWN BALANCE FROM 1000$ TO 10.000$&#x2605&#x2605 (buy two get one f,Post date,savastano,New Post,2,2,4542,33917,1512,Unlimited,2,15.00,0.001427,btc ltc xmr  
-15,Aug 05 2019,54948,Fraud,CVV & Cards,Carding Guide | Exploit Payment Processors | 2x Cashout Methods | Find Cardable Sites (Gift Cards),Post date,QuantumDocs,New Post,2,2,2610,16691,1497,Unlimited,1,0.01,0.000001,btc ltc xmr  
+1,Aug 05 2019,12298,Fraud,Other,Personal (Custm-made) Domain cPanel,Post date,makekota,New Post,2,2,111,375,0,Unlimited,2,60.00,0.005704,btc ltc xmr  
+2,Aug 05 2019,12299,Fraud,Other,QUEBEC DL GENERATOR SERVICES,Post date,makekota,New Post,2,2,111,352,0,Unlimited,2,50.00,0.004753,btc ltc xmr  
+3,Aug 05 2019,85695,Fraud,Dumps,High Credit USA Fullz | GUARANTEED +700 BEST QUALITY + LOAN FRAUD TUTORIAL UP TO 50 000$ fraud,Post date,ICON,New Post,2,2,1,8,0,Unlimited,1,60.99,0.005798,btc ltc xmr  
+4,Aug 05 2019,87262,Fraud,Dumps,Extractor/Stealer/Crack Pack . This Mega Hack Pack Includes: Remote Administration Tools (RATs) DARK,Post date,kingkamari,New Post,2,2,2,3,0,Unlimited,1,2.00,0.000190,btc ltc xmr  
+5,Aug 05 2019,13164,Fraud,Other,&#x2605 Use Zeus Bot to Hack Bank Accounts &#x2605,Post date,sixandeight,New Post,2,2,2182,443,0,Unlimited,1,6.00,0.000570,btc  
+6,Aug 05 2019,76433,Fraud,Dumps,-== Netflix Premium ULTRA HD Account ==-,Post date,ixorex,New Post,2,2,29,93,0,Unlimited,2,5.00,0.000475,btc  
+7,Aug 05 2019,87510,Fraud,Dumps,HOT! Th3_Ca$hier Presents to You USA Merchant CC Checking Phone Numbers! V/MC AMEX DISC,Post date,TheCashier,New Post,2,2,0,3,0,20,1,10.00,0.000951,btc ltc xmr  
+8,Aug 05 2019,76478,Fraud,Dumps,Fresh Hacked Paypal accounts  [Verified],Post date,flexowned,New Post,2,2,34,80,0,Unlimited,2,10.00,0.000951,btc ltc xmr  
+9,Aug 05 2019,14291,Fraud,Other,66 high-end carding/fraud tutorials ,Post date,sixandeight,New Post,2,2,2182,350,0,Unlimited,1,7.00,0.000665,btc  
+10,Aug 05 2019,14318,Fraud,Other,Surprize!! Random Valuable Product Packs! ,Post date,sixandeight,New Post,2,2,2182,377,0,Unlimited,2,5.00,0.000475,btc  
+11,Aug 05 2019,80766,Fraud,Dumps,ONLINE POKER CC CASHOUT WON&#x2019T GET BURNED - 2019 WORKS ~ AUTO DELIVERY,Post date,RoadTraveler,New Post,2,2,53,38,0,Unlimited,1,499.95,0.047526,btc ltc xmr  
+12,Aug 05 2019,14499,Fraud,Other,ALL YOU NEED TO KNOW ABOUT COOKIES.mp4,Post date,sixandeight,New Post,2,2,2182,323,0,Unlimited,1,5.00,0.000475,btc  
+13,Aug 05 2019,14780,Fraud,Other,YES  LIST OF LINKS - DARKNET AND CLEARNET!! YOUR EVERYTHING,Post date,sixandeight,New Post,2,2,2182,346,0,Unlimited,1,9.98,0.000949,btc  
+14,Aug 05 2019,83023,Fraud,Dumps,Fresh Hacked Paypal accounts  [Verified],Post date,flexowned,New Post,2,2,34,38,0,Unlimited,2,10.00,0.000951,btc ltc xmr  
+15,Aug 05 2019,14872,Fraud,Other,THE BEST FOR NOW - BANK TRANSFER FOR NOOBS.,Post date,sixandeight,New Post,2,2,2182,396,0,Unlimited,1,5.11,0.000486,btc  
+16,Aug 05 2019,83971,Fraud,Dumps,[A-Z] COMPLETE FRAUD ENCYCLOPEDIA NOOB-TO-PRO 2019,Post date,MakingYouMoney,New Post,2,2,46,21,0,Unlimited,1,25.00,0.002377,btc ltc xmr  
+17,Aug 05 2019,15320,Fraud,Other,&#x2655 Amazon Refund Method &#x2655,Post date,TheShop,New Post,2,2,2739,337,0,Unlimited,1,1.99,0.000189,btc ltc xmr  
+18,Aug 05 2019,87701,Fraud,Dumps,&#x2605&#x2605&#x2605&#x2605&#x2605 The Complete 2019 Non VBV Bin List &#x2605&#x2605&#x2605&#x2605&#x2605,Post date,Diamondgeezers,New Post,2,2,501,1,0,Unlimited,2,6.99,0.000664,btc  
+19,Aug 05 2019,2236,Fraud,Other,MAKE $10k SELLING BRANDED COUNTERFEIT WATCHES ON EBAY,Post date,Lepricon,New Post,2,2,3731,600,0,200,1,22.20,0.002111,btc ltc xmr  
+20,Aug 05 2019,7405,Fraud,Other,CARDING SCHOOL. LIVE HELP! 100% guranteed,Post date,friday13th,New Post,2,2,880,789,0,Unlimited,2,500.00,0.047531,btc ltc xmr  
+21,Aug 05 2019,9142,Fraud,Other,&#x2605AMAZON REFUND SCAM!!!!!&#x2605,Post date,wealthly,New Post,2,2,880,406,0,Unlimited,2,4.00,0.000380,btc ltc xmr  
+22,Aug 05 2019,17505,Fraud,Other,FRESH USA FULLZ - $1.5 each,Post date,TheDarkKnight,New Post,2,2,155,203,0,Unlimited,2,1.50,0.000143,btc  
+23,Aug 05 2019,17767,Fraud,Other,Voice Changer Software,Post date,EUCarder,New Post,2,2,1337,211,0,Unlimited,1,16.89,0.001606,btc ltc xmr  
+24,Aug 05 2019,9157,Fraud,Other,2018  BITCOIN STEALER &amp MASS ADDRESS GENERATOR,Post date,wealthly,New Post,2,2,880,484,0,Unlimited,2,12.00,0.001141,btc ltc xmr  
+25,Aug 05 2019,18062,Fraud,Other,10 Pack SSN/Bank Records WITH Complete Cashout Guide,Post date,drhack3r,New Post,2,2,1902,319,0,Unlimited,2,240.00,0.022815,btc ltc xmr  
+26,Aug 05 2019,18156,Fraud,Other,Deliveroo.co.uk - Phishing Page - Capture Full Card Info,Post date,Stackz420,New Post,2,2,1361,314,0,Unlimited,2,60.55,0.005756,btc  
+27,Aug 05 2019,18191,Fraud,Other,AMAZON REFUND SCAM  INSTANT DELIVERY,Post date,SPTRLTD,New Post,2,2,6084,217,0,Unlimited,1,0.90,0.000086,btc ltc xmr  
+28,Aug 05 2019,9761,Fraud,Other,Private Link for link get thousand stuff real or make money much,Post date,cashboy,New Post,2,2,1268,890,0,Unlimited,2,1000.00,0.095062,btc  
+29,Aug 05 2019,10444,Fraud,Other,xdedic INVITATION Biggest RDP Platform 70000+ INSTANT DELIVERY,Post date,drhack3r,New Post,2,2,1902,492,0,Unlimited,2,199.00,0.018917,btc ltc xmr  
+30,Aug 05 2019,18456,Fraud,Other,Interflora &#x2654  Hacked Account &#x2654 CC Attached,Post date,Stackz420,New Post,2,2,1361,171,0,Unlimited,2,3.63,0.000345,btc ltc xmr  
+31,Aug 05 2019,46105,Fraud,Dumps,SKIMMING TOOLS FOR 2019,Post date,mybonus,New Post,2,2,231,692,0,3,2,4000.00,0.380250,btc ltc xmr  
+32,Aug 05 2019,7748,Fraud,Other,The Ultimate CPN Creation Guide + Make CPNs,Post date,Supreamkiller,New Post,2,2,443,726,0,Unlimited,2,350.00,0.033272,btc ltc xmr  
+33,Aug 05 2019,9510,Fraud,Other,PayPal with debit card+VIP Fullz+RDP,Post date,drhack3r,New Post,2,2,1902,803,0,Unlimited,2,400.00,0.038025,btc ltc xmr  
+34,Aug 05 2019,71135,Fraud,Dumps,&#x2605&#x2605&#x2605&#x2605&#x2605 The 2019 Mega List of Over 10000 Cardable Websites &#x2605&#x2605&#x2605&#x2605&#x2605,Post date,Diamondgeezers,New Post,2,2,501,58,0,Unlimited,2,6.99,0.000664,btc  
+35,Aug 05 2019,9995,Fraud,Other,CUSTOM MINER.EXE / MINE MONERO XMR (STEALTH) USING INFECTED COMPUTERS,Post date,drhack3r,New Post,2,2,1902,660,0,Unlimited,2,1.99,0.000189,btc ltc xmr  
+36,Aug 05 2019,10102,Fraud,Other,How to CARD AMAZON GIFT CARDS Smart Way&#x2605$200 &#xA3300 per CARD+++ INSTANT DELIVERY+++ FREEBIES,Post date,drhack3r,New Post,2,2,1902,379,0,Unlimited,1,3.99,0.000379,btc ltc xmr  
+37,Aug 05 2019,10358,Fraud,Other,++++ Remove 21 days HOLD PAYPAL WIN DISPUTE/CHARGEBACKS ++++,Post date,drhack3r,New Post,2,2,1902,497,0,Unlimited,2,65.00,0.006179,btc ltc xmr  
+38,Aug 05 2019,74267,Fraud,Dumps,Fresh Hacked Paypal accounts  [Verified],Post date,flexowned,New Post,2,2,34,81,0,Unlimited,2,10.00,0.000951,btc ltc xmr  
+39,Aug 05 2019,12221,Fraud,Other,FONTS PACKAGE WORTH 5000$,Post date,makekota,New Post,2,2,111,451,0,Unlimited,2,150.00,0.014259,btc ltc xmr  
+40,Aug 05 2019,12241,Fraud,Other,DESJARDINS SCAM PAGE (BUY 1 GET 1 HALF PRICE) ,Post date,makekota,New Post,2,2,111,395,0,Unlimited,2,300.00,0.028519,btc ltc xmr  
+41,Aug 05 2019,12242,Fraud,Other,RBC SCAM PAGE (BUY 1 GET 1 HALF PRICE) ,Post date,makekota,New Post,2,2,111,417,0,Unlimited,2,300.00,0.028519,btc ltc xmr  
+42,Aug 05 2019,12243,Fraud,Other,TANGERINE SCAM PAGE (BUY 1 GET 1 HALF PRICE) ,Post date,makekota,New Post,2,2,111,387,0,Unlimited,2,100.00,0.009506,btc ltc xmr  
+43,Aug 05 2019,74308,Fraud,Dumps,LIVINGLARGE - Request Custom Car Booking,Post date,livinglush,New Post,2,2,4,97,0,Unlimited,2,15.00,0.001426,btc ltc xmr  
+44,Aug 05 2019,85685,Fraud,Dumps,Modern 2020 Ultimate Dump Cashout Guide,Post date,ICON,New Post,2,2,1,7,0,Unlimited,1,69.99,0.006653,btc ltc xmr  
+45,Aug 05 2019,12297,Fraud,Other,PRIVATE RDP MONTHLY LOCATION,Post date,makekota,New Post,2,2,111,353,0,Unlimited,2,100.00,0.009506,btc ltc xmr  
+46,Aug 05 2019,10000,Fraud,Other,Double your bitcoins : 1000 $ TO YOUR PAYPAL (PAYPAL TRANSFER),Post date,drhack3r,New Post,2,2,1902,1070,0,Unlimited,2,500.00,0.047531,btc ltc xmr  
+47,Aug 05 2019,12238,Fraud,Other,TD SCAM PAGE (BUY 1 GET 1 HALF PRICE) ,Post date,makekota,New Post,2,2,111,445,0,Unlimited,2,350.00,0.033272,btc ltc xmr  
+48,Aug 05 2019,12239,Fraud,Other,CIBC SCAM PAGE (BUY 1 GET 1 HALF PRICE) ,Post date,makekota,New Post,2,2,111,394,0,Unlimited,2,300.00,0.028519,btc ltc xmr  
+49,Aug 05 2019,12240,Fraud,Other,SCOTIA SCAM PAGE (BUY 1 GET 1 HALF PRICE) ,Post date,makekota,New Post,2,2,111,424,0,Unlimited,2,300.00,0.028519,btc ltc xmr  
+50,Aug 05 2019,12681,Fraud,Other,ALL BEST PREMIUM GUIDES  FOR NOW -&gt BIG DISCOUNT !!,Post date,sixandeight,New Post,2,2,2182,331,0,Unlimited,2,18.00,0.001711,btc  
+51,Aug 05 2019,19597,Fraud,Other,30+ OF THE-BEST SCAMPAGES [AUTO-FULFILL],Post date,Guru,New Post,2,2,15,84,0,Unlimited,2,18.99,0.001805,btc  
+52,Aug 05 2019,20014,Fraud,Other,Defcon Farre  INSTANT DELIVERY,Post date,SPTRLTD,New Post,2,2,6084,138,0,Unlimited,1,1.21,0.000115,btc ltc xmr  
+53,Aug 05 2019,20189,Fraud,Other,&#x2605cryptoshuffler trojan&#x2605 INSTANT DELIVERY,Post date,SPTRLTD,New Post,2,2,6084,138,0,Unlimited,1,60.55,0.005756,btc ltc xmr  
+54,Aug 05 2019,20371,Fraud,Other,100% SIN CREATION METHOD 100%,Post date,picsou,New Post,2,2,461,118,0,5,2,250.00,0.023766,btc ltc xmr  
+55,Aug 05 2019,13749,Fraud,Other,Confirmed Square Cashout Method (No burner phone needed,Post date,sixandeight,New Post,2,2,2182,318,0,Unlimited,1,8.11,0.000771,btc  
+56,Aug 05 2019,21890,Fraud,Other,LLYODS SCAM PAGE (BUY 1 GET 1 HALF PRICE),Post date,makekota,New Post,2,2,111,86,0,Unlimited,2,350.00,0.033272,btc ltc xmr  
+57,Aug 05 2019,21891,Fraud,Other,CAPITAL ONE SCAM PAGE (BUY 1 GET 1 HALF PRICE),Post date,makekota,New Post,2,2,111,91,0,Unlimited,2,350.00,0.033272,btc ltc xmr  
+58,Aug 05 2019,13931,Fraud,Other,+++ US PAYPAL+RDP+AGED BANK ACCOUNT VERY HIGH QUALITY ATOED+ MOZILLA PORTABLE+FULLZ+ID SCAN FULLY VE,Post date,drhack3r,New Post,2,2,1902,597,0,Unlimited,2,500.00,0.047531,btc ltc xmr  
+59,Aug 05 2019,14156,Fraud,Other,5 VIDEOS TO BECOME PRO CARDER $5k/Day + OPSEC,Post date,sixandeight,New Post,2,2,2182,305,0,Unlimited,1,20.11,0.001912,btc  
+60,Aug 05 2019,24110,Fraud,Other,MONEY MACHINE GUIDE THE ORIGINAL MONEY MAKING METHOD,Post date,PATBUTCHER,New Post,2,2,196,61,0,Unlimited,1,17.56,0.001669,btc  
+61,Aug 05 2019,16590,Fraud,Other,MTGOX 60K+ USER DATABASE (USER:EMAIL:PASS),Post date,Stackz420,New Post,2,2,1361,348,0,Unlimited,2,6.05,0.000576,btc  
+62,Aug 05 2019,17164,Fraud,Other,&#x2605 THE ULTIMATE FRAUD PACKAGE &#x2605,Post date,Topkittzz,New Post,2,2,1719,218,0,Unlimited,1,10.00,0.000951,btc ltc xmr  
+63,Aug 05 2019,30722,Fraud,Other,2018 Desktop Credit Card Validator-No BURN,Post date,wealthly,New Post,2,2,880,73,0,Unlimited,1,7.00,0.000665,btc ltc xmr  
+64,Aug 05 2019,33809,Fraud,Other,ICLOUD SCAM PAGE (BUY 1 GET 1 HALF PRICE),Post date,makekota,New Post,2,2,111,63,0,Unlimited,2,350.00,0.033272,btc ltc xmr  
+65,Aug 05 2019,34768,Fraud,Other,buy original ielts certificates,Post date,chestore,New Post,2,2,0,142,0,Unlimited,2,50.00,0.004753,btc ltc xmr  
+66,Aug 05 2019,36341,Fraud,Other,Landry&aposs (Rewards) *HQ*,Post date,xiao_baobei,New Post,2,2,792,72,0,Unlimited,2,7.00,0.000665,btc  
+67,Aug 05 2019,17496,Fraud,Other,Fresh clean Socks - Any country,Post date,TheDarkKnight,New Post,2,2,155,188,0,Unlimited,2,1.50,0.000143,btc  
+68,Aug 05 2019,38068,Fraud,Other,NEW QUEBEC DRIVER&aposS LICENSE TEMPLATE,Post date,FrankCostelloCA,New Post,2,2,57,103,0,Unlimited,2,49.97,0.004750,btc  
+69,Aug 05 2019,39328,Fraud,Other,10 UK bet365 verified accounts,Post date,CardPass,New Post,2,2,413,89,0,Unlimited,2,442.97,0.042109,btc ltc xmr  
+70,Aug 05 2019,39748,Fraud,Other,BET365 FULLY VERIFIED ACCOUNT,Post date,CardPass,New Post,2,2,413,80,0,Unlimited,2,55.51,0.005277,btc ltc xmr  
+71,Aug 05 2019,42835,Fraud,Other,HACKED HULU ACCOUNTS,Post date,mybonus,New Post,2,2,231,47,0,Unlimited,2,5.00,0.000475,btc ltc xmr  
+72,Aug 05 2019,42838,Fraud,Other,HACKED SPOTIFY ACCOUNTS,Post date,mybonus,New Post,2,2,231,47,0,Unlimited,2,5.00,0.000475,btc ltc xmr  
+73,Aug 05 2019,42929,Fraud,Other,NETFLIX ACCOUNTS,Post date,mybonus,New Post,2,2,231,58,0,Unlimited,2,6.05,0.000576,btc ltc xmr  
+74,Aug 05 2019,19074,Fraud,Other,ANTIDETECT 7.3 + FRAUDFOX VM +4000Configs,Post date,SwagQuality,New Post,2,2,579,104,0,Unlimited,1,9.99,0.000950,btc ltc xmr  
+75,Aug 05 2019,19417,Fraud,Other,ANTIDETECT7 CRACKED   INSTANT DELIVERY,Post date,SPTRLTD,New Post,2,2,6084,134,0,Unlimited,1,2.42,0.000230,btc ltc xmr  
+76,Aug 05 2019,24113,Fraud,Other,LEARN THE SIMPLE AMAZON REFUND METHOD 2019,Post date,PATBUTCHER,New Post,2,2,196,51,0,Unlimited,1,3.88,0.000368,btc  
+77,Aug 05 2019,14477,Fraud,Other,CONFIRMED WELLS FARGO TO BTC!! MAKE ENOUGH CASH  MAKE ENOUGH CASH.,Post date,sixandeight,New Post,2,2,2182,308,0,Unlimited,1,8.00,0.000760,btc  
+78,Aug 05 2019,15005,Fraud,Other,CONFIRMED LAYERED CASH: EARN MINIMUM $450-$1500/W,Post date,sixandeight,New Post,2,2,2182,320,0,Unlimited,1,2.22,0.000211,btc  
+79,Aug 05 2019,24120,Fraud,Other,ULTIMATE POKER CARDING GUIDE FEB 2019,Post date,PATBUTCHER,New Post,2,2,196,90,0,Unlimited,1,5.09,0.000484,btc  
+80,Aug 05 2019,15293,Fraud,Other,&#x2655 CC CASHOUT GUIDE v3.0 [+ BONUS!] &#x2655,Post date,TheShop,New Post,2,2,2739,357,0,Unlimited,1,4.99,0.000474,btc ltc xmr  
+81,Aug 05 2019,15309,Fraud,Other,&#x2655 [NEW] CC to BTC Cashout 2.0 &#x2655,Post date,TheShop,New Post,2,2,2739,360,0,Unlimited,1,4.99,0.000474,btc ltc xmr  
+82,Aug 05 2019,26576,Fraud,Other,30 NON VBV VISA DEBIT CLASSIC BINS 2019,Post date,SATAII,New Post,2,2,398,126,0,Unlimited,2,90.00,0.008556,btc  
+83,Aug 05 2019,15315,Fraud,Other,&#x2605 CARDING AMAZON TO BITCOIN &#x2605,Post date,TheShop,New Post,2,2,2739,352,0,Unlimited,1,2.99,0.000284,btc ltc xmr  
+84,Aug 05 2019,15350,Fraud,Other,&#x2655 ULTIMATE PAYPAL SUCCESS GUIDE &#x2655,Post date,TheShop,New Post,2,2,2739,380,0,Unlimited,1,1.99,0.000189,btc ltc xmr  
+85,Aug 05 2019,15367,Fraud,Other,&#x2605 PayPal NINJA&aposs SECRETS &#x2605,Post date,TheShop,New Post,2,2,2739,348,0,Unlimited,1,1.99,0.000189,btc ltc xmr  
+86,Aug 05 2019,15386,Fraud,Other,&#x2655 HACKED PAYPAL TO BITCOIN &#x2655 ,Post date,TheShop,New Post,2,2,2739,334,0,Unlimited,1,3.99,0.000379,btc ltc xmr  
+87,Aug 05 2019,28467,Fraud,Other,AUSTRALIAN BURNER SIM CARD + 60 CREDIT,Post date,Auscardking,New Post,2,2,239,58,0,Unlimited,2,33.97,0.003229,btc ltc xmr  
+88,Aug 05 2019,28469,Fraud,Other,AUSTRALIAN BURNER SIM CARD + 100 CREDIT,Post date,Auscardking,New Post,2,2,239,71,0,Unlimited,2,47.56,0.004521,btc ltc xmr  
+89,Aug 05 2019,29977,Fraud,Other,EXCLUSIVE AUS MERCHANT NUMBER !! LIMITED NUMBER AVAILABLE,Post date,Auscardking,New Post,2,2,239,207,0,5,2,135.89,0.012918,btc ltc xmr  
+90,Aug 05 2019,30156,Fraud,Other,buydig.com Account,Post date,cashboy,New Post,2,2,1268,31,0,Unlimited,2,5.50,0.000523,btc  
+91,Aug 05 2019,46111,Fraud,Other,7839+ Awesome Deep Web Onion Links List (Uncensored Content)   INSTANT DELIVERY,Post date,SPTRLTD,New Post,2,2,6084,78,0,Unlimited,1,1.21,0.000115,btc ltc xmr  
+92,Aug 05 2019,46305,Fraud,Other,Fully editabl DWR CYMRU WELSH BILL PSD Template HQ,Post date,Chernobyl,New Post,2,2,270,37,0,Unlimited,2,20.00,0.001901,btc ltc xmr  
+93,Aug 05 2019,21570,Fraud,Other,E COMMERCE - ONLINE SHOP.,Post date,Tartini,New Post,2,2,30,235,0,Unlimited,2,240.00,0.022815,btc ltc xmr  
+94,Aug 05 2019,46311,Fraud,Other,Fully editable BRITISH GAS BILL PSD Template HQ,Post date,Chernobyl,New Post,2,2,270,53,0,Unlimited,1,20.00,0.001901,btc ltc xmr  
+95,Aug 05 2019,46313,Fraud,Other,Fully editable CANADA ROGERS BILL PSD Template HQ,Post date,Chernobyl,New Post,2,2,270,46,0,Unlimited,1,20.00,0.001901,btc ltc xmr  
+96,Aug 05 2019,46316,Fraud,Other,Fully editable COMCAST BILL PSD Template HQ,Post date,Chernobyl,New Post,2,2,270,45,0,Unlimited,1,20.00,0.001901,btc ltc xmr  
+97,Aug 05 2019,46319,Fraud,Other,Fully editable COMMONWEALTH BANK  PSD TEMPLATE,Post date,Chernobyl,New Post,2,2,270,116,0,Unlimited,1,20.00,0.001901,btc ltc xmr  
+98,Aug 05 2019,46321,Fraud,Other,Fully editable EDF ENERGY UK BILL PSD Template HQ,Post date,Chernobyl,New Post,2,2,270,38,0,Unlimited,1,20.00,0.001901,btc ltc xmr  
+99,Aug 05 2019,22160,Fraud,Other,800+ Excellent Credit Score Super HQ Full W/ DL MMN SSN CR BG Credit Report Background Report Vehicl,Post date,Guru,New Post,2,2,15,88,0,Unlimited,2,65.99,0.006273,btc  
+100,Aug 05 2019,46331,Fraud,Other,Fully editable EIR IRELAND BILL PSD Template HQ,Post date,Chernobyl,New Post,2,2,270,37,0,Unlimited,2,20.00,0.001901,btc ltc xmr  
+101,Aug 05 2019,46332,Fraud,Other,Fully editable EON ROMANIA BILL PSD Template HQ,Post date,Chernobyl,New Post,2,2,270,36,0,Unlimited,2,20.00,0.001901,btc ltc xmr  
+102,Aug 05 2019,46336,Fraud,Other,Fully editable FIRST CENTURY BANK STATEMENT PSD Template HQ,Post date,Chernobyl,New Post,2,2,270,109,0,Unlimited,2,20.00,0.001901,btc ltc xmr  
+103,Aug 05 2019,46337,Fraud,Other,Fully editable FLORIDA POWER &amp LIGHT PSD Template HQ,Post date,Chernobyl,New Post,2,2,270,44,0,Unlimited,2,20.00,0.001901,btc ltc xmr  
+104,Aug 05 2019,46339,Fraud,Other,Fully editable FRANCE ELECTRIC PSD Template HQ,Post date,Chernobyl,New Post,2,2,270,32,0,Unlimited,2,20.00,0.001901,btc ltc xmr  
+105,Aug 05 2019,46340,Fraud,Other,Fully editable GERMANY UTILITY BILL PSD Template HQ,Post date,Chernobyl,New Post,2,2,270,42,0,Unlimited,2,20.00,0.001901,btc ltc xmr  
+106,Aug 05 2019,46341,Fraud,Other,Fully editable MARYLAND BGE BILL PSD Template HQ,Post date,Chernobyl,New Post,2,2,270,35,0,Unlimited,2,20.00,0.001901,btc ltc xmr  
+107,Aug 05 2019,46342,Fraud,Other,Fully editable NATIONAL GRID US BILL PSD Template HQ,Post date,Chernobyl,New Post,2,2,270,41,0,Unlimited,2,20.00,0.001901,btc ltc xmr  
+108,Aug 05 2019,46344,Fraud,Other,Fully editable NPOWER UK BILL PSD Template HQ,Post date,Chernobyl,New Post,2,2,270,32,0,Unlimited,2,20.00,0.001901,btc ltc xmr  
+109,Aug 05 2019,46345,Fraud,Other,SANTANDER BANK STATEMENT EDITABLE TEMPLATE PSD,Post date,Chernobyl,New Post,2,2,270,121,0,Unlimited,1,20.00,0.001901,btc ltc xmr  
+110,Aug 05 2019,46348,Fraud,Other,Fully editable SCOTTISHPOWER UTILITY BILL PSD Template HQ,Post date,Chernobyl,New Post,2,2,270,36,0,Unlimited,2,20.00,0.001901,btc ltc xmr  
+111,Aug 05 2019,46366,Fraud,Other,Fully editable SPINTEL AUSTRALIA BILL PSD Template HQ,Post date,Chernobyl,New Post,2,2,270,33,0,Unlimited,2,20.00,0.001901,btc ltc xmr  
+112,Aug 05 2019,46368,Fraud,Other,Fully editable TELSTRA AUSTRALIA BILL PSD Template HQ,Post date,Chernobyl,New Post,2,2,270,37,0,Unlimited,2,20.00,0.001901,btc ltc xmr  
+113,Aug 05 2019,46369,Fraud,Other,Fully editable UK E-ON ELECTRIC BILL PSD Template HQ,Post date,Chernobyl,New Post,2,2,270,35,0,Unlimited,1,20.00,0.001901,btc ltc xmr  
+114,Aug 05 2019,46370,Fraud,Other,Fully editable UK E-ON GAS BILL PSD Template HQ,Post date,Chernobyl,New Post,2,2,270,37,0,Unlimited,1,20.00,0.001901,btc ltc xmr  
+115,Aug 05 2019,46371,Fraud,Other,Fully editable UNITED UTILITIES UK BILL PSD Template HQ,Post date,Chernobyl,New Post,2,2,270,40,0,Unlimited,1,20.00,0.001901,btc ltc xmr  
+116,Aug 05 2019,46373,Fraud,Other,Fully editable VIRGIN MEDIA UK BILL PSD Template HQ,Post date,Chernobyl,New Post,2,2,270,34,0,Unlimited,2,20.00,0.001901,btc ltc xmr  
+117,Aug 05 2019,46422,Fraud,Other,JACAMO &#x2605 &#xA31000 - &#xA33000 Balances,Post date,Stackz420,New Post,2,2,1361,102,0,Unlimited,2,6.05,0.000576,btc  
+118,Aug 05 2019,46427,Fraud,Other,TUTORIAL HOW TO ORDER UNLIMITED CREDIT CARD WITH 30$ USD BTC,Post date,makekota,New Post,2,2,111,188,0,Unlimited,2,3027.00,0.287754,btc ltc xmr  
+119,Aug 05 2019,46702,Fraud,Other,Fully editable AUSTRIAN ID CARD PSD Template HQ,Post date,Chernobyl,New Post,2,2,270,39,0,Unlimited,1,25.00,0.002377,btc ltc xmr  
+120,Aug 05 2019,46703,Fraud,Other,Fully editable FRANCE ID CARD PSD Template HQ,Post date,Chernobyl,New Post,2,2,270,40,0,Unlimited,1,25.00,0.002377,btc ltc xmr  
+121,Aug 05 2019,46704,Fraud,Other,Fully editable IRELAND ID CARD PSD Template HQ,Post date,Chernobyl,New Post,2,2,270,40,0,Unlimited,2,25.00,0.002374,btc ltc xmr  
+122,Aug 05 2019,46705,Fraud,Other,Fully editable NETHERLAND ID CARD PSD Template HQ,Post date,Chernobyl,New Post,2,2,270,38,0,Unlimited,1,25.00,0.002374,btc ltc xmr  
+123,Aug 05 2019,46706,Fraud,Other,Fully editable ROMANIA ID CARD PSD Template HQ,Post date,Chernobyl,New Post,2,2,270,48,0,Unlimited,2,25.00,0.002374,btc ltc xmr  
+124,Aug 05 2019,47531,Fraud,Other,Fully editable BARCLAYS UK BANK STATEMENT PSD Template,Post date,Chernobyl,New Post,2,2,270,128,0,Unlimited,1,30.00,0.002849,btc ltc xmr  
+125,Aug 05 2019,47537,Fraud,Other,fully editable chase bank statement psd template,Post date,Chernobyl,New Post,2,2,270,113,0,Unlimited,1,30.00,0.002849,btc ltc xmr  
+126,Aug 05 2019,47538,Fraud,Other,Fully editable HALIFAX UK BANK STATEMENT PSD Template,Post date,Chernobyl,New Post,2,2,270,109,0,Unlimited,1,30.00,0.002849,btc ltc xmr  
+127,Aug 05 2019,47541,Fraud,Other,Fully editable HSBC UK BANK STATEMENT PSD Template,Post date,Chernobyl,New Post,2,2,270,118,0,Unlimited,1,30.00,0.002849,btc ltc xmr  
+128,Aug 05 2019,47542,Fraud,Other,Fully editable LLOYDS BANK STATEMENT PSD Template HQ,Post date,Chernobyl,New Post,2,2,270,115,0,Unlimited,1,30.00,0.002849,btc ltc xmr  
+129,Aug 05 2019,47545,Fraud,Other,Fully editable TD USA  BANK STATEMENT PSD Template,Post date,Chernobyl,New Post,2,2,270,116,0,Unlimited,1,30.00,0.002849,btc ltc xmr  
+130,Aug 05 2019,48325,Fraud,Other,CALIFORNIA DRIVER LICENSE PSD TEMPALTE 2019 PSD TEMPLATE,Post date,Chernobyl,New Post,2,2,270,81,0,Unlimited,2,76.00,0.007217,btc ltc xmr  
+131,Aug 05 2019,48584,Fraud,Other,AMTRAK Account (Point) *HQ*,Post date,xiao_baobei,New Post,2,2,792,84,0,Unlimited,2,5.00,0.000475,btc  
+132,Aug 05 2019,22366,Fraud,Other,Google Voice Phone Number with email access and pro version (real #),Post date,jericho1,New Post,2,2,117,92,0,Unlimited,2,20.00,0.001899,btc ltc  
+133,Aug 05 2019,50800,Fraud,Other,How to Card Stripe (2018),Post date,onionshop,New Post,2,2,99,45,0,Unlimited,1,1.00,0.000095,btc ltc xmr  
+134,Aug 05 2019,53527,Fraud,Other,SEPHORA Account (Point) *HQ*,Post date,xiao_baobei,New Post,2,2,792,149,0,Unlimited,2,1.00,0.000095,btc  
+135,Aug 05 2019,25265,Fraud,Other,AGED CPN/SCN NUMBER 600+ Credit Score,Post date,Chernobyl,New Post,2,2,270,124,0,Unlimited,1,260.00,0.024689,btc ltc xmr  
+136,Aug 05 2019,26598,Fraud,Other,&quotREAL&quot FAKE ID&aposs DL CC PHOTOS FOR VERIFICATION,Post date,SATAII,New Post,2,2,398,125,0,Unlimited,2,50.00,0.004748,btc  
+137,Aug 05 2019,27622,Fraud,Other,RDP Remote Desktop access (USA and EU),Post date,SATAII,New Post,2,2,398,100,0,Unlimited,2,50.00,0.004748,btc  
+138,Aug 05 2019,56413,Fraud,Other,YOUR OWN MARKETPLACE SCRIPT,Post date,drhack3r,New Post,2,2,1902,92,0,Unlimited,2,1499.00,0.142339,btc ltc xmr  
+139,Aug 05 2019,63308,Fraud,Other,Basic Phishing Tutorial [FRESH 2019],Post date,krumix,New Post,2,2,6,78,0,Unlimited,2,2.00,0.000190,btc ltc xmr  
+140,Aug 05 2019,63317,Fraud,Other,[NEW METHOD] GOOGLE PLAY TRANSFER (WITHDRAW MONEY DIRECTLY IN YOUR DEBIT CARD),Post date,krumix,New Post,2,2,6,99,0,Unlimited,2,150.00,0.014243,btc ltc xmr  
+141,Aug 05 2019,63825,Fraud,Other,RELOAD API PLATFORM ACCOUNT,Post date,makekota,New Post,2,2,111,57,0,Unlimited,2,300.00,0.028487,btc ltc xmr  
+142,Aug 05 2019,64754,Fraud,Other,ONE WEEK FREE TRIAL! ENTER IN MY PREMIUM GROUP WORTH 30$ FOR FREE!!,Post date,crispydecathlon,New Post,2,2,61,123,0,Unlimited,2,0.01,0.000001,btc ltc xmr  
+143,Aug 05 2019,30787,Fraud,Other,&#x2605Cash Out ANY Bank Account &amp Make A Killing,Post date,wealthly,New Post,2,2,880,132,0,Unlimited,1,8.00,0.000760,btc ltc xmr  
+144,Aug 05 2019,31032,Fraud,Other,2019 ANTIDETECT 7.3 + FRAUDFOX VM +4000Configs,Post date,breadsdrugged,New Post,2,2,295,54,0,Unlimited,1,6.30,0.000598,btc xmr  
+145,Aug 05 2019,64960,Fraud,Other,Petro-Canada ($$$) *HQ*,Post date,xiao_baobei,New Post,2,2,792,137,0,Unlimited,2,10.00,0.000950,btc  
+146,Aug 05 2019,64964,Fraud,Other,Sky Zone Trampoline Park (eGift+PIN) *HQ*,Post date,xiao_baobei,New Post,2,2,792,101,0,Unlimited,2,5.00,0.000475,btc  
+147,Aug 05 2019,65139,Fraud,Other,CREDIT CARD RELOAD YOU GET 60% FOR YOU,Post date,makekota,New Post,2,2,111,137,0,Unlimited,2,189.15,0.017961,btc ltc xmr  
+148,Aug 05 2019,31355,Fraud,Other,5 CARDING VIDEOS TO BECOME CARDER + OPSEC + 5 LIVE,Post date,sixandeight,New Post,2,2,2182,49,0,Unlimited,1,9.00,0.000855,btc  
+149,Aug 05 2019,66878,Fraud,Other,Custom Order for eric4329 part 1,Post date,drhack3r,New Post,2,2,1902,197,0,1,2,50000.00,4.747797,btc  
+150,Aug 05 2019,66943,Fraud,Other,How I made $200 a day at the age of 14! [No Investment Needed],Post date,clawslofty,New Post,2,2,1,45,0,Unlimited,1,47.00,0.004463,btc ltc xmr  
+151,Aug 05 2019,48787,Fraud,Other,BUSINESS FOR SALE!!!,Post date,TheLittleGuys,New Post,2,2,90,213,0,1,2,1000.00,0.094956,btc ltc xmr  
+152,Aug 05 2019,73624,Fraud,Other,x1 Nectar Account &#xA310+ Balance - CERTIFIED &#x2714,Post date,drhack3r,New Post,2,2,1902,60,0,Unlimited,2,9.99,0.000949,btc ltc xmr  
+153,Aug 05 2019,73675,Fraud,Other,BET365 + NETELLER VERIFIED ACCOUNTS + ID,Post date,CardPass,New Post,2,2,413,63,0,Unlimited,2,166.46,0.015806,btc ltc xmr  
+154,Aug 05 2019,74683,Fraud,Other,= VHQ UK Bank + Litebit BTC Bitcoin Exchanger=,Post date,drhack3r,New Post,2,2,1902,242,0,Unlimited,2,49.99,0.004747,btc ltc xmr  
+155,Aug 05 2019,74689,Fraud,Other,SELFIE UK PASSPORT SCAN AND UTILITY BILL,Post date,drhack3r,New Post,2,2,1902,60,0,Unlimited,2,99.00,0.009401,btc ltc xmr  
+156,Aug 05 2019,74880,Fraud,Other,Custom Hotel Booking,Post date,livinglush,New Post,2,2,4,70,0,1,2,350.00,0.033235,btc ltc xmr  
+157,Aug 05 2019,44035,Fraud,Other,HOW TO MAKE MONEY USING DEEPWEB 2019 [instant delivery],Post date,drhack3r,New Post,2,2,1902,77,0,Unlimited,1,19.99,0.001898,btc ltc xmr  
+158,Aug 05 2019,49686,Fraud,Other,Modern 2019 Ultimate Dump Cashout Guide,Post date,albertnikon11,New Post,2,2,149,86,0,Unlimited,1,55.00,0.005223,btc ltc xmr  
+159,Aug 05 2019,77525,Fraud,Other,21 Lessons Learned From Sending Over 110000 Emails,Post date,jimmy2018,New Post,2,2,25,43,0,Unlimited,1,1.10,0.000104,btc ltc xmr  
+160,Aug 05 2019,47390,Fraud,Other,Australia Editable Centrelink Income Template,Post date,auspride,New Post,2,2,492,79,0,90,2,13.59,0.001290,btc xmr  
+161,Aug 05 2019,77598,Fraud,Other,Become a STEALTH NINJA dont get caught carding,Post date,CashMillionaire,New Post,2,2,40,42,0,Unlimited,1,0.99,0.000094,btc ltc xmr  
+162,Aug 05 2019,77622,Fraud,Other,$4921+ Cashout for PRO CARDERS CARDING No NOOBS,Post date,CashMillionaire,New Post,2,2,40,43,0,Unlimited,1,0.99,0.000094,btc ltc xmr  
+163,Aug 05 2019,49687,Fraud,Other,Perscription Fraud Guide [MAKE $20K EVERY MONTH],Post date,albertnikon11,New Post,2,2,149,167,0,Unlimited,1,75.00,0.007122,btc ltc xmr  
+164,Aug 05 2019,79649,Fraud,Other,Custom Flight Booking,Post date,livinglush,New Post,2,2,4,75,0,Unlimited,2,382.00,0.036273,btc ltc xmr  
+165,Aug 05 2019,80262,Fraud,Other,SQLi Dumper 9.8.2 + 9.2.1 (Most Recent SQLi Dumper Suite),Post date,MediumDragon,New Post,2,2,7,31,0,Unlimited,1,6.99,0.000664,btc ltc xmr  
+166,Aug 05 2019,82933,Fraud,Other,$500 Southwest Gift Card,Post date,OnlyAlphaKing,New Post,2,2,250,32,0,Unlimited,2,260.00,0.024689,btc ltc xmr  
+167,Aug 05 2019,82934,Fraud,Other,$250 Southwest Gift Card,Post date,OnlyAlphaKing,New Post,2,2,250,21,0,Unlimited,2,135.00,0.012819,btc ltc xmr  
+168,Aug 05 2019,49702,Fraud,Other,Healthcare Fraud Package - Doctor Fullz,Post date,albertnikon11,New Post,2,2,149,131,0,4,1,500.00,0.047478,btc ltc xmr  
+169,Aug 05 2019,54411,Fraud,Other,FOR SURE  BANK LOGINS AND ACCOUNTS! ALL MAJOR BANKS AVAILABLE!,Post date,sixandeight,New Post,2,2,2182,142,0,Unlimited,2,9.55,0.000907,btc  
+170,Aug 05 2019,82935,Fraud,Other,$300 Southwest Gift Card,Post date,OnlyAlphaKing,New Post,2,2,250,20,0,Unlimited,2,160.00,0.015193,btc ltc xmr  
+171,Aug 05 2019,82936,Fraud,Other,$400 Southwest Gift Card,Post date,OnlyAlphaKing,New Post,2,2,250,25,0,Unlimited,2,209.00,0.019846,btc ltc xmr  
+172,Aug 05 2019,82938,Fraud,Other,$200 Punch Bowl Social Gift Card,Post date,OnlyAlphaKing,New Post,2,2,250,25,0,Unlimited,2,90.00,0.008546,btc ltc xmr  
+173,Aug 05 2019,82939,Fraud,Other,$100 elitefts.com eGift,Post date,OnlyAlphaKing,New Post,2,2,250,25,0,Unlimited,2,43.00,0.004083,btc ltc xmr  
+174,Aug 05 2019,82940,Fraud,Other,$200 milkandhoneyspa  egift,Post date,OnlyAlphaKing,New Post,2,2,250,28,0,Unlimited,2,85.00,0.008071,btc ltc xmr  
+175,Aug 05 2019,85484,Fraud,Other,ZT Custom Flight Booking,Post date,livinglush,New Post,2,2,4,26,0,Unlimited,2,1245.00,0.118220,btc ltc xmr  
+176,Aug 05 2019,63087,Fraud,Other,CURRENT US FULLZ WITH BG CR REPORT HEIGHT PROPERTY RELATIVES CAR MORTGAGES  700-850 SCORE,Post date,sixandeight,New Post,2,2,2182,63,0,Unlimited,2,43.00,0.004083,btc  
+177,Aug 05 2019,85668,Fraud,Other,8 WAYS TO SETUP A DROP POINT TO RECEIVE YOUR DIRTY PACKAGES &#xA7 2019 &#xA7,Post date,ICON,New Post,2,2,1,30,0,Unlimited,1,29.99,0.002848,btc ltc xmr  
+178,Aug 05 2019,85692,Fraud,Other,Recommend purchasing waiting for you here a surprise !!,Post date,ICON,New Post,2,2,1,7,0,Unlimited,1,4.99,0.000474,btc ltc xmr  
+179,Aug 05 2019,86206,Fraud,Other,Ride with UBER for free with this METHOD [WORKING],Post date,clawslofty,New Post,2,2,1,10,0,Unlimited,1,0.99,0.000094,btc ltc xmr  
+180,Aug 05 2019,87227,Fraud,Other,CC TO BITCOINS MULTIPLE METHODS + LINKS FOR BITCOINS SITES 2019 METHODS,Post date,kingkamari,New Post,2,2,2,3,0,Unlimited,1,3.00,0.000285,btc ltc xmr  
+181,Aug 05 2019,66944,Fraud,Other,Free runEscape membership lifetime,Post date,clawslofty,New Post,2,2,1,47,0,Unlimited,1,0.99,0.000094,btc ltc xmr  
+182,Aug 05 2019,66945,Fraud,Other,Legit way to make 100$ per day for life/NO MLM/NO HYIP/PROOF EVERY 2 DAYS,Post date,clawslofty,New Post,2,2,1,51,0,Unlimited,1,2.99,0.000284,btc ltc xmr  
+183,Aug 05 2019,34769,Fraud,Other,Buy Real Registered IELTSTOEFLCertificatesPassportsDrivers LicenseID CardsVisas etc,Post date,chestore,New Post,2,2,0,279,0,Unlimited,2,50.00,0.004748,btc ltc xmr  
+184,Aug 05 2019,37557,Fraud,Other,*Promo*REAL Registrierter Deutscher F&#xFChrerschein + MPU,Post date,mephistosstuff,New Post,2,2,1,81,0,Unlimited,2,2330.43,0.221289,btc  
+185,Aug 05 2019,67213,Fraud,Other,HQ - Verifone VX670 Master Skimmer Pos Station + Video Tutorial,Post date,Fraudfox,New Post,2,2,11,229,0,Unlimited,2,554.87,0.052688,btc ltc xmr  
+186,Aug 05 2019,67377,Fraud,Other,BANK OF AMERICA SCAM PAGES 2019 + Tutorial Spamming Phishing,Post date,drhack3r,New Post,2,2,1902,203,0,Unlimited,2,22.00,0.002089,btc ltc xmr  
+187,Aug 05 2019,67918,Fraud,Other,Amazon.de HTML receipt,Post date,laylow,New Post,2,2,57,49,0,Unlimited,1,1.99,0.000189,btc ltc xmr  
+188,Aug 05 2019,68809,Fraud,Other,Bank Cards+ ATM PINs,Post date,ACCTMSTR,New Post,2,2,19,170,0,Unlimited,2,400.00,0.037982,btc  
+189,Aug 05 2019,37618,Fraud,Other,VIDEO HOW CONNECT TO REMOTE DESKTOP (RDP) FOR 100%,Post date,wealthly,New Post,2,2,880,45,0,Unlimited,1,5.00,0.000475,btc ltc xmr  
+190,Aug 05 2019,38545,Fraud,Other,Non hacked RDP servers - US - Phoenix - AZ,Post date,somecvvvendor,New Post,2,2,18,45,0,Unlimited,2,30.00,0.002849,btc ltc xmr  
+191,Aug 05 2019,70344,Fraud,Other,Mailer,Post date,sixandeight,New Post,2,2,2182,89,0,Unlimited,2,8.00,0.000760,btc ltc xmr  
+192,Aug 05 2019,71753,Fraud,Other,MASSIVE UK US WORLDWIDE CARDABLE SITES (BONUS),Post date,CashMillionaire,New Post,2,2,40,44,0,Unlimited,1,0.99,0.000094,btc ltc xmr  
+193,Aug 05 2019,72320,Fraud,Other,Three (3) &#x2605 UK Sim Swap Method &#x2605 Stackz420,Post date,Stackz420,New Post,2,2,1361,150,0,Unlimited,2,242.20,0.022998,btc  
+194,Aug 05 2019,72590,Fraud,Other,BARCLAYS UK SCAM PAGE (BUY 1 GET 1 HALF PRICE),Post date,makekota,New Post,2,2,111,52,0,Unlimited,2,350.00,0.033235,btc ltc xmr  
+195,Aug 05 2019,73178,Fraud,Other,TSB BANK UK SCAM PAGE (BUY 1 GET 1 HALF PRICE),Post date,makekota,New Post,2,2,111,124,0,Unlimited,2,350.00,0.033235,btc ltc xmr  
+196,Aug 05 2019,87240,Fraud,Other,GROWING MARIJUANA ELITE E-BOOK BEST GROWERS GUIDE 2019,Post date,kingkamari,New Post,2,2,2,3,0,Unlimited,1,1.00,0.000095,btc ltc xmr  
+197,Aug 05 2019,87244,Fraud,Other,WIFI HACKER#1 HACK ANY WIFI WITH THIS SOFTWARE THANK ME LATER DARKNET CHEAPEST,Post date,kingkamari,New Post,2,2,2,4,0,Unlimited,1,1.00,0.000095,btc ltc xmr  
+198,Aug 05 2019,63513,Fraud,Other,Get Free iPhone XS Max Method * 2019 NEW,Post date,clawslofty,New Post,2,2,1,57,0,Unlimited,1,1.80,0.000171,btc ltc xmr  
+199,Aug 05 2019,65740,Fraud,Other,&#x2605All star passport scans US&ampUK&#x2605,Post date,JACKJACK1,New Post,2,2,1593,49,0,Unlimited,2,20.00,0.001899,btc xmr  
+200,Aug 05 2019,69620,Fraud,Other,Receipt Creator. Can make any receipt you need for any purchases. (Printed Out Pic),Post date,jericho1,New Post,2,2,117,79,0,Unlimited,2,20.00,0.001899,btc ltc xmr  
+201,Aug 05 2019,4447,Fraud,Personal Information & Scans,FULL INFO USA (dobssn) Background info,Post date,cashboy,New Post,2,2,1268,598,0,Unlimited,2,9.99,0.000949,btc  
+202,Aug 05 2019,4463,Fraud,Personal Information & Scans, Us company ssn+taxid ,Post date,cashboy,New Post,2,2,1268,647,0,Unlimited,2,19.99,0.001898,btc  
+203,Aug 05 2019,4497,Fraud,Personal Information & Scans, Business Checks scan boa wells &amp chase (USA,Post date,cashboy,New Post,2,2,1268,1193,0,Unlimited,2,180.00,0.017092,btc  
+204,Aug 05 2019,4500,Fraud,Personal Information & Scans,HQ Business Check Scan offbrands with date (USA),Post date,cashboy,New Post,2,2,1268,640,0,Unlimited,2,200.00,0.018991,btc  
+205,Aug 05 2019,4585,Fraud,Personal Information & Scans,Oklahoma DL + SSN scans ,Post date,somecvvvendor,New Post,2,2,18,189,0,Unlimited,2,30.00,0.002849,btc xmr  
+206,Aug 05 2019,70988,Fraud,Other,PRIVATE SUPPORT CHANNEL -- For all your questions when you need help or mentoring!,Post date,rango23,New Post,2,2,24,53,0,Unlimited,1,100.00,0.009496,btc xmr  
+207,Aug 05 2019,74289,Fraud,Other,LIVINGLARGE - Request Custom Flight Booking,Post date,livinglush,New Post,2,2,4,151,0,Unlimited,2,15.00,0.001424,btc ltc xmr  
+208,Aug 05 2019,71760,Fraud,Other,30 BANK SCAM PAGES UPDATED LATEST [INSTANT DELIVERY],Post date,drhack3r,New Post,2,2,1902,175,0,Unlimited,1,19.99,0.001898,btc ltc xmr  
+209,Aug 05 2019,73629,Fraud,Other,National Australia Bank Login with Minimum Balance $1.2k (NAB logins + PIN),Post date,drhack3r,New Post,2,2,1902,293,0,Unlimited,2,250.00,0.023739,btc ltc xmr  
+210,Aug 05 2019,75853,Fraud,Other,Unlimited Mobile Check Fraud! MAKE OVER $42k VALUE UNSATURATED METHOD - MAKE $18000+ PER WEEK,Post date,immortal,New Post,2,2,576,169,0,Unlimited,2,69.99,0.006646,btc ltc xmr  
+211,Aug 05 2019,77524,Fraud,Other,101 Digital Affiliate Hacks eBook PDF,Post date,jimmy2018,New Post,2,2,25,42,0,Unlimited,1,13.32,0.001265,btc ltc xmr  
+212,Aug 05 2019,79511,Fraud,Other,Custom Drug Test Report - Show as Negative for all drugs,Post date,AXM1111,New Post,2,2,33,45,0,Unlimited,2,50.00,0.004748,btc ltc xmr  
+213,Aug 05 2019,5558,Fraud,Personal Information & Scans,HQ US Fullz - Credit Report with 600+ SSN DOB,Post date,cashboy,New Post,2,2,1268,671,0,Unlimited,2,15.00,0.001424,btc  
+214,Aug 05 2019,78839,Fraud,Other,QUICK RELIABLE &amp DISCREET CRYPTO CASH OUT SERVICES!!!! Cash for BTC C4C Cashouts,Post date,plugdoc,New Post,2,2,245,67,0,Unlimited,2,109.00,0.010350,btc  
+215,Aug 05 2019,80777,Fraud,Other,ONLINE POKER CC CASHOUT WON&#x2019T GET BURNED - 2019 WORKS ~ AUTO DELIVERY,Post date,RoadTraveler,New Post,2,2,53,37,0,Unlimited,1,499.95,0.047473,btc ltc xmr  
+216,Aug 05 2019,9126,Fraud,Personal Information & Scans,HQ US Fullz - Credit Report with 800+ SSN DOB BUY BULK  GET DISCOUNT ,Post date,cashboy,New Post,2,2,1268,925,0,Unlimited,2,5.00,0.000475,btc  
+217,Aug 05 2019,81409,Fraud,Other,Store credit profiles (Bestbuy / Macy / Zales / Nordstrom / TheHomeDepot / Kay / VictoriaSecret ++),Post date,Skyscraper,New Post,2,2,130,173,0,Unlimited,2,100.00,0.009496,btc xmr  
+218,Aug 05 2019,81521,Fraud,Other,**PROFESSIONAL MONEY LAUNDERY SERVICE- USED BY THE BEST**,Post date,TheQueensHive,New Post,2,2,11,54,0,Unlimited,2,0.50,0.000047,btc xmr  
+219,Aug 05 2019,83299,Fraud,Other,OH SNAP MEGA PACK ~ AUTO DELIVERY ~ 19000 Files ~ COMING SOON ~,Post date,RoadTraveler,New Post,2,2,53,26,0,Unlimited,2,99.95,0.009491,btc ltc xmr  
+220,Aug 05 2019,10499,Fraud,Personal Information & Scans,HQ Custom FRANCE Passport Scan TOP QUALITY,Post date,drhack3r,New Post,2,2,1902,446,0,Unlimited,2,22.00,0.002089,btc ltc xmr  
+221,Aug 05 2019,10501,Fraud,Personal Information & Scans,CUSTOM EU OR USA UTILITY BILL,Post date,drhack3r,New Post,2,2,1902,463,0,Unlimited,2,30.00,0.002849,btc ltc xmr  
+222,Aug 05 2019,10503,Fraud,Personal Information & Scans,HIGH QUALITY SWEDEN ID OR PASSPORT CUSTOM SCAN 100%,Post date,drhack3r,New Post,2,2,1902,426,0,Unlimited,2,22.00,0.002089,btc ltc xmr  
+223,Aug 05 2019,10507,Fraud,Personal Information & Scans,SSN Search Service,Post date,drhack3r,New Post,2,2,1902,584,0,Unlimited,2,5.99,0.000569,btc ltc xmr  
+224,Aug 05 2019,10686,Fraud,Personal Information & Scans,HQ CUSTOM UK PASSPORT SCAN V2 HIGH QUALITY PERFECT JOB,Post date,drhack3r,New Post,2,2,1902,513,0,Unlimited,2,25.00,0.002374,btc ltc xmr  
+225,Aug 05 2019,10687,Fraud,Personal Information & Scans,HQ CUSTOM ITALY ITALIAN ID SCAN 100% PERFECT JOB HIGH QUALITY,Post date,drhack3r,New Post,2,2,1902,480,0,Unlimited,2,19.99,0.001898,btc ltc xmr  
+226,Aug 05 2019,30777,Fraud,Personal Information & Scans,*PREMIUM USA CREDIT REPORT LOOKING UP*,Post date,Zeuss,New Post,2,2,100,71,0,Unlimited,2,35.00,0.003327,btc xmr  
+227,Aug 05 2019,30880,Fraud,Personal Information & Scans,UNITED KINGDOM POSTCODE TARGETTED LEADS,Post date,Stackz420,New Post,2,2,1361,127,0,Unlimited,2,60.55,0.005756,btc ltc xmr  
+228,Aug 05 2019,34457,Fraud,Personal Information & Scans,SSN CARD TEMPLATE USA,Post date,wealthly,New Post,2,2,880,36,0,Unlimited,2,9.00,0.000856,btc ltc xmr  
+229,Aug 05 2019,35328,Fraud,Personal Information & Scans,*ULTIMATE USA DRIVER LICENSE TEMPLATES*,Post date,Zeuss,New Post,2,2,100,83,0,Unlimited,2,55.00,0.005229,btc xmr  
+230,Aug 05 2019,35577,Fraud,Personal Information & Scans,Amex Green Credit/Debit Card front &amp Back PSD Template,Post date,EmpireShop,New Post,2,2,495,37,0,Unlimited,1,8.00,0.000761,btc ltc xmr  
+231,Aug 05 2019,35582,Fraud,Personal Information & Scans,Netherland ID PSD and High Quality Scan,Post date,EmpireShop,New Post,2,2,495,40,0,Unlimited,1,18.00,0.001711,btc ltc xmr  
+232,Aug 05 2019,20953,Fraud,Personal Information & Scans,New South Wales Photo ID Card HQ Scan,Post date,auspride,New Post,2,2,492,172,0,113,2,13.59,0.001292,btc xmr  
+233,Aug 05 2019,35584,Fraud,Personal Information & Scans,New Zeland ID (PSD Template) DL with 13 Layer full Editable,Post date,EmpireShop,New Post,2,2,495,162,0,Unlimited,1,18.00,0.001711,btc ltc xmr  
+234,Aug 05 2019,37141,Fraud,Personal Information & Scans,Custom Scan/Photo of Any Country Passport,Post date,EmpireShop,New Post,2,2,495,40,0,120,1,28.00,0.002662,btc ltc xmr  
+235,Aug 05 2019,37152,Fraud,Personal Information & Scans,CHINA PASSPORT SCAN+VISA+CARD of the SAME PERSON (MALE) EXP:MAY-2021,Post date,EmpireShop,New Post,2,2,495,55,0,5,1,28.00,0.002662,btc ltc xmr  
+236,Aug 05 2019,37204,Fraud,Personal Information & Scans,France National ID PSD (30 layers) and scan with utility bill scan,Post date,EmpireShop,New Post,2,2,495,66,0,Unlimited,1,22.00,0.002091,btc ltc xmr  
+237,Aug 05 2019,37312,Fraud,Personal Information & Scans,ANZ Frequent Flayer cc/debit card PSD (Front &ampBack),Post date,EmpireShop,New Post,2,2,495,33,0,Unlimited,1,22.00,0.002091,btc ltc xmr  
+238,Aug 05 2019,38402,Fraud,Personal Information & Scans,USA scan driver&aposs license + [fullz] + [credit score 700+],Post date,Hamo,New Post,2,2,1130,141,0,5,2,75.00,0.007130,btc  
+239,Aug 05 2019,38835,Fraud,Personal Information & Scans,FULLZ W DL NUMBER,Post date,MGPanabaker,New Post,2,2,5,57,0,Unlimited,2,9.99,0.000950,btc ltc  
+240,Aug 05 2019,38837,Fraud,Personal Information & Scans,US FULLZ W MMN INCLUDED,Post date,MGPanabaker,New Post,2,2,5,61,0,Unlimited,2,10.99,0.001045,btc ltc  
+241,Aug 05 2019,10689,Fraud,Personal Information & Scans,HQ CUSTOM SWISS PASSPORT SCAN PASS ALL VERIFICATION 100% PERFECT JOB,Post date,drhack3r,New Post,2,2,1902,460,0,Unlimited,2,25.00,0.002374,btc ltc xmr  
+242,Aug 05 2019,85707,Fraud,Other,Instagram Followers | 1000 For 7$ | 60 Days Warranty !!!,Post date,ICON,New Post,2,2,1,4,0,Unlimited,2,29.99,0.002848,btc ltc xmr  
+243,Aug 05 2019,12220,Fraud,Personal Information & Scans,QUEBEC DL OLD PSD FILES,Post date,makekota,New Post,2,2,111,450,0,Unlimited,2,100.00,0.009496,btc ltc xmr  
+244,Aug 05 2019,12222,Fraud,Personal Information & Scans,ONTARIO DL PSD FILES,Post date,makekota,New Post,2,2,111,530,0,Unlimited,2,200.00,0.018991,btc ltc xmr  
+245,Aug 05 2019,12223,Fraud,Personal Information & Scans,ALBERTA OLD DL TEMPLATE PSD FILES,Post date,makekota,New Post,2,2,111,484,0,Unlimited,2,150.00,0.014243,btc ltc xmr  
+246,Aug 05 2019,12224,Fraud,Personal Information & Scans,BC SERVICE CARD TEMPLATE PSD FILES,Post date,makekota,New Post,2,2,111,441,0,Unlimited,2,150.00,0.014243,btc ltc xmr  
+247,Aug 05 2019,12225,Fraud,Personal Information & Scans,SOCIAL CARD TEMPLATE PSD FILES,Post date,makekota,New Post,2,2,111,451,0,Unlimited,2,80.00,0.007596,btc ltc xmr  
+248,Aug 05 2019,85708,Fraud,Other,NETFLIX 4K UHD ACCOUNT [LIFETIME]&#x2605Auto Delivery&#x2605,Post date,ICON,New Post,2,2,1,3,0,Unlimited,2,19.99,0.001898,btc ltc xmr  
+249,Aug 05 2019,85713,Fraud,Other,200 Amazing Ebook,Post date,ICON,New Post,2,2,1,3,0,Unlimited,1,4.99,0.000474,btc ltc xmr  
+250,Aug 05 2019,87263,Fraud,Other,Extractor/Stealer/Crack Pack . This Mega Hack Pack Includes: Remote Administration Tools (RATs) DARK,Post date,kingkamari,New Post,2,2,2,6,0,Unlimited,1,2.00,0.000190,btc ltc xmr  
+251,Aug 05 2019,87323,Fraud,Other,HOW TO DO BANK TRANSFERS NOOB SCHOOL EDITION STEP BY STEP!! DARKNET CHEAPEST THANK ME LATER,Post date,kingkamari,New Post,2,2,2,5,0,Unlimited,1,1.00,0.000095,btc ltc xmr  
+252,Aug 05 2019,12226,Fraud,Personal Information & Scans,CITIZEN CARD TEMPLATES PSD FILES,Post date,makekota,New Post,2,2,111,504,0,Unlimited,2,150.00,0.014243,btc ltc xmr  
+253,Aug 05 2019,12295,Fraud,Personal Information & Scans,PRINTING SERVICES,Post date,makekota,New Post,2,2,111,729,0,Unlimited,2,50.00,0.004748,btc ltc xmr  
+254,Aug 05 2019,87355,Fraud,Other,Custom 2018 W-2 Tax Form,Post date,AXM1111,New Post,2,2,33,10,0,Unlimited,2,75.00,0.007122,btc ltc xmr  
+255,Aug 05 2019,12613,Fraud,Personal Information & Scans,Custom USA PASSPORT SCAN HIGH QUALITY ,Post date,drhack3r,New Post,2,2,1902,580,0,Unlimited,2,0.99,0.000094,btc ltc xmr  
+256,Aug 05 2019,18641,Fraud,Personal Information & Scans,CANADA FULL FROM BRITISH COLUMBIA (NAME/DOB/SIN/PHONE/ADDRESS),Post date,picsou,New Post,2,2,461,176,0,Unlimited,2,0.10,0.000010,btc ltc xmr  
+257,Aug 05 2019,19005,Fraud,Personal Information & Scans,Full Info USA (SSN+DOB+DL),Post date,SwagQuality,New Post,2,2,579,158,0,Unlimited,2,9.99,0.000950,btc ltc xmr  
+258,Aug 05 2019,25441,Fraud,Personal Information & Scans,Full info only valid info SSN DOB New Mexico state,Post date,SATAII,New Post,2,2,398,71,0,Unlimited,2,4.00,0.000380,btc  
+259,Aug 05 2019,25468,Fraud,Personal Information & Scans,TRANSUNION CREDIT REPORT,Post date,SATAII,New Post,2,2,398,104,0,Unlimited,2,50.00,0.004753,btc  
+260,Aug 05 2019,25470,Fraud,Personal Information & Scans,EQUIFAX CREDIT REPORT,Post date,SATAII,New Post,2,2,398,122,0,Unlimited,2,50.00,0.004753,btc  
+261,Aug 05 2019,25482,Fraud,Personal Information & Scans,Credit Report(CR)+Background (BG)+SSN+Driving License,Post date,SATAII,New Post,2,2,398,170,0,Unlimited,2,75.00,0.007130,btc  
+262,Aug 05 2019,25845,Fraud,Personal Information & Scans,Custom order FULL INFO US (DOB SSN DL) Ask  State only,Post date,cashboy,New Post,2,2,1268,90,0,Unlimited,2,7.99,0.000760,btc  
+263,Aug 05 2019,26657,Fraud,Personal Information & Scans,DRIVER LICENSE LOOK UP + VEHICLE SEARCH FL or TX,Post date,SATAII,New Post,2,2,398,95,0,Unlimited,2,30.00,0.002852,btc  
+264,Aug 05 2019,29570,Fraud,Personal Information & Scans,*PREMIUM AUSTRALIAN SELFIE WITH PASSPORT\DL*,Post date,Zeuss,New Post,2,2,100,133,0,Unlimited,2,50.00,0.004753,btc xmr  
+265,Aug 05 2019,29571,Fraud,Personal Information & Scans,*PREMIUM AUSTRALIAN SELFIE WITH PASSPORT\DL AND YOUR DETAILS*,Post date,Zeuss,New Post,2,2,100,87,0,Unlimited,2,150.00,0.014260,btc xmr  
+266,Aug 05 2019,20826,Fraud,Personal Information & Scans,Real Australian Birth Certificate Scan,Post date,auspride,New Post,2,2,492,146,0,100,2,20.38,0.001938,btc xmr  
+267,Aug 05 2019,29643,Fraud,Personal Information & Scans,*PREMIUM USA SELFIE WITH PASSPORT\DL AND YOUR DETAILS+SECOND DOCUMENT*,Post date,Zeuss,New Post,2,2,100,101,0,Unlimited,2,180.00,0.017112,btc xmr  
+268,Aug 05 2019,29655,Fraud,Personal Information & Scans,*PREMIUM USA DL BOTH SIDES WITH YOUR DETAILS*,Post date,Zeuss,New Post,2,2,100,122,0,Unlimited,2,90.00,0.008556,btc xmr  
+269,Aug 05 2019,30572,Fraud,Personal Information & Scans,100 Passports scans High Quality fresh &amp virgin,Post date,xfreud,New Post,2,2,8,65,0,400,2,444.20,0.042228,btc  
+270,Aug 05 2019,30573,Fraud,Personal Information & Scans,Hacked database db FRENCH 100K entries,Post date,xfreud,New Post,2,2,8,111,0,30,2,444.20,0.042228,btc  
+271,Aug 05 2019,40246,Fraud,Personal Information & Scans,Random Florida FULLZ - SSN+DOB+ADDRESS+DL+DL. Exp.,Post date,valid_cc_info,New Post,2,2,44,59,0,Unlimited,2,20.00,0.001901,btc  
+272,Aug 05 2019,29580,Fraud,Personal Information & Scans,*PREMIUM AUSTRALIAN SELFIE WITH PASSPORT\DL AND YOUR DETAILS+SECOND DOCUMENT*,Post date,Zeuss,New Post,2,2,100,97,0,Unlimited,2,180.00,0.017112,btc xmr  
+273,Aug 05 2019,29605,Fraud,Personal Information & Scans,*PREMIUM USA CREDIT REPORTS WITH 650-750 SCORE*,Post date,Zeuss,New Post,2,2,100,82,0,Unlimited,2,40.00,0.003803,btc xmr  
+274,Aug 05 2019,29606,Fraud,Personal Information & Scans,*PREMIUM USA CREDIT REPORTS WITH 750-850 SCORE*,Post date,Zeuss,New Post,2,2,100,99,0,Unlimited,2,60.00,0.005704,btc xmr  
+275,Aug 05 2019,29610,Fraud,Personal Information & Scans,*PREMIUM USA FULLZ SSN+DOB+DL+SALARY 5 PCS PACK*,Post date,Zeuss,New Post,2,2,100,118,0,Unlimited,2,25.00,0.002377,btc xmr  
+276,Aug 05 2019,40653,Fraud,Personal Information & Scans,Custom Australian passport scan,Post date,CardPass,New Post,2,2,413,36,0,Unlimited,2,50.00,0.004753,btc ltc xmr  
+277,Aug 05 2019,40658,Fraud,Personal Information & Scans,CUSTOM FRENCH UTILITY BILL ELECTRICITY,Post date,CardPass,New Post,2,2,413,36,0,Unlimited,2,8.88,0.000845,btc ltc xmr  
+278,Aug 05 2019,40661,Fraud,Personal Information & Scans,CUSTOM PASSPORT ID DRIVING LICENCE ANY DOCUMENT,Post date,CardPass,New Post,2,2,413,68,0,Unlimited,2,77.74,0.007390,btc ltc xmr  
+279,Aug 05 2019,40665,Fraud,Personal Information & Scans,CUSTOM SPANISH UTILITY BILL GAS NATURAL FENOSA,Post date,CardPass,New Post,2,2,413,33,0,Unlimited,2,8.88,0.000845,btc ltc xmr  
+280,Aug 05 2019,40667,Fraud,Personal Information & Scans,CUSTOM SWEDISH DRIVING LICENCE + UTILITY BILL,Post date,CardPass,New Post,2,2,413,64,0,Unlimited,2,38.87,0.003695,btc ltc xmr  
+281,Aug 05 2019,29613,Fraud,Personal Information & Scans,*PREMIUM USA FULLZ SSN+DOB+DL+SALARY 50 PCS PACK*,Post date,Zeuss,New Post,2,2,100,67,0,Unlimited,2,125.00,0.011883,btc xmr  
+282,Aug 05 2019,29614,Fraud,Personal Information & Scans,*PREMIUM USA FULLZ SSN+DOB+DL+SALARY 100 PCS PACK*,Post date,Zeuss,New Post,2,2,100,62,0,Unlimited,2,200.00,0.019013,btc xmr  
+283,Aug 05 2019,29615,Fraud,Personal Information & Scans,*PREMIUM USA FULLZ SSN+DOB+DL+SALARY 1000 PCS PACK*,Post date,Zeuss,New Post,2,2,100,65,0,Unlimited,2,500.00,0.047532,btc xmr  
+284,Aug 05 2019,40668,Fraud,Personal Information & Scans,CUSTOM SWEDISH DRIVING LICENCE SCAN BOTH SIDES,Post date,CardPass,New Post,2,2,413,49,0,Unlimited,2,22.21,0.002111,btc ltc xmr  
+285,Aug 05 2019,40669,Fraud,Personal Information & Scans,Custom UK passport scan with your details,Post date,CardPass,New Post,2,2,413,46,0,Unlimited,2,55.53,0.005278,btc ltc xmr  
+286,Aug 05 2019,12614,Fraud,Personal Information & Scans,USA Passport scan valid HQ FROM A REAL PERSON 2 FIRST PAGES,Post date,drhack3r,New Post,2,2,1902,392,0,Unlimited,2,15.00,0.001426,btc ltc xmr  
+287,Aug 05 2019,12805,Fraud,Personal Information & Scans,US Bank statement Bank of America + CS6,Post date,drhack3r,New Post,2,2,1902,481,0,Unlimited,2,34.99,0.003326,btc ltc xmr  
+288,Aug 05 2019,13460,Fraud,Personal Information & Scans,47 states USA templates driver&aposs license,Post date,wealthly,New Post,2,2,880,398,0,Unlimited,2,22.00,0.002091,btc ltc xmr  
+289,Aug 05 2019,13966,Fraud,Personal Information & Scans,HQ Custom FRANCE french Passport Scan TOP QUALITY,Post date,drhack3r,New Post,2,2,1902,372,0,Unlimited,2,25.00,0.002377,btc ltc xmr  
+290,Aug 05 2019,14101,Fraud,Personal Information & Scans,CUSTOM AUSTRALIAN UTILITY BILL HIGH QUALITY,Post date,drhack3r,New Post,2,2,1902,380,0,Unlimited,2,19.00,0.001806,btc ltc xmr  
+291,Aug 05 2019,14856,Fraud,Personal Information & Scans,Personal cheques of boa wells &amp chase bank (USA),Post date,cashboy,New Post,2,2,1268,840,0,Unlimited,2,100.00,0.009506,btc  
+292,Aug 05 2019,14992,Fraud,Personal Information & Scans,&#x2605&#x2605 PASSPORT SCAN USA &#x2605&#x2605,Post date,Supreamkiller,New Post,2,2,443,384,0,Unlimited,2,25.00,0.002377,btc ltc  
+293,Aug 05 2019,15294,Fraud,Personal Information & Scans,&#x2655 HQ Euro Scans/PSD Templates &#x2655 1Gb+!,Post date,TheShop,New Post,2,2,2739,384,0,Unlimited,1,9.99,0.000950,btc ltc xmr  
+294,Aug 05 2019,16198,Fraud,Personal Information & Scans,50K FRESH NETHERLANDS HIGH QUALITY LEADS [MAIL 100% VALID],Post date,drhack3r,New Post,2,2,1902,417,0,Unlimited,2,45.00,0.004278,btc ltc xmr  
+295,Aug 05 2019,18635,Fraud,Personal Information & Scans,NETFLIX PREMIUM ACCOUNT,Post date,picsou,New Post,2,2,461,187,0,Unlimited,2,8.99,0.000855,btc ltc xmr  
+296,Aug 05 2019,19094,Fraud,Personal Information & Scans,ITALIAN STARTER PACK - Customizable ID DL CF,Post date,SwagQuality,New Post,2,2,579,302,0,10,2,999.45,0.095012,btc ltc xmr  
+297,Aug 05 2019,19165,Fraud,Personal Information & Scans,UFO documents - FBI Top Secret Files,Post date,SwagQuality,New Post,2,2,579,163,0,Unlimited,2,4.44,0.000422,btc ltc xmr  
+298,Aug 05 2019,19168,Fraud,Personal Information & Scans,UK National Archives UFO Archives August 2009 ,Post date,SwagQuality,New Post,2,2,579,146,0,Unlimited,2,4.44,0.000422,btc ltc xmr  
+299,Aug 05 2019,12804,Fraud,Personal Information & Scans,UK bank statement HSBC BANK + CS6,Post date,drhack3r,New Post,2,2,1902,510,0,Unlimited,2,55.00,0.005229,btc ltc xmr  
+300,Aug 05 2019,19335,Fraud,Personal Information & Scans,BestBuy Receipt Editable PSD,Post date,Stackz420,New Post,2,2,1361,241,0,Unlimited,2,1.21,0.000115,btc  
+301,Aug 05 2019,22867,Fraud,Personal Information & Scans,Australia High Quality Editable Passport Template,Post date,auspride,New Post,2,2,492,113,0,100,2,20.38,0.001938,btc xmr  
+302,Aug 05 2019,39675,Fraud,Personal Information & Scans,20 UK PASSPORT SCANS HIGH QUALITY ALL VALID,Post date,CardPass,New Post,2,2,413,44,0,Unlimited,2,77.74,0.007390,btc ltc xmr  
+303,Aug 05 2019,39691,Fraud,Personal Information & Scans,30 selfies holding ID + ID photos,Post date,CardPass,New Post,2,2,413,63,0,Unlimited,2,899.00,0.085463,btc ltc xmr  
+304,Aug 05 2019,39700,Fraud,Personal Information & Scans,47 states USA templates driver&aposs license,Post date,CardPass,New Post,2,2,413,51,0,Unlimited,2,22.21,0.002111,btc ltc xmr  
+305,Aug 05 2019,39702,Fraud,Personal Information & Scans,50 selfies + ID both sides + utility bill,Post date,CardPass,New Post,2,2,413,65,0,Unlimited,2,1109.39,0.105464,btc ltc xmr  
+306,Aug 05 2019,39704,Fraud,Personal Information & Scans,50 UK passport scans,Post date,CardPass,New Post,2,2,413,45,0,Unlimited,2,55.53,0.005278,btc ltc xmr  
+307,Aug 05 2019,39714,Fraud,Personal Information & Scans,100 passport scans of real people from EU,Post date,CardPass,New Post,2,2,413,37,0,Unlimited,2,109.94,0.010451,btc ltc xmr  
+308,Aug 05 2019,39716,Fraud,Personal Information & Scans,100 Selfies holding ID + ID photo + utility bill from Croatia and Serbia,Post date,CardPass,New Post,2,2,413,84,0,Unlimited,2,2219.90,0.211033,btc ltc xmr  
+309,Aug 05 2019,39721,Fraud,Personal Information & Scans,100 selfies holding ID + ID both sides,Post date,CardPass,New Post,2,2,413,65,0,Unlimited,2,2219.90,0.211033,btc ltc xmr  
+310,Aug 05 2019,39735,Fraud,Personal Information & Scans,100 selfies holding ID + ID both sides,Post date,CardPass,New Post,2,2,413,70,0,Unlimited,2,2219.90,0.211033,btc ltc xmr  
+311,Aug 05 2019,39739,Fraud,Personal Information & Scans,500 passports/ids/dls EU USA Austr scans. all valid.,Post date,CardPass,New Post,2,2,413,49,0,Unlimited,2,277.63,0.026392,btc ltc xmr  
+312,Aug 05 2019,26595,Fraud,Personal Information & Scans,&quotREAL&quot FAKE ID&aposs DL CC PHOTOS FOR VERIFICATION,Post date,SATAII,New Post,2,2,398,139,0,Unlimited,2,50.00,0.004753,btc  
+313,Aug 05 2019,27443,Fraud,Personal Information & Scans,PSD USA Passport Template (My Own Created and can edit every part of it) AutoDispatch,Post date,jericho1,New Post,2,2,117,44,0,Unlimited,1,20.00,0.001901,btc ltc xmr  
+314,Aug 05 2019,39753,Fraud,Personal Information & Scans,California selfie holding driver license USA bill,Post date,CardPass,New Post,2,2,413,53,0,Unlimited,2,55.53,0.005278,btc ltc xmr  
+315,Aug 05 2019,39755,Fraud,Personal Information & Scans,Custom Australian passport scan + utility bill,Post date,CardPass,New Post,2,2,413,35,0,Unlimited,2,66.63,0.006334,btc ltc xmr  
+316,Aug 05 2019,41147,Fraud,Personal Information & Scans,IOWA DRIVING LICENSE PSD Template HQ full editable FRONT&ampBACK,Post date,EmpireShop,New Post,2,2,495,51,0,Unlimited,1,8.00,0.000761,btc ltc xmr  
+317,Aug 05 2019,41176,Fraud,Personal Information & Scans,Female selfie holding UK driving licence +passport,Post date,CardPass,New Post,2,2,413,78,0,Unlimited,2,50.00,0.004753,btc ltc xmr  
+318,Aug 05 2019,41183,Fraud,Personal Information & Scans,French ID psd template,Post date,CardPass,New Post,2,2,413,46,0,Unlimited,2,22.21,0.002111,btc ltc xmr  
+319,Aug 05 2019,41194,Fraud,Personal Information & Scans,ID photo both sides + 2 selfies of the owner,Post date,CardPass,New Post,2,2,413,59,0,Unlimited,2,55.53,0.005278,btc ltc xmr  
+320,Aug 05 2019,40951,Fraud,Personal Information & Scans,NEW Michigan DL PSD Template Front&ampBack full editable,Post date,EmpireShop,New Post,2,2,495,45,0,Unlimited,1,9.00,0.000856,btc ltc xmr  
+321,Aug 05 2019,40981,Fraud,Personal Information & Scans,MAINE DL PSD Template (+20 layers) full editable,Post date,EmpireShop,New Post,2,2,495,35,0,Unlimited,1,6.00,0.000570,btc ltc xmr  
+322,Aug 05 2019,40995,Fraud,Personal Information & Scans,Minnesota DL PSD Template FRONT AND BACK full editable,Post date,EmpireShop,New Post,2,2,495,42,0,Unlimited,1,7.00,0.000665,btc ltc xmr  
+323,Aug 05 2019,40998,Fraud,Personal Information & Scans,TENNESSE DL PSD Template FRONT AND BACK full editable,Post date,EmpireShop,New Post,2,2,495,37,0,Unlimited,1,7.00,0.000665,btc ltc xmr  
+324,Aug 05 2019,41033,Fraud,Personal Information & Scans,MONTANA Driving License PSD Template FRONT AND BACK,Post date,EmpireShop,New Post,2,2,495,48,0,Unlimited,1,9.00,0.000856,btc ltc xmr  
+325,Aug 05 2019,41075,Fraud,Personal Information & Scans,IDAHO Driving License PSD Template (+20 layers) full editable,Post date,EmpireShop,New Post,2,2,495,50,0,Unlimited,1,8.00,0.000761,btc ltc xmr  
+326,Aug 05 2019,41199,Fraud,Personal Information & Scans,India passport template psd hindu,Post date,CardPass,New Post,2,2,413,44,0,Unlimited,2,22.21,0.002111,btc ltc xmr  
+327,Aug 05 2019,41205,Fraud,Personal Information & Scans,Irish passport PSD editable template,Post date,CardPass,New Post,2,2,413,42,0,Unlimited,2,22.21,0.002111,btc ltc xmr  
+328,Aug 05 2019,41209,Fraud,Personal Information & Scans,Italian ID + codice fiscale card scans,Post date,CardPass,New Post,2,2,413,52,0,Unlimited,2,16.66,0.001584,btc ltc xmr  
+329,Aug 05 2019,41214,Fraud,Personal Information & Scans,Italian selfie holding ID + ID photos,Post date,CardPass,New Post,2,2,413,35,0,Unlimited,2,55.53,0.005278,btc ltc xmr  
+330,Aug 05 2019,41216,Fraud,Personal Information & Scans,NEW UK DRIVING LICENCE CUSTOM BOTH SIDES SCAN,Post date,CardPass,New Post,2,2,413,102,0,Unlimited,2,33.32,0.003167,btc ltc xmr  
+331,Aug 05 2019,38839,Fraud,Personal Information & Scans,CANADIAN FULLZ,Post date,MGPanabaker,New Post,2,2,5,69,0,Unlimited,2,14.99,0.001425,btc ltc  
+332,Aug 05 2019,39299,Fraud,Personal Information & Scans,2 selfies holding ID front and back side,Post date,CardPass,New Post,2,2,413,62,0,Unlimited,2,55.53,0.005278,btc ltc xmr  
+333,Aug 05 2019,39305,Fraud,Personal Information & Scans,5 UK custom utility bills photos,Post date,CardPass,New Post,2,2,413,41,0,Unlimited,2,55.53,0.005278,btc ltc xmr  
+334,Aug 05 2019,39316,Fraud,Personal Information & Scans,5 US SELFIES HOLDING DRIVER LICENSE,Post date,CardPass,New Post,2,2,413,58,0,Unlimited,2,220.99,0.021008,btc ltc xmr  
+335,Aug 05 2019,22057,Fraud,Personal Information & Scans,High Quality Fullz 700+ with Credit Score SSN DOB Active Phone # Active Address MMN,Post date,jericho1,New Post,2,2,117,163,0,Unlimited,2,25.00,0.002377,btc ltc xmr  
+336,Aug 05 2019,39319,Fraud,Personal Information & Scans,10 Italian selfies holding ID + ID + codice fiscale,Post date,CardPass,New Post,2,2,413,48,0,Unlimited,2,443.09,0.042122,btc ltc xmr  
+337,Aug 05 2019,39320,Fraud,Personal Information & Scans,10 PASSPORT SCANS FROM EU THE LOWEST PRICE,Post date,CardPass,New Post,2,2,413,37,0,Unlimited,2,32.20,0.003062,btc ltc xmr  
+338,Aug 05 2019,39321,Fraud,Personal Information & Scans,10 selfies + ID both sides Croatia,Post date,CardPass,New Post,2,2,413,48,0,Unlimited,2,443.09,0.042122,btc ltc xmr  
+339,Aug 05 2019,39323,Fraud,Personal Information & Scans,10 selfies + ID both sides Serbia,Post date,CardPass,New Post,2,2,413,41,0,Unlimited,2,443.09,0.042122,btc ltc xmr  
+340,Aug 05 2019,22131,Fraud,Personal Information & Scans,Australian Business Fulls ID Top Details,Post date,auspride,New Post,2,2,492,237,0,11,2,67.94,0.006459,btc xmr  
+341,Aug 05 2019,39324,Fraud,Personal Information & Scans,10 SPANISH DNI,Post date,CardPass,New Post,2,2,413,37,0,Unlimited,2,27.76,0.002639,btc ltc xmr  
+342,Aug 05 2019,39330,Fraud,Personal Information & Scans,10 UK PASSPORT SCANS OF REAL PERSONS HQ,Post date,CardPass,New Post,2,2,413,46,0,Unlimited,2,44.42,0.004223,btc ltc xmr  
+343,Aug 05 2019,39332,Fraud,Personal Information & Scans,10 US selfies holding driver license,Post date,CardPass,New Post,2,2,413,62,0,Unlimited,2,299.99,0.028518,btc ltc xmr  
+344,Aug 05 2019,39670,Fraud,Personal Information & Scans,15 italian ID cards both sides,Post date,CardPass,New Post,2,2,413,36,0,Unlimited,2,49.97,0.004751,btc ltc xmr  
+345,Aug 05 2019,39674,Fraud,Personal Information & Scans,20 selfies + ID both sides + utility bill,Post date,CardPass,New Post,2,2,413,49,0,Unlimited,2,665.19,0.063236,btc ltc xmr  
+346,Aug 05 2019,40673,Fraud,Personal Information & Scans,Custom USA passport+utility bill+SSN,Post date,CardPass,New Post,2,2,413,38,0,Unlimited,2,77.74,0.007390,btc ltc xmr  
+347,Aug 05 2019,29616,Fraud,Personal Information & Scans,*PREMIUM USA FULLZ SSN+DOB+DL+SALARY 3000 PCS PACK*,Post date,Zeuss,New Post,2,2,100,75,0,Unlimited,2,750.00,0.071298,btc xmr  
+348,Aug 05 2019,29617,Fraud,Personal Information & Scans,*PREMIUM USA FULLZ SSN+DOB+DL+SALARY 5000 PCS PACK*,Post date,Zeuss,New Post,2,2,100,109,0,Unlimited,2,999.00,0.094969,btc xmr  
+349,Aug 05 2019,29637,Fraud,Personal Information & Scans,*PREMIUM AUSTRALIAN SELFIE WITH PASSPORT\DL AND YOUR DETAILS+SECOND DOCUMENT*,Post date,Zeuss,New Post,2,2,100,76,0,Unlimited,2,180.00,0.017112,btc xmr  
+350,Aug 05 2019,40967,Fraud,Personal Information & Scans,US Military ID PSD Template full editable,Post date,EmpireShop,New Post,2,2,495,54,0,Unlimited,1,7.00,0.000665,btc ltc xmr  
+351,Aug 05 2019,40968,Fraud,Personal Information & Scans,KANSAS DL PSD Template FROTN AND BACK FULL EDITABL,Post date,EmpireShop,New Post,2,2,495,47,0,Unlimited,1,7.00,0.000665,btc ltc xmr  
+352,Aug 05 2019,31247,Fraud,Personal Information & Scans,HQ Fake ID with Fullz of your choice sent to your drop address. Includes Holograms.,Post date,jericho1,New Post,2,2,117,145,0,Unlimited,2,75.00,0.007130,btc ltc xmr  
+353,Aug 05 2019,40972,Fraud,Personal Information & Scans,NEW HAMPSHIRE DL PSD Template FROTN AND BACK FULL EDITABLE,Post date,EmpireShop,New Post,2,2,495,36,0,Unlimited,1,6.00,0.000570,btc ltc xmr  
+354,Aug 05 2019,40974,Fraud,Personal Information & Scans,NEBRASKA DL PSD Template FROTN AND BACK FULL EDITABLE,Post date,EmpireShop,New Post,2,2,495,32,0,Unlimited,1,6.00,0.000570,btc ltc xmr  
+355,Aug 05 2019,32166,Fraud,Personal Information & Scans,&#x2605100% HIGH QUALITY FULLZ DOB SSN MMN&#x2605,Post date,AlphaCVV2,New Post,2,2,949,67,0,50,2,15.00,0.001426,btc  
+356,Aug 05 2019,32171,Fraud,Personal Information & Scans,&#x2605HIGH QUALITY FULLZ W/ DRIVER LICENSE INFO&#x2605,Post date,AlphaCVV2,New Post,2,2,949,81,0,50,2,15.00,0.001426,btc  
+357,Aug 05 2019,40977,Fraud,Personal Information & Scans,ALASKA DL PSD Template FROTN AND BACK FULL EDITABL,Post date,EmpireShop,New Post,2,2,495,35,0,Unlimited,1,6.00,0.000570,btc ltc xmr  
+358,Aug 05 2019,40984,Fraud,Personal Information & Scans,OREGON DL PSD Template FRONT AND BACK FULL EDITABL,Post date,EmpireShop,New Post,2,2,495,44,0,Unlimited,1,6.00,0.000570,btc ltc xmr  
+359,Aug 05 2019,33375,Fraud,Personal Information & Scans,BUSINESS NAME+ADDRESS+EIN+FULLZ,Post date,sixandeight,New Post,2,2,2182,121,0,Unlimited,1,15.00,0.001426,btc  
+360,Aug 05 2019,35586,Fraud,Personal Information & Scans,NEW ZEALAND PASSPORT PSD TEMPLATE 14 LAYERS &amp SCAN,Post date,EmpireShop,New Post,2,2,495,93,0,Unlimited,1,24.00,0.002282,btc ltc xmr  
+361,Aug 05 2019,41131,Fraud,Personal Information & Scans,WASHINGTON Driving License PSD Templates Front &amp Back full editable,Post date,EmpireShop,New Post,2,2,495,61,0,Unlimited,1,7.00,0.000665,btc ltc xmr  
+362,Aug 05 2019,41151,Fraud,Personal Information & Scans,Massachusetts Driving License PSD Template (FRONT&ampBACK) full editable,Post date,EmpireShop,New Post,2,2,495,59,0,Unlimited,1,8.00,0.000761,btc ltc xmr  
+363,Aug 05 2019,41158,Fraud,Personal Information & Scans,OHIO Driving License PSD Template (front&ampback) full editable,Post date,EmpireShop,New Post,2,2,495,68,0,Unlimited,1,8.00,0.000761,btc ltc xmr  
+364,Aug 05 2019,41170,Fraud,Personal Information & Scans,NEW JERSEY Driving License PSD Template (Front&ampBack) full editab,Post date,EmpireShop,New Post,2,2,495,59,0,Unlimited,1,8.00,0.000761,btc ltc xmr  
+365,Aug 05 2019,41224,Fraud,Personal Information & Scans,PASSPORT SCAN FROM UK USA EU AUSTRALIA,Post date,CardPass,New Post,2,2,413,70,0,Unlimited,2,5.55,0.000528,btc ltc xmr  
+366,Aug 05 2019,41234,Fraud,Personal Information & Scans,Selfie + custom passport + utility bill any country,Post date,CardPass,New Post,2,2,413,56,0,Unlimited,2,166.58,0.015835,btc ltc xmr  
+367,Aug 05 2019,41405,Fraud,Personal Information & Scans,Selfie holding driver license Missouri USA SSN,Post date,CardPass,New Post,2,2,413,48,0,Unlimited,2,55.53,0.005278,btc ltc xmr  
+368,Aug 05 2019,41408,Fraud,Personal Information & Scans,Selfie holding driver license OKLAHOMA USA SSN,Post date,CardPass,New Post,2,2,413,48,0,Unlimited,2,55.53,0.005278,btc ltc xmr  
+369,Aug 05 2019,41413,Fraud,Personal Information & Scans,SELFIE HOLDING DRIVER LICENSE WISCONSIN USA,Post date,CardPass,New Post,2,2,413,55,0,Unlimited,2,55.53,0.005278,btc ltc xmr  
+370,Aug 05 2019,41417,Fraud,Personal Information & Scans,Selfie holding ID + ID photos + utility bill Croatia,Post date,CardPass,New Post,2,2,413,42,0,Unlimited,2,55.53,0.005278,btc ltc xmr  
+371,Aug 05 2019,41423,Fraud,Personal Information & Scans,Selfie holding ID participate in ICO,Post date,CardPass,New Post,2,2,413,55,0,Unlimited,2,55.53,0.005278,btc ltc xmr  
+372,Aug 05 2019,41425,Fraud,Personal Information & Scans,Selfie holding ID Serbia + ID photo + utility   bill,Post date,CardPass,New Post,2,2,413,36,0,Unlimited,2,55.53,0.005278,btc ltc xmr  
+373,Aug 05 2019,41429,Fraud,Personal Information & Scans,Selfie holding ID SOUTH DAKOTA USA SSN,Post date,CardPass,New Post,2,2,413,44,0,Unlimited,2,55.53,0.005278,btc ltc xmr  
+374,Aug 05 2019,41430,Fraud,Personal Information & Scans,Selfie holding passport Lithuania,Post date,CardPass,New Post,2,2,413,38,0,Unlimited,2,55.53,0.005278,btc ltc xmr  
+375,Aug 05 2019,41433,Fraud,Personal Information & Scans,Selfie holding US DL both sides + utility bill,Post date,CardPass,New Post,2,2,413,51,0,Unlimited,2,55.53,0.005278,btc ltc xmr  
+376,Aug 05 2019,44780,Fraud,Personal Information & Scans,Fully editable France Passport (PSD) Template ! +CS6,Post date,BarryBusiness,New Post,2,2,98,41,0,Unlimited,1,44.34,0.004221,btc ltc xmr  
+377,Aug 05 2019,44801,Fraud,Personal Information & Scans,ITALY Passport PSD Template (fully editable),Post date,BarryBusiness,New Post,2,2,98,35,0,Unlimited,1,44.34,0.004221,btc ltc xmr  
+378,Aug 05 2019,44850,Fraud,Personal Information & Scans,PORTUGAL Passport PSD Template (fully editable),Post date,BarryBusiness,New Post,2,2,98,31,0,Unlimited,1,44.34,0.004221,btc ltc xmr  
+379,Aug 05 2019,44859,Fraud,Personal Information & Scans,SPAIN Passport PSD Template (fully editable),Post date,BarryBusiness,New Post,2,2,98,42,0,Unlimited,1,44.34,0.004221,btc ltc xmr  
+380,Aug 05 2019,44824,Fraud,Personal Information & Scans,Dutch (NL) Passport Template + CS6,Post date,BarryBusiness,New Post,2,2,98,37,0,Unlimited,1,44.34,0.004221,btc ltc xmr  
+381,Aug 05 2019,44839,Fraud,Personal Information & Scans,UK  Passport PSD Template (fully editable) *BEST PRICE*,Post date,BarryBusiness,New Post,2,2,98,38,0,Unlimited,1,44.34,0.004221,btc ltc xmr  
+382,Aug 05 2019,46309,Fraud,Personal Information & Scans,SWEDEN  Passport PSD Template HQ (fully editable),Post date,BarryBusiness,New Post,2,2,98,30,0,Unlimited,1,44.34,0.004221,btc ltc xmr  
+383,Aug 05 2019,46498,Fraud,Personal Information & Scans,Physical SSN Cards *HIGH QUALITY*,Post date,Supreamkiller,New Post,2,2,443,152,0,Unlimited,2,250.00,0.023797,btc ltc xmr  
+384,Aug 05 2019,46320,Fraud,Personal Information & Scans,TURKISH  passport template (PSD) fully editable,Post date,BarryBusiness,New Post,2,2,98,29,0,Unlimited,1,44.34,0.004221,btc ltc xmr  
+385,Aug 05 2019,46522,Fraud,Personal Information & Scans,USA Verizon Utility Bill Scan,Post date,Supreamkiller,New Post,2,2,443,49,0,Unlimited,2,25.00,0.002380,btc ltc xmr  
+386,Aug 05 2019,46527,Fraud,Personal Information & Scans,PASSPORT SCAN USA,Post date,Supreamkiller,New Post,2,2,443,30,0,Unlimited,2,25.00,0.002380,btc ltc xmr  
+387,Aug 05 2019,46324,Fraud,Personal Information & Scans,USA VISA EDITABLE PSD TEMPLATE,Post date,BarryBusiness,New Post,2,2,98,33,0,Unlimited,1,33.24,0.003164,btc ltc xmr  
+388,Aug 05 2019,46492,Fraud,Personal Information & Scans,AGED CPN/SCN NUMBER WITH CREDIT SCORE 700 Score,Post date,Supreamkiller,New Post,2,2,443,219,0,Unlimited,2,500.00,0.047593,btc ltc xmr  
+389,Aug 05 2019,46493,Fraud,Personal Information & Scans,AGED CPN/SCN NUMBER WITH CREDIT SCORE 650 Score,Post date,Supreamkiller,New Post,2,2,443,209,0,Unlimited,2,350.00,0.033315,btc ltc xmr  
+390,Aug 05 2019,46948,Fraud,Personal Information & Scans,60 x Italy ID card / Passport Scan !,Post date,BarryBusiness,New Post,2,2,98,34,0,Unlimited,1,33.24,0.003164,btc ltc xmr  
+391,Aug 05 2019,41028,Fraud,Personal Information & Scans,WYOMING Driving License PSD Template front and back,Post date,EmpireShop,New Post,2,2,495,49,0,Unlimited,1,9.00,0.000856,btc ltc xmr  
+392,Aug 05 2019,35597,Fraud,Personal Information & Scans,MEXICO PASSPORT PSD TEMPLATE 17 LAYERS &amp 2SCAN,Post date,EmpireShop,New Post,2,2,495,52,0,Unlimited,1,11.00,0.001046,btc ltc xmr  
+393,Aug 05 2019,35600,Fraud,Personal Information & Scans,INDIA PASSPORT PSD TEMPLATE 14 LAYERS &amp SCAN,Post date,EmpireShop,New Post,2,2,495,59,0,Unlimited,1,22.00,0.002091,btc ltc xmr  
+394,Aug 05 2019,41063,Fraud,Personal Information & Scans,IINDIANA Driving License PSD Template FRONT&ampBACK HQ full editable,Post date,EmpireShop,New Post,2,2,495,51,0,Unlimited,1,9.00,0.000856,btc ltc xmr  
+395,Aug 05 2019,41079,Fraud,Personal Information & Scans,HAWAII Driving License PSD Template full editable,Post date,EmpireShop,New Post,2,2,495,48,0,Unlimited,1,8.00,0.000761,btc ltc xmr  
+396,Aug 05 2019,41098,Fraud,Personal Information & Scans,DELAWAR Driving License PSD Template front &amp back full editable,Post date,EmpireShop,New Post,2,2,495,50,0,Unlimited,1,8.00,0.000761,btc ltc xmr  
+397,Aug 05 2019,35625,Fraud,Personal Information & Scans,ITALY PASSPORT PSD TEMPLATE 17 LAYERS &amp SCAN,Post date,EmpireShop,New Post,2,2,495,58,0,Unlimited,1,24.00,0.002282,btc ltc xmr  
+398,Aug 05 2019,35627,Fraud,Personal Information & Scans,NEW BRAZIL PASSPORT PSD TEMPLATE 17 LAYERS &ampSCAN,Post date,EmpireShop,New Post,2,2,495,54,0,Unlimited,1,24.00,0.002282,btc ltc xmr  
+399,Aug 05 2019,41103,Fraud,Personal Information & Scans,NEW MEXICO Driving License PSD Template FROTN AND BACK Full Editable,Post date,EmpireShop,New Post,2,2,495,52,0,Unlimited,1,7.00,0.000665,btc ltc xmr  
+400,Aug 05 2019,41141,Fraud,Personal Information & Scans,Denmark passport template psd danish,Post date,CardPass,New Post,2,2,413,36,0,Unlimited,2,33.32,0.003167,btc ltc xmr  
+401,Aug 05 2019,38785,Fraud,Personal Information & Scans,Credit Profile [TU] [BG + full info + vehicle info + W2],Post date,MRALPHAtheREAL1,New Post,2,2,218,136,0,Unlimited,1,75.00,0.007130,btc ltc xmr  
+402,Aug 05 2019,41142,Fraud,Personal Information & Scans,Denmark selfie holding passport + passport photo Danish + utility bill.,Post date,CardPass,New Post,2,2,413,48,0,Unlimited,2,55.53,0.005278,btc ltc xmr  
+403,Aug 05 2019,41143,Fraud,Personal Information & Scans,Dutch &amp Croatian selfies holding IDs + utility bills,Post date,CardPass,New Post,2,2,413,46,0,Unlimited,2,88.84,0.008446,btc ltc xmr  
+404,Aug 05 2019,41145,Fraud,Personal Information & Scans,European selfie holding ID + ID photos,Post date,CardPass,New Post,2,2,413,65,0,Unlimited,2,55.53,0.005278,btc ltc xmr  
+405,Aug 05 2019,41146,Fraud,Personal Information & Scans,Female selfie + ID both sides + utility bill,Post date,CardPass,New Post,2,2,413,46,0,Unlimited,2,55.53,0.005278,btc ltc xmr  
+406,Aug 05 2019,41563,Fraud,Personal Information & Scans,USA Driving License both sides + selfie of the owner,Post date,CardPass,New Post,2,2,413,57,0,Unlimited,2,55.53,0.005278,btc ltc xmr  
+407,Aug 05 2019,41564,Fraud,Personal Information & Scans,USA Passport scan valid HQ,Post date,CardPass,New Post,2,2,413,38,0,Unlimited,2,5.55,0.000528,btc ltc xmr  
+408,Aug 05 2019,41568,Fraud,Personal Information & Scans,Verified Lykke account.,Post date,CardPass,New Post,2,2,413,57,0,Unlimited,2,555.25,0.052785,btc ltc xmr  
+409,Aug 05 2019,41569,Fraud,Personal Information & Scans,Croatian ID both sides valid,Post date,CardPass,New Post,2,2,413,37,0,Unlimited,2,6.66,0.000633,btc ltc xmr  
+410,Aug 05 2019,41943,Fraud,Personal Information & Scans,USPS DELIVERY CONFIRMATION .PSD FILE,Post date,somecvvvendor,New Post,2,2,18,50,0,Unlimited,1,4.99,0.000474,btc ltc xmr  
+411,Aug 05 2019,43865,Fraud,Personal Information & Scans,Business Name + EIN,Post date,MGPanabaker,New Post,2,2,5,62,0,Unlimited,2,15.50,0.001473,btc ltc  
+412,Aug 05 2019,43871,Fraud,Personal Information & Scans,FULLZ + DL SCANS + CREDIT SCORE (UNITED STATES),Post date,MGPanabaker,New Post,2,2,5,103,0,Unlimited,2,35.00,0.003327,btc ltc  
+413,Aug 05 2019,44325,Fraud,Personal Information & Scans,Oklahoma DL scans + SSN number,Post date,somecvvvendor,New Post,2,2,18,46,0,Unlimited,2,20.00,0.001901,btc ltc xmr  
+414,Aug 05 2019,44666,Fraud,Personal Information & Scans,US PASSPORT TEMPLATE (PSD) fully editable,Post date,BarryBusiness,New Post,2,2,98,42,0,Unlimited,1,44.36,0.004217,btc ltc xmr  
+415,Aug 05 2019,44689,Fraud,Personal Information & Scans,Australian Passport Template (fully editable) +CS6,Post date,BarryBusiness,New Post,2,2,98,35,0,Unlimited,1,44.36,0.004217,btc ltc xmr  
+416,Aug 05 2019,44719,Fraud,Personal Information & Scans,CANADA  Passport Template (fully editable) +CS6,Post date,BarryBusiness,New Post,2,2,98,39,0,Unlimited,1,44.36,0.004217,btc ltc xmr  
+417,Aug 05 2019,44775,Fraud,Personal Information & Scans,DENMARK Passport PSD Template (fully editable),Post date,BarryBusiness,New Post,2,2,98,36,0,Unlimited,1,44.36,0.004217,btc ltc xmr  
+418,Aug 05 2019,44787,Fraud,Personal Information & Scans,Fully editable German Passport PSD Template !,Post date,BarryBusiness,New Post,2,2,98,39,0,Unlimited,1,44.36,0.004217,btc ltc xmr  
+419,Aug 05 2019,44700,Fraud,Personal Information & Scans,Australian Passport Template *NEW VERSION* + CS6 !!,Post date,BarryBusiness,New Post,2,2,98,33,0,Unlimited,1,44.36,0.004217,btc ltc xmr  
+420,Aug 05 2019,44708,Fraud,Personal Information & Scans,BELGIUM  passport template PSD fully editable,Post date,BarryBusiness,New Post,2,2,98,41,0,Unlimited,1,44.36,0.004217,btc ltc xmr  
+421,Aug 05 2019,41441,Fraud,Personal Information & Scans,Selfie UK + passport 2 pages + utility bill,Post date,CardPass,New Post,2,2,413,47,0,Unlimited,2,55.53,0.005278,btc ltc xmr  
+422,Aug 05 2019,41444,Fraud,Personal Information & Scans,Selfie UK holding driver licence + utility bill,Post date,CardPass,New Post,2,2,413,54,0,Unlimited,2,55.53,0.005278,btc ltc xmr  
+423,Aug 05 2019,41449,Fraud,Personal Information & Scans,Selfie USA driver&aposs license Pennsylvania,Post date,CardPass,New Post,2,2,413,60,0,Unlimited,2,27.76,0.002639,btc ltc xmr  
+424,Aug 05 2019,41450,Fraud,Personal Information & Scans,SELFIE USA DRIVER&aposS LICENSE SCAN SSN UTILITY BILL,Post date,CardPass,New Post,2,2,413,66,0,Unlimited,2,55.53,0.005278,btc ltc xmr  
+425,Aug 05 2019,41452,Fraud,Personal Information & Scans,Serbian ID both sides valid,Post date,CardPass,New Post,2,2,413,42,0,Unlimited,2,6.66,0.000633,btc ltc xmr  
+426,Aug 05 2019,41457,Fraud,Personal Information & Scans,Spanish ID + DL of the same person,Post date,CardPass,New Post,2,2,413,45,0,Unlimited,2,11.11,0.001056,btc ltc xmr  
+427,Aug 05 2019,41471,Fraud,Personal Information & Scans,SSN LOOKUP PROVIDE NAME AND ADDRESS,Post date,CardPass,New Post,2,2,413,48,0,Unlimited,2,18.00,0.001711,btc ltc xmr  
+428,Aug 05 2019,41477,Fraud,Personal Information & Scans,Swedish driver&aposs license template both sides HQ,Post date,CardPass,New Post,2,2,413,49,0,Unlimited,2,33.32,0.003167,btc ltc xmr  
+429,Aug 05 2019,41494,Fraud,Personal Information & Scans,SWEDISH DRIVING LICENCE TEMPLATE BOTH SIDES + ADOBE,Post date,CardPass,New Post,2,2,413,50,0,Unlimited,2,27.76,0.002639,btc ltc xmr  
+430,Aug 05 2019,41497,Fraud,Personal Information & Scans,Swedish utility bill template psd Comviq,Post date,CardPass,New Post,2,2,413,47,0,Unlimited,2,27.76,0.002639,btc ltc xmr  
+431,Aug 05 2019,41503,Fraud,Personal Information & Scans,UK DRIVING LICENCE CUSTOM BOTH SIDES SCAN,Post date,CardPass,New Post,2,2,413,59,0,Unlimited,2,33.32,0.003167,btc ltc xmr  
+432,Aug 05 2019,41545,Fraud,Personal Information & Scans,US passport fully editable psd template,Post date,CardPass,New Post,2,2,413,45,0,Unlimited,2,27.76,0.002639,btc ltc xmr  
+433,Aug 05 2019,41552,Fraud,Personal Information & Scans,US selfie holding dl + utility bill Minnesota,Post date,CardPass,New Post,2,2,413,39,0,Unlimited,2,55.53,0.005278,btc ltc xmr  
+434,Aug 05 2019,41555,Fraud,Personal Information & Scans,USA driver license both side valid.,Post date,CardPass,New Post,2,2,413,59,0,Unlimited,2,8.88,0.000845,btc ltc xmr  
+435,Aug 05 2019,41559,Fraud,Personal Information & Scans,USA Driver&aposs license valid HQ any state,Post date,CardPass,New Post,2,2,413,70,0,Unlimited,2,4.44,0.000422,btc ltc xmr  
+436,Aug 05 2019,61771,Fraud,Personal Information & Scans,CANADA SIN CARD  template (PSD) scan/print,Post date,BarryBusiness,New Post,2,2,98,33,0,Unlimited,1,22.14,0.002108,btc ltc xmr  
+437,Aug 05 2019,49554,Fraud,Personal Information & Scans,Australia Fitness To Drive PASSED Assessment,Post date,auspride,New Post,2,2,492,97,0,50,2,13.59,0.001293,btc xmr  
+438,Aug 05 2019,62345,Fraud,Personal Information & Scans,1x UK Passport scan,Post date,JustBusiness,New Post,2,2,424,43,0,10,2,199.00,0.018942,btc xmr  
+439,Aug 05 2019,62971,Fraud,Personal Information & Scans,Dutch passport template fully editable with photoshop,Post date,Topshelfcards,New Post,2,2,4,255,0,Unlimited,1,60.00,0.005711,btc ltc xmr  
+440,Aug 05 2019,64618,Fraud,Personal Information & Scans,US Fullz - [Name]+[full address]+[phone]+[email]+[SSN]+[DOB],Post date,bitbuster,New Post,2,2,139,64,0,Unlimited,2,4.00,0.000381,btc ltc xmr  
+441,Aug 05 2019,64804,Fraud,Personal Information & Scans,(USA) Florida Utility Bill PSD Template + CS6,Post date,BarryBusiness,New Post,2,2,98,31,0,Unlimited,1,19.92,0.001896,btc ltc xmr  
+442,Aug 05 2019,51619,Fraud,Personal Information & Scans,Custom Utility Bill USA state New York (NY),Post date,Truscan,New Post,2,2,0,19,0,Unlimited,2,40.00,0.003807,btc  
+443,Aug 05 2019,51622,Fraud,Personal Information & Scans,Custom Utility Bill USA state Massachusetts (MA),Post date,Truscan,New Post,2,2,0,20,0,Unlimited,2,40.00,0.003807,btc  
+444,Aug 05 2019,51625,Fraud,Personal Information & Scans,Custom Utility Bill USA state Rhode Island (RI),Post date,Truscan,New Post,2,2,0,14,0,Unlimited,2,40.00,0.003807,btc  
+445,Aug 05 2019,51628,Fraud,Personal Information & Scans,Custom Utility Bill USA state Texas (TX),Post date,Truscan,New Post,2,2,0,19,0,Unlimited,2,40.00,0.003807,btc  
+446,Aug 05 2019,64810,Fraud,Personal Information & Scans,US bank statement FIFTH THIRD PSD template,Post date,BarryBusiness,New Post,2,2,98,30,0,Unlimited,1,19.92,0.001896,btc ltc xmr  
+447,Aug 05 2019,65150,Fraud,Personal Information & Scans,4 USA FULLZ WITH DRIVER&aposS LICENSE,Post date,sixandeight,New Post,2,2,2182,82,0,Unlimited,1,12.00,0.001142,btc  
+448,Aug 05 2019,51633,Fraud,Personal Information & Scans,Custom Utility Bill USA state Pennsylvania (PA),Post date,Truscan,New Post,2,2,0,26,0,Unlimited,2,40.00,0.003807,btc  
+449,Aug 05 2019,51661,Fraud,Personal Information & Scans,Custom Utility Bill USA state Illinois (IL),Post date,Truscan,New Post,2,2,0,31,0,Unlimited,2,40.00,0.003807,btc  
+450,Aug 05 2019,51662,Fraud,Personal Information & Scans,Custom Utility Bill USA state New Jersey (NJ),Post date,Truscan,New Post,2,2,0,19,0,Unlimited,2,40.00,0.003807,btc  
+451,Aug 05 2019,48427,Fraud,Personal Information & Scans,Fully editable Australia Driving Licence Template PSD Template,Post date,BarryBusiness,New Post,2,2,98,45,0,Unlimited,1,22.14,0.002108,btc ltc xmr  
+452,Aug 05 2019,48909,Fraud,Personal Information & Scans,$3 ZIP SELECT USA SSN CHEAP,Post date,popatire10,New Post,2,2,106,43,0,Unlimited,2,3.00,0.000286,btc  
+453,Aug 05 2019,47798,Fraud,Personal Information & Scans,Buy Real and Fake Passport Online - Support Documents 24hrs,Post date,globalempire,New Post,2,2,13,89,0,Unlimited,2,600.00,0.057112,btc  
+454,Aug 05 2019,48913,Fraud,Personal Information & Scans,$3 (INSTANT) RANDOM USA SSN,Post date,popatire10,New Post,2,2,106,33,0,Unlimited,1,3.00,0.000286,btc  
+455,Aug 05 2019,49114,Fraud,Personal Information & Scans,High Quality Florida Front Driving License Scans,Post date,albertnikon11,New Post,2,2,149,89,0,Unlimited,1,5.00,0.000476,btc ltc xmr  
+456,Aug 05 2019,50912,Fraud,Personal Information & Scans,USA Fullz + [scanned driver&aposs license] + [ credit score 700+],Post date,bitbuster,New Post,2,2,139,153,0,50,2,45.00,0.004283,btc xmr  
+457,Aug 05 2019,48409,Fraud,Personal Information & Scans,Arizona Driver License Template - Updated 2017,Post date,BarryBusiness,New Post,2,2,98,40,0,Unlimited,1,8.82,0.000840,btc ltc xmr  
+458,Aug 05 2019,48413,Fraud,Personal Information & Scans,Arkansas Driver License Template - Updated 2017,Post date,BarryBusiness,New Post,2,2,98,42,0,Unlimited,1,8.82,0.000840,btc ltc xmr  
+459,Aug 05 2019,52759,Fraud,Personal Information & Scans,USA Fullz w/ [SSN + DOB + DL front and back] --- Verify Your Accounts!!,Post date,bitbuster,New Post,2,2,139,154,0,5,2,50.00,0.004759,btc xmr  
+460,Aug 05 2019,48442,Fraud,Personal Information & Scans,Can.Manitoba DL psd template + CS6,Post date,BarryBusiness,New Post,2,2,98,33,0,Unlimited,1,44.34,0.004221,btc ltc xmr  
+461,Aug 05 2019,48457,Fraud,Personal Information & Scans,Canada Alberta Driver License Template (Psd),Post date,BarryBusiness,New Post,2,2,98,51,0,Unlimited,1,39.95,0.003803,btc ltc xmr  
+462,Aug 05 2019,55308,Fraud,Personal Information & Scans,custom listing for davidsan123,Post date,CardPass,New Post,2,2,413,29,0,Unlimited,2,100.00,0.009519,btc ltc xmr  
+463,Aug 05 2019,55384,Fraud,Personal Information & Scans,Photoshop (.psd) Files - 49 Different USA State Drivers License - Create your own custom drivers lic,Post date,bitbuster,New Post,2,2,139,104,0,Unlimited,1,289.00,0.027509,btc  
+464,Aug 05 2019,55762,Fraud,Personal Information & Scans,Selfie USA driver&aposs license Pennsylvania,Post date,CardPass,New Post,2,2,413,40,0,Unlimited,2,27.75,0.002641,btc ltc xmr  
+465,Aug 05 2019,55763,Fraud,Personal Information & Scans,SELFIE USA DRIVER&aposS LICENSE SCAN SSN UTILITY BILL,Post date,CardPass,New Post,2,2,413,53,0,Unlimited,2,55.50,0.005283,btc ltc xmr  
+466,Aug 05 2019,55767,Fraud,Personal Information & Scans,SWEDEN Drivers License Template  (Front/Back) +CS6,Post date,BarryBusiness,New Post,2,2,98,47,0,Unlimited,1,33.24,0.003164,btc ltc xmr  
+467,Aug 05 2019,48460,Fraud,Personal Information & Scans,CANADA British Columbia Driving License Template (PSD),Post date,BarryBusiness,New Post,2,2,98,37,0,Unlimited,1,44.34,0.004221,btc ltc xmr  
+468,Aug 05 2019,48463,Fraud,Personal Information & Scans,Connecticut Driver License Template  - Updated 2017,Post date,BarryBusiness,New Post,2,2,98,43,0,Unlimited,1,8.82,0.000840,btc ltc xmr  
+469,Aug 05 2019,55788,Fraud,Personal Information & Scans,Fresh UK passport scan,Post date,CardPass,New Post,2,2,413,36,0,Unlimited,2,22.20,0.002113,btc ltc xmr  
+470,Aug 05 2019,55849,Fraud,Personal Information & Scans,10 Spanish IDs both sides all valid.,Post date,CardPass,New Post,2,2,413,32,0,Unlimited,2,33.29,0.003168,btc ltc xmr  
+471,Aug 05 2019,58704,Fraud,Personal Information & Scans,AUSTRIA (osterreich)  ID Template + CS6,Post date,BarryBusiness,New Post,2,2,98,34,0,Unlimited,1,22.14,0.002108,btc ltc xmr  
+472,Aug 05 2019,58736,Fraud,Personal Information & Scans,German ID editable PSD template (Fully editable),Post date,BarryBusiness,New Post,2,2,98,39,0,Unlimited,1,22.14,0.002108,btc ltc xmr  
+473,Aug 05 2019,49548,Fraud,Personal Information & Scans,Australia Accountant Prepared Business Financials,Post date,auspride,New Post,2,2,492,102,0,58,2,20.38,0.001940,btc xmr  
+474,Aug 05 2019,58742,Fraud,Personal Information & Scans,Ireland ID Template (fully editable) *BEST PRICE* !!,Post date,BarryBusiness,New Post,2,2,98,41,0,Unlimited,1,22.14,0.002108,btc ltc xmr  
+475,Aug 05 2019,49549,Fraud,Personal Information & Scans,HQ Australia Editable Balance Sheet Statement PSD,Post date,auspride,New Post,2,2,492,48,0,99,2,13.59,0.001293,btc xmr  
+476,Aug 05 2019,49665,Fraud,Personal Information & Scans,Healthcare Fraud Package - Doctor Fullz,Post date,albertnikon11,New Post,2,2,149,214,0,4,1,500.00,0.047593,btc ltc xmr  
+477,Aug 05 2019,59540,Fraud,Personal Information & Scans,Credit Report with Score on provided name,Post date,Rubenn,New Post,2,2,16,52,0,Unlimited,2,35.00,0.003332,btc  
+478,Aug 05 2019,49553,Fraud,Personal Information & Scans,Editable NSW Firearms License Scan,Post date,auspride,New Post,2,2,492,180,0,50,2,33.97,0.003234,btc xmr  
+479,Aug 05 2019,50264,Fraud,Personal Information & Scans,HUGE Hacked Paypal Credit/Balance Accounts + User Agent + JSON Cookies + Tutorial,Post date,jericho1,New Post,2,2,117,98,0,Unlimited,2,4.99,0.000475,btc ltc xmr  
+480,Aug 05 2019,61596,Fraud,Personal Information & Scans,PC World &#x2605 Editable Receipt Template &#x2605 PSD File,Post date,Stackz420,New Post,2,2,1360,76,0,Unlimited,1,1.21,0.000115,btc  
+481,Aug 05 2019,53436,Fraud,Personal Information & Scans,&#x2729700+HQ CREDIT SCORE/ FULL BACKGROUND/DOB+MAIL+PHON+SSN+DL+MMN+CREDIT REPORT+PROPERTY REPORT/FAMIL,Post date,pinkcard,New Post,2,2,125,201,0,Unlimited,2,35.00,0.003332,btc  
+482,Aug 05 2019,55683,Fraud,Personal Information & Scans,California PACK *Templates* - print/scan,Post date,BarryBusiness,New Post,2,2,98,31,0,Unlimited,1,44.34,0.004221,btc ltc xmr  
+483,Aug 05 2019,55690,Fraud,Personal Information & Scans,POLAND Driver License Template (Psd),Post date,BarryBusiness,New Post,2,2,98,44,0,Unlimited,1,44.34,0.004221,btc ltc xmr  
+484,Aug 05 2019,55715,Fraud,Personal Information & Scans,Can. Qu&#xE9bec Driver License Template (Psd) (print),Post date,BarryBusiness,New Post,2,2,98,43,0,Unlimited,1,44.34,0.004221,btc ltc xmr  
+485,Aug 05 2019,67248,Fraud,Personal Information & Scans,UK Utility Bill  TalkTalk + CS6,Post date,BarryBusiness,New Post,2,2,98,36,0,Unlimited,1,19.92,0.001896,btc ltc xmr  
+486,Aug 05 2019,55728,Fraud,Personal Information & Scans,Rhode Island Driver License Template - Updated 2017,Post date,BarryBusiness,New Post,2,2,98,39,0,Unlimited,1,8.82,0.000840,btc ltc xmr  
+487,Aug 05 2019,68085,Fraud,Personal Information & Scans,HQ - Canada Passport Template + Photoshop CC 2018 - Buy 2 Get 3 (Digital Instant Delivery),Post date,Fraudfox,New Post,2,2,11,32,0,Unlimited,1,32.19,0.003064,btc ltc xmr  
+488,Aug 05 2019,57907,Fraud,Personal Information & Scans,[US KIDS FULLZ - YEARS: 2002-2015],Post date,Skyscraper,New Post,2,2,130,146,0,Unlimited,2,25.00,0.002380,btc ltc xmr  
+489,Aug 05 2019,68086,Fraud,Personal Information & Scans,HQ - Australian Passport Template + Photoshop CC 2018 - Buy 2 Get 3 (Digital Instant Deliv,Post date,Fraudfox,New Post,2,2,11,29,0,Unlimited,1,32.19,0.003064,btc ltc xmr  
+490,Aug 05 2019,68088,Fraud,Personal Information & Scans,HQ - Spain Passport Template + Photoshop CC 2018 - Buy 2 Get 3 (Digital Instant Delivery),Post date,Fraudfox,New Post,2,2,11,31,0,Unlimited,1,32.19,0.003064,btc ltc xmr  
+491,Aug 05 2019,68089,Fraud,Personal Information & Scans,HQ - Italy Passport Template + Photoshop CC 2018 - Buy 2 Get 3,Post date,Fraudfox,New Post,2,2,11,36,0,Unlimited,2,32.19,0.003064,btc ltc xmr  
+492,Aug 05 2019,68092,Fraud,Personal Information & Scans,HQ - Austria Passport Template + Photoshop CC 2018 - Buy 2 Get 3 (Digital Instant Delivery),Post date,Fraudfox,New Post,2,2,11,33,0,Unlimited,1,32.19,0.003064,btc ltc xmr  
+493,Aug 05 2019,68093,Fraud,Personal Information & Scans,HQ - Belgium Passport Template + Photoshop CC 2018 - Buy 2 Get 3 (Digital Instant Delivery),Post date,Fraudfox,New Post,2,2,11,32,0,Unlimited,1,32.19,0.003064,btc ltc xmr  
+494,Aug 05 2019,68094,Fraud,Personal Information & Scans,HQ - Portugal Passport Template + Photoshop CC 2018 - Buy 2 Get 3 (Digital Instant Delivery),Post date,Fraudfox,New Post,2,2,11,35,0,Unlimited,1,32.19,0.003064,btc ltc xmr  
+495,Aug 05 2019,58690,Fraud,Personal Information & Scans,Washington Driver License Template - UpDated 2017,Post date,BarryBusiness,New Post,2,2,98,37,0,Unlimited,1,8.82,0.000840,btc ltc xmr  
+496,Aug 05 2019,12609,Fraud,Personal Information & Scans,Custom Australian passport scan + utility bill HIGH QUALITY SCANS 100%,Post date,drhack3r,New Post,2,2,1902,491,0,Unlimited,2,125.00,0.011883,btc ltc xmr  
+497,Aug 05 2019,19668,Fraud,Personal Information & Scans,Genuine EU Selfie Sets Front/back + Selfie,Post date,kingscan,New Post,2,2,183,324,0,Unlimited,2,125.00,0.011883,btc  
+498,Aug 05 2019,12611,Fraud,Personal Information & Scans,UK PASSPORT SCAN + UTILITY BILL HIGH QUALITY,Post date,drhack3r,New Post,2,2,1902,405,0,Unlimited,2,49.00,0.004658,btc ltc xmr  
+499,Aug 05 2019,13942,Fraud,Personal Information & Scans,20000 $ USA BANK LOAN GUIDE++ INSTANT DELIVERY+++ BEST LOAN FRAUD GUIDE IN THE DARKNET,Post date,drhack3r,New Post,2,2,1902,522,0,Unlimited,1,90.00,0.008556,btc ltc xmr  
+500,Aug 05 2019,15379,Fraud,Personal Information & Scans,&#x2655 BECOME A DOXING GOD &#x2655,Post date,TheShop,New Post,2,2,2739,445,0,Unlimited,1,1.99,0.000189,btc ltc xmr  
+501,Aug 05 2019,20700,Fraud,Personal Information & Scans,USA EIN CREATION SERVICE,Post date,Turles,New Post,2,2,100,216,0,Unlimited,2,30.00,0.002852,btc ltc xmr  
+502,Aug 05 2019,15942,Fraud,Personal Information & Scans,CITIZENS BANK SCAM PAGES 2018 + Tutorial Spamming Phishing,Post date,ofgrey,New Post,2,2,628,368,0,Unlimited,1,11.11,0.001056,btc ltc xmr  
+503,Aug 05 2019,16048,Fraud,Personal Information & Scans,NETELLER SCAM PAGES 2018 + Tutorial Spamming Phishing,Post date,ofgrey,New Post,2,2,628,296,0,Unlimited,1,11.11,0.001056,btc ltc xmr  
+504,Aug 05 2019,16081,Fraud,Personal Information & Scans,EDF REFUND SCAM PAGES 2018 + Tutorial Spamming Phishing,Post date,ofgrey,New Post,2,2,628,333,0,Unlimited,1,11.11,0.001056,btc ltc xmr  
+505,Aug 05 2019,16194,Fraud,Personal Information & Scans,PSD Passport USA Editable Template,Post date,ofgrey,New Post,2,2,628,321,0,Unlimited,1,7.00,0.000665,btc ltc xmr  
+506,Aug 05 2019,23091,Fraud,Personal Information & Scans,Custom order for Legsman222,Post date,TheDarkKnight,New Post,2,2,155,52,0,1,2,20.00,0.001901,btc  
+507,Aug 05 2019,17498,Fraud,Personal Information & Scans,Fresh clean Socks - Any country,Post date,TheDarkKnight,New Post,2,2,155,271,0,Unlimited,2,1.50,0.000143,btc  
+508,Aug 05 2019,17813,Fraud,Personal Information & Scans,1 PASSPORT SCAN ANY COUNTRY  VERY HIGH QUALITY,Post date,drhack3r,New Post,2,2,1902,296,0,Unlimited,2,29.00,0.002757,btc ltc xmr  
+509,Aug 05 2019,18630,Fraud,Personal Information & Scans,USA Scan Driver&aposs License +FULLZ+Credit Score,Post date,picsou,New Post,2,2,461,321,0,Unlimited,2,45.00,0.004278,btc ltc xmr  
+510,Aug 05 2019,23418,Fraud,Personal Information & Scans,Fullz USA [DOBSSNEINMMN],Post date,cashboy,New Post,2,2,1268,123,0,Unlimited,2,6.00,0.000570,btc  
+511,Aug 05 2019,69065,Fraud,Personal Information & Scans,Fully editable UK (new version)  .PSD passport template +11 photos+Signatures,Post date,biggertreesinc,New Post,2,2,92,43,0,Unlimited,2,20.00,0.001904,btc ltc xmr  
+512,Aug 05 2019,69066,Fraud,Personal Information & Scans,Fully editable SWEDEN .PSD passport template +15 photos+Signatures,Post date,biggertreesinc,New Post,2,2,92,40,0,Unlimited,2,20.00,0.001904,btc ltc xmr  
+513,Aug 05 2019,69438,Fraud,Personal Information & Scans,USA FULLZ [SCORE] + [SSN] + [DOB] + [ADDRESS] + [PHONE],Post date,bitbuster,New Post,2,2,139,73,0,Unlimited,2,12.00,0.001142,btc ltc xmr  
+514,Aug 05 2019,69451,Fraud,Personal Information & Scans,BACKGROUND CHECK SERVICE,Post date,bitbuster,New Post,2,2,139,76,0,Unlimited,2,15.00,0.001428,btc ltc xmr  
+515,Aug 05 2019,58693,Fraud,Personal Information & Scans,Western  Australia Driving Licence Template PSD Template (photoshop),Post date,BarryBusiness,New Post,2,2,98,50,0,Unlimited,1,22.14,0.002108,btc ltc xmr  
+516,Aug 05 2019,58715,Fraud,Personal Information & Scans,Belgium  ID Template V1 (PSD) dutch speaking,Post date,BarryBusiness,New Post,2,2,98,40,0,Unlimited,1,33.24,0.003164,btc ltc xmr  
+517,Aug 05 2019,70081,Fraud,Personal Information & Scans,Custom ID Verification Documents Package,Post date,AXM1111,New Post,2,2,33,71,0,Unlimited,2,95.00,0.009043,btc ltc xmr  
+518,Aug 05 2019,70903,Fraud,Personal Information & Scans,Credit Report (FICO Credit Score) complete profile,Post date,Rubenn,New Post,2,2,16,49,0,Unlimited,2,50.00,0.004759,btc  
+519,Aug 05 2019,71799,Fraud,Personal Information & Scans,HQ CUSTOMIZED UK IDENTITY SET SCANS &amp PHOTOS,Post date,kingscan,New Post,2,2,183,52,0,Unlimited,2,150.00,0.014278,btc  
+520,Aug 05 2019,58731,Fraud,Personal Information & Scans,Fully editable France ID Card Template,Post date,BarryBusiness,New Post,2,2,98,41,0,Unlimited,1,22.14,0.002108,btc ltc xmr  
+521,Aug 05 2019,58751,Fraud,Personal Information & Scans,ITALY ID CARD (paper) - PSD Template.,Post date,BarryBusiness,New Post,2,2,98,39,0,Unlimited,1,44.34,0.004221,btc ltc xmr  
+522,Aug 05 2019,71801,Fraud,Personal Information & Scans,HQ CUSTOMIZED AUSTRALIA IDENTITY SET SCANS &amp PHOTOS,Post date,kingscan,New Post,2,2,183,41,0,Unlimited,2,175.00,0.016658,btc  
+523,Aug 05 2019,60230,Fraud,Personal Information & Scans,Spain ID card !! fully editable PSD template,Post date,BarryBusiness,New Post,2,2,98,37,0,Unlimited,1,44.34,0.004221,btc ltc xmr  
+524,Aug 05 2019,60243,Fraud,Personal Information & Scans,AUS Utility Bill  PDF - AGL GAS +  ACROBAT PRO,Post date,BarryBusiness,New Post,2,2,98,35,0,Unlimited,1,19.92,0.001896,btc ltc xmr  
+525,Aug 05 2019,73131,Fraud,Personal Information & Scans,INSURANCE/BIRTH CERTIFICATES/DIPLOMAS/DEGREES/MORE TEMPLATES(AUTO-DISPATCH),Post date,MRALPHAtheREAL1,New Post,2,2,218,90,0,Unlimited,1,60.00,0.005711,btc ltc xmr  
+526,Aug 05 2019,51663,Fraud,Personal Information & Scans,Custom Utility Bill USA state Indiana (IN),Post date,Truscan,New Post,2,2,0,22,0,Unlimited,2,40.00,0.003807,btc  
+527,Aug 05 2019,65287,Fraud,Personal Information & Scans,&#x2605wesellbenz&#x2605 DEAD UK FULLZ (5 FOR 30$),Post date,wesellbenz,New Post,2,2,0,38,0,Unlimited,2,30.00,0.002856,btc ltc  
+528,Aug 05 2019,65701,Fraud,Personal Information & Scans,70 AUSTRALIAN DRIVER LICENSES BOTH SIDES VALID,Post date,CardPass,New Post,2,2,413,51,0,Unlimited,2,220.88,0.021024,btc ltc xmr  
+529,Aug 05 2019,51674,Fraud,Personal Information & Scans,Custom Utility Bill USA state Florida (FL),Post date,Truscan,New Post,2,2,0,21,0,Unlimited,2,40.00,0.003807,btc  
+530,Aug 05 2019,51690,Fraud,Personal Information & Scans,Custom Utility Bill USA state California (CA),Post date,Truscan,New Post,2,2,0,20,0,Unlimited,2,40.00,0.003807,btc  
+531,Aug 05 2019,51693,Fraud,Personal Information & Scans,Custom Utility Bill USA state South Carolina (SC),Post date,Truscan,New Post,2,2,0,24,0,Unlimited,2,40.00,0.003807,btc  
+532,Aug 05 2019,51695,Fraud,Personal Information & Scans,Custom Utility Bill USA state North Carolina (NC),Post date,Truscan,New Post,2,2,0,24,0,Unlimited,2,40.00,0.003807,btc  
+533,Aug 05 2019,65779,Fraud,Personal Information & Scans,UK bankstatement HALIFAX (psd) + CS6,Post date,BarryBusiness,New Post,2,2,98,29,0,Unlimited,1,19.92,0.001896,btc ltc xmr  
+534,Aug 05 2019,51701,Fraud,Personal Information & Scans,Custom Utility Bill USA state Missouri (MO),Post date,Truscan,New Post,2,2,0,18,0,Unlimited,2,40.00,0.003807,btc  
+535,Aug 05 2019,51704,Fraud,Personal Information & Scans,Custom Utility Bill USA state Arizona (AZ),Post date,Truscan,New Post,2,2,0,27,0,Unlimited,2,40.00,0.003807,btc  
+536,Aug 05 2019,53411,Fraud,Personal Information & Scans,Florida Template Pack !! (PSD) Scan / Print,Post date,BarryBusiness,New Post,2,2,98,35,0,Unlimited,1,33.24,0.003164,btc ltc xmr  
+537,Aug 05 2019,53415,Fraud,Personal Information & Scans,New York Driver License Template (PSD) Scan / Print,Post date,BarryBusiness,New Post,2,2,98,44,0,Unlimited,1,33.24,0.003164,btc ltc xmr  
+538,Aug 05 2019,53418,Fraud,Personal Information & Scans,New OHIO Driver License Template Psd 2019 !(PSD),Post date,BarryBusiness,New Post,2,2,98,50,0,Unlimited,1,44.34,0.004221,btc ltc xmr  
+539,Aug 05 2019,53421,Fraud,Personal Information & Scans,Oklahoma Driver License Template - Updated 2017,Post date,BarryBusiness,New Post,2,2,98,38,0,Unlimited,1,8.82,0.000840,btc ltc xmr  
+540,Aug 05 2019,67220,Fraud,Personal Information & Scans,HQ - New Illinois Drivers Licence Template PSD + Photoshop CC 2018 (Digital Instant Delivery),Post date,Fraudfox,New Post,2,2,11,63,0,Unlimited,1,332.98,0.031695,btc ltc xmr  
+541,Aug 05 2019,87588,Fraud,Personal Information & Scans,AUG 1ST FRESH TENNESSEE USA Fullz 1930-2000,Post date,nineuwu,New Post,2,2,10,4,0,Unlimited,1,1.00,0.000095,btc ltc xmr  
+542,Aug 05 2019,67250,Fraud,Personal Information & Scans,UK Utility Bill  UNITED UTILITIES  + CS6,Post date,BarryBusiness,New Post,2,2,98,52,0,Unlimited,1,19.92,0.001895,btc ltc xmr  
+543,Aug 05 2019,67251,Fraud,Personal Information & Scans,UK utility bill  EDF ENERGY Template (PSD),Post date,BarryBusiness,New Post,2,2,98,53,0,Unlimited,1,19.92,0.001895,btc ltc xmr  
+544,Aug 05 2019,67253,Fraud,Personal Information & Scans,UK utility bill  First Utility PSD Template.,Post date,BarryBusiness,New Post,2,2,98,53,0,Unlimited,1,22.14,0.002106,btc ltc xmr  
+545,Aug 05 2019,67255,Fraud,Personal Information & Scans,UK utility bill  VIRGIN MEDIA  PSD + PDF Template,Post date,BarryBusiness,New Post,2,2,98,50,0,Unlimited,1,22.14,0.002106,btc ltc xmr  
+546,Aug 05 2019,67260,Fraud,Personal Information & Scans,Ireland Utility Bill &quotEIR&quot + CS6,Post date,BarryBusiness,New Post,2,2,98,50,0,Unlimited,1,19.92,0.001895,btc ltc xmr  
+547,Aug 05 2019,67263,Fraud,Personal Information & Scans,Ireland Utility Bill  (SSE AIRTRICITY) PSD+ CS6,Post date,BarryBusiness,New Post,2,2,98,46,0,Unlimited,1,19.92,0.001895,btc ltc xmr  
+548,Aug 05 2019,67265,Fraud,Personal Information & Scans,German  Utility bill 1&amp1 (PSD) Template,Post date,BarryBusiness,New Post,2,2,98,50,0,Unlimited,1,19.92,0.001895,btc ltc xmr  
+549,Aug 05 2019,67268,Fraud,Personal Information & Scans,German  Utility bill  Amazon  (PSD) Template,Post date,BarryBusiness,New Post,2,2,98,47,0,Unlimited,1,19.92,0.001895,btc ltc xmr  
+550,Aug 05 2019,69228,Fraud,Personal Information & Scans,Buy Documents for your Limited Ban or Suspended Accounts,Post date,_kimarty,New Post,2,2,693,91,0,Unlimited,2,45.00,0.004281,btc ltc xmr  
+551,Aug 05 2019,69492,Fraud,Personal Information & Scans,VHQ FRESH USA FULLZ 650+ SCORE - CR/BG REPORT- DL NUMBER,Post date,ValidBins,New Post,2,2,41,79,0,21,2,55.00,0.005232,btc ltc xmr  
+552,Aug 05 2019,69585,Fraud,Personal Information & Scans,CREDIT REPORT LOOK-UP SERVICE,Post date,bitbuster,New Post,2,2,139,97,0,Unlimited,2,24.00,0.002283,btc ltc xmr  
+553,Aug 05 2019,69675,Fraud,Personal Information & Scans,CUSTOM [US] &amp [UK] PASSPORTS &amp DRIVERS LICENSE!!  MATCH AN ID TO ANY OF YOUR FULLZ!,Post date,bitbuster,New Post,2,2,139,124,0,Unlimited,2,35.00,0.003329,btc ltc xmr  
+554,Aug 05 2019,70295,Fraud,Personal Information & Scans,&#x2605 USA PLATINUM CREDIT FULLZ &#x2605 700+ FICO CREDIT SCORE &#x2605 CREDIT AND BACKGROUND REPORT &#x2605,Post date,DigitalEmpire,New Post,2,2,565,111,0,Unlimited,2,68.00,0.006469,btc ltc xmr  
+555,Aug 05 2019,70769,Fraud,Personal Information & Scans,&#x2605 SSN &amp DOB SEARCH SERVICE &#x2605 100% VALID INFO &#x2605 CHEAPEST &#x2605,Post date,DigitalEmpire,New Post,2,2,565,100,0,Unlimited,2,30.00,0.002854,btc ltc xmr  
+556,Aug 05 2019,64800,Fraud,Personal Information & Scans,USA Bank statement  Chase (PSD) + CS6,Post date,BarryBusiness,New Post,2,2,98,102,0,Unlimited,1,19.92,0.001895,btc ltc xmr  
+557,Aug 05 2019,64806,Fraud,Personal Information & Scans,US TD BANK STATEMENT(PSD) + CS6,Post date,BarryBusiness,New Post,2,2,98,102,0,Unlimited,1,19.92,0.001895,btc ltc xmr  
+558,Aug 05 2019,64808,Fraud,Personal Information & Scans,US Bank statement &quotWELLS FARGO&quot  (PSD),Post date,BarryBusiness,New Post,2,2,98,102,0,Unlimited,1,22.14,0.002106,btc ltc xmr  
+559,Aug 05 2019,64809,Fraud,Personal Information & Scans,US BANK STATEMENT  CHASE (PDF) + Acrobat Pro !!,Post date,BarryBusiness,New Post,2,2,98,103,0,Unlimited,1,19.92,0.001895,btc ltc xmr  
+560,Aug 05 2019,82122,Fraud,Personal Information & Scans,WF Custom Hotel Booking,Post date,livinglush,New Post,2,2,4,28,0,Unlimited,2,350.00,0.033295,btc ltc xmr  
+561,Aug 05 2019,82228,Fraud,Personal Information & Scans,5 Million Bulgarians Data ( FRESH HACKED),Post date,GoodGoodVendor,New Post,2,2,0,27,0,Unlimited,1,30.00,0.002854,btc ltc xmr  
+562,Aug 05 2019,82250,Fraud,Personal Information & Scans,10 Million password-list,Post date,Mind,New Post,2,2,37,29,0,Unlimited,1,2.22,0.000211,btc ltc xmr  
+563,Aug 05 2019,82264,Fraud,Personal Information & Scans,[LIST] 14 million password,Post date,Mind,New Post,2,2,37,30,0,Unlimited,1,5.55,0.000528,btc ltc xmr  
+564,Aug 05 2019,82279,Fraud,Personal Information & Scans,[BEST PACK] FRAUD ID AND TEMPLATES - 15.6Gb,Post date,Mind,New Post,2,2,37,24,0,Unlimited,1,2.22,0.000211,btc ltc xmr  
+565,Aug 05 2019,82384,Fraud,Personal Information & Scans,HIGH QUALITY US DL SCAN $20 each,Post date,anonyps,New Post,2,2,961,43,0,Unlimited,2,20.00,0.001903,btc ltc xmr  
+566,Aug 05 2019,64816,Fraud,Personal Information & Scans,US Utility Bill NATIONAL GRID (PSD ) + CS6,Post date,BarryBusiness,New Post,2,2,98,47,0,Unlimited,1,19.92,0.001895,btc ltc xmr  
+567,Aug 05 2019,83723,Fraud,Personal Information & Scans,UK ID Provisonal Driving Licence,Post date,SPTRLTD,New Post,2,2,6084,33,0,Unlimited,2,181.65,0.017280,btc  
+568,Aug 05 2019,83724,Fraud,Personal Information & Scans,UK ID Driving Licence,Post date,SPTRLTD,New Post,2,2,6084,41,0,Unlimited,2,302.75,0.028800,btc  
+569,Aug 05 2019,84118,Fraud,Personal Information & Scans,Australia Drivers License Scan,Post date,Applebackson1,New Post,2,2,3,27,0,Unlimited,2,13.59,0.001293,btc ltc xmr  
+570,Aug 05 2019,65662,Fraud,Personal Information & Scans,Canada Full Info Profiles (SINDOBNAMEADDRESSPhoneEmail) All Provinces,Post date,gwolf,New Post,2,2,174,179,0,Unlimited,2,20.00,0.001903,btc ltc xmr  
+571,Aug 05 2019,73132,Fraud,Personal Information & Scans,AUTO-DISPATCH-International Passport Scans(50-STATES+EXTRA SCANS),Post date,MRALPHAtheREAL1,New Post,2,2,218,32,0,Unlimited,1,60.00,0.005708,btc ltc xmr  
+572,Aug 05 2019,73134,Fraud,Personal Information & Scans,COUNTERFIETS FULL PACKAGE(USD/EURO/SEALS/EXTRAS)AUTO-DISPATCH,Post date,MRALPHAtheREAL1,New Post,2,2,218,59,0,Unlimited,1,60.00,0.005708,btc ltc xmr  
+573,Aug 05 2019,73431,Fraud,Personal Information & Scans,AU FULLZ - [NAME] + [ADDRESS] + [DOB],Post date,bitbuster,New Post,2,2,139,88,0,75,2,12.00,0.001142,btc ltc xmr  
+574,Aug 05 2019,60244,Fraud,Personal Information & Scans,AUS  ANZ BANK STATEMENT (psd) + CS6,Post date,BarryBusiness,New Post,2,2,98,105,0,Unlimited,1,19.92,0.001895,btc ltc xmr  
+575,Aug 05 2019,60262,Fraud,Personal Information & Scans,AUS Utility Bill Template - IINET + CS6,Post date,BarryBusiness,New Post,2,2,98,36,0,Unlimited,1,19.92,0.001895,btc ltc xmr  
+576,Aug 05 2019,60263,Fraud,Personal Information & Scans,AUS Utility Bill Template - Momentum Energy + CS6,Post date,BarryBusiness,New Post,2,2,98,37,0,Unlimited,1,19.92,0.001895,btc ltc xmr  
+577,Aug 05 2019,60264,Fraud,Personal Information & Scans,AUS Utility Bill Template - SpinTel + CS6,Post date,BarryBusiness,New Post,2,2,98,32,0,Unlimited,1,19.92,0.001895,btc ltc xmr  
+578,Aug 05 2019,74583,Fraud,Personal Information & Scans,HQ USA FULLZ &#x2605 All States,Post date,topupGame,New Post,2,2,3,44,0,Unlimited,2,2.00,0.000190,btc ltc xmr  
+579,Aug 05 2019,74584,Fraud,Personal Information & Scans,Premium USA SSN DOB SEARCH&#x260599.9 ACCURATE,Post date,topupGame,New Post,2,2,3,38,0,Unlimited,2,10.00,0.000951,btc ltc xmr  
+580,Aug 05 2019,76350,Fraud,Personal Information & Scans,Australian Passport Template + Photoshop CC 2018,Post date,Topkittzz,New Post,2,2,1719,41,0,Unlimited,1,27.00,0.002568,btc ltc xmr  
+581,Aug 05 2019,60265,Fraud,Personal Information & Scans,AUS Utility Bill Template - Telstra + CS6,Post date,BarryBusiness,New Post,2,2,98,31,0,Unlimited,1,19.92,0.001895,btc ltc xmr  
+582,Aug 05 2019,60267,Fraud,Personal Information & Scans,AUS COMMONWEALTH BANK STATEMENT (psd) + CS6,Post date,BarryBusiness,New Post,2,2,98,108,0,Unlimited,1,19.92,0.001895,btc ltc xmr  
+583,Aug 05 2019,60269,Fraud,Personal Information & Scans,AUS Utility Bill  Unitywater + CS6,Post date,BarryBusiness,New Post,2,2,98,30,0,Unlimited,1,19.92,0.001895,btc ltc xmr  
+584,Aug 05 2019,77519,Fraud,Personal Information & Scans,50 DOCTORS NOTES SIGNED AND UNSIGNED BEST QUALITY,Post date,jimmy2018,New Post,2,2,25,34,0,Unlimited,1,3.20,0.000304,btc ltc xmr  
+585,Aug 05 2019,61769,Fraud,Personal Information & Scans,Canada BELL utility bill  (PSD) Template,Post date,BarryBusiness,New Post,2,2,98,41,0,Unlimited,1,19.92,0.001895,btc ltc xmr  
+586,Aug 05 2019,65760,Fraud,Personal Information & Scans,UK bank statement Lloyds (psd) + CS6,Post date,BarryBusiness,New Post,2,2,98,108,0,Unlimited,1,19.92,0.001895,btc ltc xmr  
+587,Aug 05 2019,65762,Fraud,Personal Information & Scans,UK/Scotland utility bill  ScottishPower PSD Template,Post date,BarryBusiness,New Post,2,2,98,39,0,Unlimited,1,19.92,0.001895,btc ltc xmr  
+588,Aug 05 2019,65770,Fraud,Personal Information & Scans,UK bank statement Nationwide (psd) + CS6,Post date,BarryBusiness,New Post,2,2,98,98,0,Unlimited,1,19.92,0.001895,btc ltc xmr  
+589,Aug 05 2019,65778,Fraud,Personal Information & Scans,UK bankstatement &quotThe Co-operative Bank&quot Template. (PSD),Post date,BarryBusiness,New Post,2,2,98,106,0,Unlimited,1,19.92,0.001895,btc ltc xmr  
+590,Aug 05 2019,84248,Fraud,Personal Information & Scans,Documents SCANS,Post date,blackpeter,New Post,2,2,1,17,0,Unlimited,1,277.45,0.026393,btc ltc  
+591,Aug 05 2019,84617,Fraud,Personal Information & Scans,Custom-- Bank statements for templates,Post date,Skinny,New Post,2,2,842,34,0,Unlimited,1,15.00,0.001427,btc ltc xmr  
+592,Aug 05 2019,84715,Fraud,Personal Information & Scans,Australia Passport Scans,Post date,Applebackson1,New Post,2,2,3,9,0,Unlimited,2,74.74,0.007110,btc ltc xmr  
+593,Aug 05 2019,65785,Fraud,Personal Information & Scans,UK bank statement HSBC BANK + CS6,Post date,BarryBusiness,New Post,2,2,98,110,0,Unlimited,1,19.92,0.001895,btc ltc xmr  
+594,Aug 05 2019,65793,Fraud,Personal Information & Scans,UK Utility Bill  Dwr Cymru Welsh Water (PSD),Post date,BarryBusiness,New Post,2,2,98,39,0,Unlimited,1,19.92,0.001895,btc ltc xmr  
+595,Aug 05 2019,84718,Fraud,Personal Information & Scans,Australia Payslip collection,Post date,Applebackson1,New Post,2,2,3,17,0,Unlimited,1,67.94,0.006463,btc ltc xmr  
+596,Aug 05 2019,85361,Fraud,Personal Information & Scans,.::.Fullz with Employer and Bank Account Number .::.,Post date,Skinny,New Post,2,2,842,32,0,Unlimited,1,10.00,0.000951,btc ltc xmr  
+597,Aug 05 2019,87005,Fraud,Personal Information & Scans,&#x2605SSN/DOB Lookup Service&#x2605,Post date,plugdemon,New Post,2,2,0,3,0,Unlimited,1,9.00,0.000856,btc ltc xmr  
+598,Aug 05 2019,87245,Fraud,Personal Information & Scans,WIFI HACKER#1 HACK ANY WIFI WITH THIS SOFTWARE THANK ME LATER DARKNET CHEAPEST,Post date,kingkamari,New Post,2,2,2,3,0,Unlimited,1,1.00,0.000095,btc ltc xmr  
+599,Aug 05 2019,87585,Fraud,Personal Information & Scans,AUG 1ST FRESH FLORIDA USA Fullz 1930-2000,Post date,nineuwu,New Post,2,2,10,4,0,Unlimited,1,1.25,0.000119,btc ltc xmr  
+600,Aug 05 2019,87587,Fraud,Personal Information & Scans,AUG 1ST FRESH OHIO USA Fullz 1930-2000,Post date,nineuwu,New Post,2,2,10,5,0,Unlimited,1,1.25,0.000119,btc ltc xmr  
+601,Aug 05 2019,77623,Fraud,Personal Information & Scans,Selfi (used for passing verfication&aposs) High Quality,Post date,JACKJACK1,New Post,2,2,1593,55,0,Unlimited,2,100.00,0.009513,btc  
+602,Aug 05 2019,78127,Fraud,Personal Information & Scans,[SSN] + [DOB] + [BACKGROUND REPORT] + [CREDIT REPORT] + [MMN]  LOOK-UP SERVICE,Post date,bitbuster,New Post,2,2,139,77,0,50,2,65.00,0.006183,btc ltc xmr  
+603,Aug 05 2019,79059,Fraud,Personal Information & Scans,Custom Order 10 Personal Check Scans,Post date,jericho1,New Post,2,2,117,53,0,1,2,155.00,0.014745,btc  
+604,Aug 05 2019,80222,Fraud,Personal Information & Scans,custom listing,Post date,JACKJACK1,New Post,2,2,1593,33,0,Unlimited,1,5.00,0.000476,btc  
+605,Aug 05 2019,61770,Fraud,Personal Information & Scans,Canada Utility bill &quotHYDRO QUEBEC&quot Utility Bill template,Post date,BarryBusiness,New Post,2,2,98,40,0,Unlimited,1,19.92,0.001895,btc ltc xmr  
+606,Aug 05 2019,61777,Fraud,Personal Information & Scans,ROGERS BILL  / CANADA  EDITABLE PSD TEMPLATE,Post date,BarryBusiness,New Post,2,2,98,38,0,Unlimited,1,19.92,0.001895,btc ltc xmr  
+607,Aug 05 2019,61779,Fraud,Personal Information & Scans,USA utility bill  AT&ampT  PSD + PDF Template.,Post date,BarryBusiness,New Post,2,2,98,43,0,Unlimited,1,26.58,0.002528,btc ltc xmr  
+608,Aug 05 2019,80306,Fraud,Personal Information & Scans,United kingdom Credit Report / fullz 500-700 max :),Post date,JACKJACK1,New Post,2,2,1593,53,0,Unlimited,2,25.00,0.002378,btc  
+609,Aug 05 2019,81225,Fraud,Personal Information & Scans,Amissima.it (insurance company) database FRESH HACKED 13.7GB,Post date,GoodGoodVendor,New Post,2,2,0,50,0,Unlimited,1,50.00,0.004756,btc ltc xmr  
+610,Aug 05 2019,64795,Fraud,Personal Information & Scans,US Bank statement  Bank of America + CS6,Post date,BarryBusiness,New Post,2,2,98,127,0,Unlimited,1,19.92,0.001895,btc ltc xmr  
+611,Aug 05 2019,64796,Fraud,Personal Information & Scans,US FIRST CENTURY BANK STATEMENT + CS6,Post date,BarryBusiness,New Post,2,2,98,112,0,Unlimited,1,19.92,0.001895,btc ltc xmr  
+612,Aug 05 2019,81515,Fraud,Personal Information & Scans,Full Info full info US DOB SSN documets number,Post date,cashboy,New Post,2,2,1268,21,0,Unlimited,2,7.00,0.000666,btc  
+613,Aug 05 2019,81518,Fraud,Personal Information & Scans,Full Info full holder info+cs+cr+bg(TransUnion+Fico),Post date,cashboy,New Post,2,2,1268,20,0,Unlimited,2,38.00,0.003615,btc  
+614,Aug 05 2019,81519,Fraud,Personal Information & Scans,Botnet logs World bots logs from stiller,Post date,cashboy,New Post,2,2,1268,29,0,Unlimited,2,15.00,0.001427,btc  
+615,Aug 05 2019,82087,Fraud,Personal Information & Scans,9 MILLION UK full info + emails Consumer Database,Post date,GoodGoodVendor,New Post,2,2,0,36,0,Unlimited,1,25.00,0.002378,btc ltc xmr  
+616,Aug 05 2019,83360,Fraud,Personal Information & Scans,CUSTOM DRIVER LICENSE SCAN &amp BANK STATEMENT,Post date,henryry,New Post,2,2,2,62,0,Unlimited,2,40.00,0.003805,btc ltc xmr  
+617,Aug 05 2019,83580,Fraud,Personal Information & Scans,USA FULLZ - [NAME] + [ADDRESS] + [PHONE] + [DOB] + [SSN] + [CREDIT SCORE] + [DL INFO],Post date,bitbuster,New Post,2,2,139,48,0,50,2,18.00,0.001712,btc ltc xmr  
+618,Aug 05 2019,83989,Fraud,Personal Information & Scans,ADOBE ILLUSTRATOR PORTABLE - $800 RETAIL [NEXT 10 PAY $15],Post date,MakingYouMoney,New Post,2,2,46,19,0,Unlimited,1,15.00,0.001427,btc ltc xmr  
+619,Aug 05 2019,83969,Fraud,Personal Information & Scans,[A-Z] COMPLETE FRAUD ENCYCLOPEDIA NOOB-TO-PRO 2019,Post date,MakingYouMoney,New Post,2,2,46,22,0,Unlimited,1,25.00,0.002378,btc ltc xmr  
+620,Aug 05 2019,84709,Fraud,Personal Information & Scans,Australia Drivers License+Medicare [CREDIT REPORT],Post date,Applebackson1,New Post,2,2,3,36,0,Unlimited,2,169.86,0.016158,btc ltc xmr  
+621,Aug 05 2019,84713,Fraud,Personal Information & Scans,Australia Approved loan Application Package,Post date,Applebackson1,New Post,2,2,3,39,0,Unlimited,2,237.80,0.022622,btc ltc xmr  
+622,Aug 05 2019,84714,Fraud,Personal Information & Scans,REAL DRIVER LICENSE SCANS FULLZ (OPTIONS:  BANK DROP + SOCKS + COOKIES + ... ),Post date,henryry,New Post,2,2,2,52,0,5,2,150.00,0.014269,btc ltc xmr  
+623,Aug 05 2019,84717,Fraud,Personal Information & Scans,Australia Fraud Beginners Guide [make 1K+ Per day],Post date,Applebackson1,New Post,2,2,3,30,0,Unlimited,2,40.77,0.003878,btc ltc xmr  
+624,Aug 05 2019,84725,Fraud,Personal Information & Scans,Australia RENTAL  APPLICATION,Post date,Applebackson1,New Post,2,2,3,29,0,Unlimited,2,169.86,0.016158,btc ltc xmr  
+625,Aug 05 2019,85686,Fraud,Personal Information & Scans,ID and Templates Mega Pack 10GB 2019-2020,Post date,ICON,New Post,2,2,1,6,0,Unlimited,1,7.99,0.000760,btc ltc xmr  
+626,Aug 05 2019,87253,Fraud,Personal Information & Scans,VMware Workstation PRO 15.0 + Serials DARKNET CHEAPEST THANK ME LATER,Post date,kingkamari,New Post,2,2,2,3,0,Unlimited,1,2.00,0.000190,btc ltc xmr  
+627,Aug 05 2019,87264,Fraud,Personal Information & Scans,Extractor/Stealer/Crack Pack . This Mega Hack Pack Includes: Remote Administration Tools (RATs) DARK,Post date,kingkamari,New Post,2,2,2,2,0,Unlimited,1,2.00,0.000190,btc ltc xmr  
+628,Aug 05 2019,87324,Fraud,Personal Information & Scans,HOW TO DO BANK TRANSFERS NOOB SCHOOL EDITION STEP BY STEP!! DARKNET CHEAPEST THANK ME LATER,Post date,kingkamari,New Post,2,2,2,2,0,Unlimited,1,1.00,0.000095,btc ltc xmr  
+629,Aug 05 2019,71809,Fraud,Personal Information & Scans,HQ CUSTOMIZED SELFIES SCANS &amp PHOTOS,Post date,kingscan,New Post,2,2,183,124,0,Unlimited,2,175.00,0.016647,btc  
+630,Aug 05 2019,72052,Fraud,Personal Information & Scans,Buy Real and Fake Passport Online - Support Documents 24hrs,Post date,globalempire,New Post,2,2,13,63,0,Unlimited,2,600.00,0.057077,btc  
+631,Aug 05 2019,72053,Fraud,Personal Information & Scans,Buy Real and Fake Passport Online - Support Documents 24hrs,Post date,globalempire,New Post,2,2,13,60,0,Unlimited,2,600.00,0.057077,btc  
+632,Aug 05 2019,72054,Fraud,Personal Information & Scans,Buy Real and Fake Passport Online - Support Documents 24hrs,Post date,globalempire,New Post,2,2,13,55,0,Unlimited,2,600.00,0.057077,btc  
+633,Aug 05 2019,74315,Fraud,Personal Information & Scans,LIVINGLARGE - Request Custom Car Booking,Post date,livinglush,New Post,2,2,4,96,0,Unlimited,2,15.00,0.001427,btc ltc xmr  
+634,Aug 05 2019,74661,Fraud,Personal Information & Scans,Utility Bill / Proof of address / Document alteration to order,Post date,FakeIDSNZ,New Post,2,2,34,73,0,Unlimited,2,33.97,0.003232,btc  
+635,Aug 05 2019,75637,Fraud,Personal Information & Scans,HQ CUSTOMIZED USA UTILITY BILL SCAN,Post date,kingscan,New Post,2,2,183,56,0,Unlimited,2,55.00,0.005232,btc  
+636,Aug 05 2019,78235,Fraud,Personal Information & Scans,Cyprus PASSPORT PSD TEMPLATE 26 LAYERS Full Editable Very Easiliy editable+Font,Post date,EmpireShop,New Post,2,2,495,49,0,Unlimited,1,11.00,0.001046,btc ltc xmr  
+637,Aug 05 2019,78242,Fraud,Personal Information & Scans,SPAIN PASSPORT PSD TEMPLATE WITH 22 LAYERS Full Editable +Font,Post date,EmpireShop,New Post,2,2,495,49,0,Unlimited,1,11.00,0.001046,btc ltc xmr  
+638,Aug 05 2019,78517,Fraud,Personal Information & Scans,Greece  PASSPORT PSD TEMPLATE WITH 22 LAYERS Full Editable +Font,Post date,EmpireShop,New Post,2,2,495,51,0,Unlimited,1,13.00,0.001237,btc ltc xmr  
+639,Aug 05 2019,79131,Fraud,Personal Information & Scans,Medical Form Fullz,Post date,albertnikon11,New Post,2,2,149,99,0,260,1,12.00,0.001142,btc ltc xmr  
+640,Aug 05 2019,81790,Fraud,Personal Information & Scans,1st 5 Sales Now Just &#xA325 - Win Paypal UK Reversals AND Chargebacks Everytime! Guaranteed Working Me,Post date,fociarenitic2,New Post,2,2,41,54,0,5,2,30.27,0.002880,btc  
+641,Aug 05 2019,80885,Fraud,Personal Information & Scans,Update ID Mega PACK 2019 Passport and Driving License PSD Template full editable+font+MRZ Calculatio,Post date,EmpireShop,New Post,2,2,495,65,0,Unlimited,1,15.00,0.001427,btc ltc xmr  
+642,Aug 05 2019,83208,Fraud,Personal Information & Scans,USA FAIR  FULLZ:640-699 CREDIT  SCORE @ ONLY 30$ AUTO FILL ON,Post date,HotInfo,New Post,2,2,651,44,0,50,1,20.00,0.001903,btc  
+643,Aug 05 2019,83358,Fraud,Personal Information & Scans,business blank checks scan templates (USA),Post date,cashboy,New Post,2,2,1268,37,0,Unlimited,2,250.00,0.023782,btc  

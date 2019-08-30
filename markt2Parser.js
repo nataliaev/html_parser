@@ -86,11 +86,12 @@ glob("../../testing/*", function(er, files) {
 
         //price
         const priceBlock = postBlock(".col-1right").text();
-        const priceUSD = priceBlock.match(/USD \S+/)[0].split(" ")[1];
+        const priceUSD = priceBlock.match(/USD \S+/)[0].split(" ")[1].replace(/[,;]/g, "");;
         const priceBTC = priceBlock
           .match(/\S+ BTC/)[0]
           .split(" ")[0]
-          .slice(1);
+          .slice(1)
+          .replace(/[,;]/g, "");;
 
         //pay methods
         const payMethodsBlock = postBlock(".padp")[3];
@@ -116,7 +117,7 @@ glob("../../testing/*", function(er, files) {
             return ""
           }
         });
-        const payMethods = payMethodsIcon.reduce((str, el) => (str + el))
+        const payMethods = payMethodsIcon.reduce((str, el) => (str + el)).replace(/[,;]/g, "");
 
         writeStream.write(
           `${postId},${scrapeDate},${itemNumber},${mainSection},${subsection},${title},Post date,${vendor},New Post,${postStatus},${titleBold},${vendorNumber},${views},${sales},${quantityLeft},${autodispatch},${priceUSD},${priceBTC},${payMethods} \n`
