@@ -1,7 +1,7 @@
 const fs = require("fs");
 const cheerio = require("cheerio");
 var glob = require("glob");
-const writeStream = fs.createWriteStream("market2.csv");
+const writeStream = fs.createWriteStream("empire.csv");
 
 writeStream.write(
   `Post Id,Scrape Date,Item nr,Main category,Subcategory,Post title,Post date,Vendor,New Post,Post status,Title bold,Vendor nr,Views,Sales,Quantity left,Autodispatch,Price USD,Price BTC,Pay methods \n`
@@ -27,7 +27,14 @@ glob("../../testing/*", function(er, files) {
         //post id
         postId += 1;
 
-        //head
+        //post status
+        const postStatusBlock = postBlock(".head b").html();
+        let postStatus = 2;
+        if (postStatusBlock === "[sticky]") {
+          postStatus = 1;
+        }
+
+        //title
         const title = postBlock(".head a")
           .html()
           .replace(/[,;]/g, "");
@@ -59,15 +66,68 @@ glob("../../testing/*", function(er, files) {
           vendorNumberSplited.length - 1
         ].slice(1, -1);
 
-        //console.log("Title:", title);
-        //console.log("Vendor:", vendor);
-        //console.log("Item #:", itemNumber);
-        //console.log("Subsection:", subsection)
-        //console.log("Main section:", mainSection)
-        //console.log("Vendor #:", vendorNumber);
+        //title bold
+        let titleBold = 2;
+        if ($(el).attr("style")) {
+          titleBold = 1;
+        }
+
+        //views
+        const viewsBlock = postBlock(".head").text();
+        const views = viewsBlock.match(/Views: \S+/)[0].split(" ")[1];
+        const sales = viewsBlock.match(/Sales: \S+/)[0].split(" ")[1];
+        const quantityLeft = viewsBlock
+          .match(/Quantity left: \S+/)[0]
+          .split(" ")[2];
+        let autodispatch = 2;
+        if (viewsBlock.includes("automatic")) {
+          autodispatch = 1;
+        }
+
+        //price
+        const priceBlock = postBlock(".col-1right").text();
+        const priceUSD = priceBlock.match(/USD \S+/)[0].split(" ")[1];
+        const priceBTC = priceBlock
+          .match(/\S+ BTC/)[0]
+          .split(" ")[0]
+          .slice(1);
+
+        //pay methods
+        // let payMethods = ""
+        // const payMethodsIcon = postBlock("p img").attr("src")
+        // if (payMethodsIcon === "http://46qkrbfcaa4gsc3m.onion/public/image/btc_small.png") {
+        //   payMethods = payMethods + 'btc '
+        // }
+        // console.log(payMethods)
+
+        //pay methods
+        const payMethodsBlock = postBlock(".padp")[3];
+        const payMethodsIcon = payMethodsBlock.children.map(child => {
+          if (child.name === "img") {
+            if (
+              child.attribs.src ===
+              "http://46qkrbfcaa4gsc3m.onion/public/image/btc_small.png"
+            ) {
+              return "btc ";
+            } else if (
+              child.attribs.src ===
+              "http://46qkrbfcaa4gsc3m.onion/public/image/ltc_small.png"
+            ) {
+              return "ltc ";
+            } else if (
+              child.attribs.src ===
+              "http://46qkrbfcaa4gsc3m.onion/public/image/xmr_small.png"
+            ) {
+              return "xmr ";
+            }
+          } else {
+            return ""
+          }
+        });
+        const payMethods = payMethodsIcon.reduce((str, el) => (str + el))
 
         writeStream.write(
-          `${postId},${scrapeDate},${itemNumber},${mainSection},${subsection},${title},Post date,${vendor},New Post,Post status,Title bold,${vendorNumber},Views,Sales,Quantity left,Autodispatch,Price USD,Price BTC,Pay methods \n`
+          `${postId},${scrapeDate},${itemNumber},${mainSection},${subsection},${title},Post date,${vendor},New Post,${postStatus},${titleBold},${vendorNumber},${views},${sales},${quantityLeft},${autodispatch},${priceUSD},${priceBTC},${payMethods} \n`
         );
       });
     });
