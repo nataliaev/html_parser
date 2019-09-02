@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/nataliaev/html_parser#readme",
   "dependencies": {
+    "babel": "^6.23.0",
     "cheerio": "^1.0.0-rc.3",
     "glob": "^7.1.4",
     "htmlparser2": "^4.0.0"
