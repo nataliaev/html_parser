@@ -4,7 +4,7 @@ Made in collaboration with [CarlosEscat](https://github.com/CarlosEscat)
 
 ## Description
 
-The parser was made for the research project of Vrij University of Amsterdam. It is using the data from scraped html pages, searching for special information and saving it in scv files.
+The parser was made for the research project of Vrije Universiteit Amsterdam. It is using the data from scraped html pages, searching for special information and saving it in scv files.
 
 There are 4 types of pages. For each type we made separate parser, depending on the html structure of the documents.
 
