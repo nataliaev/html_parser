@@ -27,15 +27,3 @@ There are 4 types of pages. For each type we made separate parser, depending on 
 > npm install
 > node marktParser.js //use other file name to use other parser type
 ```
-
--   Modify config.js in the root directory with your credentials
-
-```bash
-> npm run dbon
-```
-
--   In an separate terminal run
-
-```bash
-> npm run watch
-```
