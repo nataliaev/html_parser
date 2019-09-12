@@ -20,8 +20,10 @@ There are 4 types of pages. For each type we made separate parser, depending on 
 -   Make sure you have installed all these prerequisites on your development machine.
 
     -   [Node.js](https://nodejs.org/en/download/)
+    
+-   Run commands in the Terminal
 
-```bash
+```
 > git clone git@github.com:nataliaev/html_parser.git
 > cd html_parser
 > npm install
