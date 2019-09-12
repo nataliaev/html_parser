@@ -13,7 +13,7 @@ There are 4 types of pages. For each type we made separate parser, depending on 
 -   [Cheerio](https://cheerio.js.org)
 -   [Glob](https://www.npmjs.com/package/glob)
 -   [Sequelize](https://sequelize.org)
--   [node-postgres] (https://www.npmjs.com/package/pg)
+-   [node-postgres](https://www.npmjs.com/package/pg)
 
 ## Installation
 
