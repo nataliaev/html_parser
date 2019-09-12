@@ -12,6 +12,8 @@ There are 4 types of pages. For each type we made separate parser, depending on 
 
 -   [Cheerio](https://cheerio.js.org)
 -   [Glob](https://www.npmjs.com/package/glob)
+-   [Sequelize](https://sequelize.org)
+-   [node-postgres] (https://www.npmjs.com/package/pg)
 
 ## Installation
 
@@ -28,4 +30,12 @@ There are 4 types of pages. For each type we made separate parser, depending on 
 > cd html_parser
 > npm install
 > node marktParser.js //use other file name to use other parser type
+```
+-   To run a PostgreSQL database (nessesary for markt2Parser.js & dateParserMarkt2.js)
+
+    -   Install [docker](https://docs.docker.com/install)
+    -   Run in yor Terminal:
+
+```
+> docker run -d -p 5432:5432 -e POSTGRES_PASSWORD=secret postgres
 ```
