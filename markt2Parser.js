@@ -1,100 +1,123 @@
 const fs = require("fs");
 const cheerio = require("cheerio");
 var glob = require("glob");
-const Post = require("./dateParserMarkt2");
-const writeStream = fs.createWriteStream("empire.csv");
+var pg = require("pg");
 
-writeStream.write(
-  `Post Id,Scrape Date,Item nr,Main category,Subcategory,Post title,Post date,Vendor,New Post,Post status,Title bold,Vendor nr,Views,Sales,Quantity left,Autodispatch,Price USD,Price BTC,Pay methods \n`
-);
+var connectionString = "postgres://postgres:secret@localhost:5432/postgres";
+var pgClient = new pg.Client(connectionString);
+pgClient.connect().then(() => {
+  const writeStream = fs.createWriteStream("empire2907.csv"); //change me 1
 
-glob(
-  "../../testing/empire0108/t5ocmsgrmxm2rehb.onion/category/categories/+(**)/*",
-  function(er, files) {
-    //"../../testing/empire0108/t5ocmsgrmxm2rehb.onion/category/categories/+(1|3|5|8|9|11|12|43)/*",
-    let postId = 0;
-    const scrapeDate = "Aug 05 2019";
+  writeStream.write(
+    `Post Id,Scrape Date,Item nr,Main category,Subcategory,Post title,Post date,Vendor,New Post,Post status,Title bold,Vendor nr,Views,Sales,Quantity left,Autodispatch,Price USD,Price BTC,Pay methods \n`
+  );
 
-    for (let x = 0; x < files.length; x++) {
-      const fileName = files[x].toString();
+  //change me 2
+  glob(
+    "../../testing/empire2907/ano4q5hgjfepr27h.onion/category/categories/+(**)/*",
+    async function(er, files) {
 
-      fs.readFile(fileName, (err, data) => {
-        if (err) throw err;
+      let postId = 284203; //change me 3
+      const scrapeDate = "July 29 2019"; //change me 4
+      let itemNumber;
+      let mainSection;
+      let subsection;
+      let title;
+      let vendor;
+      let postStatus;
+      let titleBold;
+      let vendorNumber;
+      let views;
+      let sales;
+      let quantityLeft;
+      let autodispatch;
+      let priceUSD;
+      let priceBTC;
+      let payMethods;
+
+      for (let x = 0; x < files.length; x++) {
+        const fileName = files[x].toString();
+
+        const data = fs.readFileSync(fileName);
+
+        // if (err) throw err;
         file = data.toString();
         const $ = cheerio.load(file);
+        
+        let postsFromAPage = [];
 
         //unique for the post
         $(".col-1search").each((i, el) => {
           const item = $(el).html();
           const postBlock = cheerio.load(item);
 
-          //post id
-          postId += 1;
-
           //post status
           const postStatusBlock = postBlock(".head b").html();
-          let postStatus = 2;
+          postStatus = 2;
           if (postStatusBlock === "[sticky]") {
             postStatus = 1;
           }
 
           //title
-          const title = postBlock(".head a")
+          title = postBlock(".head a")
             .html()
             .replace(/[,;]/g, "");
 
+          //post id
+          postId += 1;
+
           //vendor
-          const vendor = postBlock(".head p a")
+          vendor = postBlock(".head p a")
             .text()
             .replace(/[,;]/g, "");
 
           //item # and subsections
-          const itemNumber = postBlock(".head p")
+          itemNumber = postBlock(".head p")
             .text()
             .split(" ")[2];
           const subsectionSplited = postBlock(".head p")
             .text()
             .split(" - ")[1]
             .split(/\n/);
-          const mainSection = subsectionSplited[0]
+          mainSection = subsectionSplited[0]
             .slice(0, -1)
             .trim()
             .replace(/[,;]/g, "");
-          const subsection = subsectionSplited[1].trim().replace(/[,;]/g, "");
+          subsection = subsectionSplited[1].trim().replace(/[,;]/g, "");
 
           //vendor #
           const vendorNumberSplited = postBlock(".head p")
             .html()
             .split(" ");
-          const vendorNumber = vendorNumberSplited[
+          vendorNumber = vendorNumberSplited[
             vendorNumberSplited.length - 1
           ].slice(1, -1);
 
           //title bold
-          let titleBold = 2;
+          titleBold = 2;
           if ($(el).attr("style")) {
             titleBold = 1;
           }
 
           //views
           const viewsBlock = postBlock(".head").text();
-          const views = viewsBlock.match(/Views: \S+/)[0].split(" ")[1];
-          const sales = viewsBlock.match(/Sales: \S+/)[0].split(" ")[1];
-          const quantityLeft = viewsBlock
+          views = viewsBlock.match(/Views: \S+/)[0].split(" ")[1];
+          sales = viewsBlock.match(/Sales: \S+/)[0].split(" ")[1];
+          quantityLeft = viewsBlock
             .match(/Quantity left: \S+/)[0]
             .split(" ")[2];
-          let autodispatch = 2;
+          autodispatch = 2;
           if (viewsBlock.includes("automatic")) {
             autodispatch = 1;
           }
 
           //price
           const priceBlock = postBlock(".col-1right").text();
-          const priceUSD = priceBlock
+          priceUSD = priceBlock
             .match(/USD \S+/)[0]
             .split(" ")[1]
             .replace(/[,;]/g, "");
-          const priceBTC = priceBlock
+          priceBTC = priceBlock
             .match(/\S+ BTC/)[0]
             .split(" ")[0]
             .slice(1)
@@ -124,34 +147,78 @@ glob(
                 child.attribs.src ===
                   "http://t5ocmsgrmxm2rehb.onion/public/image/xmr_small.png"
               ) {
+                let newRow = "";
                 return "xmr ";
               }
             } else {
               return "";
             }
           });
-          const payMethods = payMethodsIcon.reduce((str, el) => str + el);
+          payMethods = payMethodsIcon.reduce((str, el) => str + el);
 
-          //post date
-          const postDateFromDataBase = Post.findOne({
-            attributes: ["title"],
-            where: { name: title }
-          });
-          console.log(postDateFromDataBase);
+          let newRow = {
+            postStatus,
+            title,
+            postId,
+            vendor,
+            itemNumber,
+            mainSection,
+            subsection,
+            vendorNumber,
+            titleBold,
+            views,
+            sales,
+            quantityLeft,
+            autodispatch,
+            priceUSD,
+            priceBTC,
+            payMethods
+          };
 
-          //new post
-          let newPost = 2
-          if (postDate === scrapeDate) {
-            newPost = 1
-          }
-
-          console.log(newPost)
-
-          writeStream.write(
-            `${postId},${scrapeDate},${itemNumber},${mainSection},${subsection},${title},Post date,${vendor},New Post,${postStatus},${titleBold},${vendorNumber},${views},${sales},${quantityLeft},${autodispatch},${priceUSD},${priceBTC},${payMethods} \n`
-          );
+          postsFromAPage = postsFromAPage.concat(newRow)
         });
-      });
+
+        let newPost;
+        let dateFromDataBase;
+
+        for (let i = 0; i < postsFromAPage.length; i++) {
+          //console.log(postsFromAPage.length)
+
+          const {postStatus,
+            title,
+            postId,
+            vendor,
+            itemNumber,
+            mainSection,
+            subsection,
+            vendorNumber,
+            titleBold,
+            views,
+            sales,
+            quantityLeft,
+            autodispatch,
+            priceUSD,
+            priceBTC,
+            payMethods} = postsFromAPage[i];
+
+          const query = await pgClient
+            .query(`SELECT * from posts where title = '${title}'`)
+            .then(res => {
+              if (res.rows.length > 0) {
+                //console.log(res.rows[0].date);
+                dateFromDataBase = res.rows[0].date;
+                console.log(title)
+                console.log(dateFromDataBase)
+                newPost = dateFromDataBase === scrapeDate ? 1 : 2; 
+                writeStream.write(
+                `${postId},${scrapeDate},${itemNumber},${mainSection},${subsection},${title},${dateFromDataBase},${vendor},${newPost},${postStatus},${titleBold},${vendorNumber},${views},${sales},${quantityLeft},${autodispatch},${priceUSD},${priceBTC},${payMethods} \n`
+              );
+              }
+             
+            });
+        }
+        // var query = await pgClient.query("SELECT * from posts");
+      }
     }
-  }
-);
+  );
+})
