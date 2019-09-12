@@ -1,10 +1,21 @@
 const fs = require("fs");
 const cheerio = require("cheerio");
 var glob = require("glob");
+const Sequelize = require("sequelize");
 
-let dateAndNumbers = [];
+databaseUrl = "postgres://postgres:secret@localhost:5432/postgres";
+const db = new Sequelize(databaseUrl);
 
-glob("../../testing/*", function (er, files) {
+db.sync()
+  .then(() => console.log("DataBase was updated"))
+  .catch(console.error);
+
+const Post = db.define("post", {
+  title: Sequelize.STRING,
+  date: Sequelize.STRING
+});
+
+glob("../../testing/product/+(**)/+(**)/*", function(er, files) {
   for (let x = 0; x < files.length; x++) {
     const fileName = files[x].toString();
 
@@ -13,25 +24,32 @@ glob("../../testing/*", function (er, files) {
       file = data.toString();
       const $ = cheerio.load(file);
 
-      const title = $(".right-content div div h2")
-        .html()
-        .replace(/[,;]/g, "")
+      let title = "unknown";
+      if ($(".right-content div div h2").html()) {
+        title = $(".right-content div div h2")
+          .html()
+          .replace(/[,;]/g, "");
+      }
 
-      const dateSplited = $(".listDes p span")
-        .html()
-        .replace(/[,;]/g, "")
-        .split(" ");
-      const date =
-        dateSplited[dateSplited.length - 3] +
-        " " +
-        dateSplited[dateSplited.length - 2] +
-        " " +
-        dateSplited[dateSplited.length - 1];
+      let date = "unknown";
+      if ($(".listDes p span").html()) {
+        const dateSplited = $(".listDes p span")
+          .html()
+          .replace(/[,;]/g, "")
+          .split(" ");
+        date =
+          dateSplited[dateSplited.length - 3] +
+          " " +
+          dateSplited[dateSplited.length - 2] +
+          " " +
+          dateSplited[dateSplited.length - 1];
+      }
 
-      dateAndNumbers = [...dateAndNumbers, { name: title, date: date }];
-      console.log(dateAndNumbers);
+      Post.create({
+        title: title,
+        date: date
+      })
     });
   }
 });
-
 
